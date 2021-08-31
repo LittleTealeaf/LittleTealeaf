@@ -1,3 +1,3 @@
-- 👋 Hi, I’m @LittleTealeaf
-- 👀 I’m interested in Computer Science, Economics, Data Science, Cybersecurity, and Video Games
-- 🌱 I’m currently learning Computer Science, Data Science, and Economics at Quinnipiac University 
+- 👋 Hi, I’m Thomas Kwashnak, aka @LittleTealeaf
+- I am currently a Computer Science major at Quinnipiac University with a double minor in Economics in Data Science.
+- I love dungeons & dragons, martial arts, rubiks cubes, and learning!
