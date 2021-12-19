@@ -11,7 +11,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=LittleTealeaf&theme=dark&show_icons=true&count_private=true" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LittleTealeaf&layout=compact&theme=dark&count_private=true&hide=HTML&langs_count=10" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LittleTealeaf&layout=compact&theme=dark&count_private=true&hide=HTML,Ruby&langs_count=10" />
 </a>
 
-*Note, HTML is not listed as it is over-represented via javadocs. Additionally, some programming langauges here are included, while I have not specifically used them.*
+*Note, HTML is not listed as it is over-represented via javadocs.*
