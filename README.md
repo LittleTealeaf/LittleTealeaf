@@ -14,4 +14,4 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LittleTealeaf&layout=compact&theme=dark&count_private=true&hide=HTML,Ruby&langs_count=10" />
 </a>
 
-*Note, HTML is not listed as it is over-represented via javadocs.*
+*Note, HTML is not listed as it is over-represented via javadocs. Additionally, some languages are in my repositories, however since I did not write them, I do not know them as well*
