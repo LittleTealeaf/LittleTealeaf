@@ -1,2 +1,3 @@
-Try making workflow like:
-[ClientCrash](https://github.com/ClientCrash/clientcrash)
+Try making workflow using:
+
+[Link](https://github.com/lowlighter/metrics/blob/master/action.yml)
