@@ -35,3 +35,11 @@ jobs:
           filename: resources/default_metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
+      - name: Indepth Language Analysis
+        uses: lowlighter/metrics@latest
+        with:
+          filename: resources/language_analysis.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugin_followup_indepth: yes
