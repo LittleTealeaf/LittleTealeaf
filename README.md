@@ -9,7 +9,6 @@
 
 ![](resources/default_metrics.svg)  
 ![](resources/language_analysis.svg)  
-![](resources/recent_activity.svg)  
 
 <!--- <p align="center">
  
