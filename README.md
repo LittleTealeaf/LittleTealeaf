@@ -9,6 +9,7 @@
 
 ![](resources/default_metrics.svg)  
 ![](resources/language_analysis.svg)  
+![](resources/code_snippet.svg)
 
 <!--- <p align="center">
  
