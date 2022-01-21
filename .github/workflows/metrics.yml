@@ -52,4 +52,15 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_analysis_timeout: 15
           plugin_languages_recent_days: 30
+      - name: Java or Python Snippet of the Day
+        uses: lowlighter/metrics@latest
+        with:
+          filename: resources/code_snippet.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_code: yes
+          plugin_code_languages: java, python, javascript
+          plugin_code_load: 400
+          plugin_code_lines: 20
+          plugin_code_visibility: public
           
