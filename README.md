@@ -8,7 +8,7 @@
 ![](resources/default_metrics.svg)  
 ![](resources/habits_chart.svg)  
 ![](resources/language_analysis.svg)  
-![](resources/code_snippet.svg)
+![](resources/code_snippet.svg)  
 ![](resources/recent_activity.svg)
 
 <!--- <p align="center">
