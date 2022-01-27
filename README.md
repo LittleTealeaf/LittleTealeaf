@@ -5,7 +5,8 @@
  
  👋Hi, I'm Thomas Kwashnak. I'm a Bachelor of Arts Computer Science undergraduate at Quinnipiac University with a double minor in Economics and Data Science.
 
-![](resources/default_metrics.svg)  
+![](resources/default_metrics.svg)
+![](resources/habits_chart.svg)
 ![](resources/language_analysis.svg)  
 ![](resources/code_snippet.svg)
 
