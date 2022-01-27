@@ -21,16 +21,16 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      - name: Recent activity
-        uses: lowlighter/metrics@latest
-        with:
-          filename: resources/recent_activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 0
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+#       - name: Recent activity
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: resources/recent_activity.svg
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           base: ""
+#           plugin_activity: yes
+#           plugin_activity_limit: 5
+#           plugin_activity_days: 0
+#           plugin_activity_filter: issue, pr, release, fork, review, ref/create
       - name: Default metrics
         uses: lowlighter/metrics@latest
         with:
