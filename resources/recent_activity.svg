@@ -23,14 +23,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
+                                        <span class="repo">SER210-SP21/headfirst-ch3-LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3c0e730</div>
-                                        <div class="message">Update hourly.yml</div>
+                                        <div class="sha">#df9b052</div>
+                                        <div class="message">Pass Data</div>
                                     </div>
                                 </div>
                             </section>
@@ -43,14 +43,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
+                                        <span class="repo">SER210-SP21/headfirst-ch3-LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#aaa1b11</div>
-                                        <div class="message">Added Hourly Script</div>
+                                        <div class="sha">#84f00ae</div>
+                                        <div class="message">Called 2nd Activity</div>
                                     </div>
                                 </div>
                             </section>
@@ -63,14 +63,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
+                                        <span class="repo">SER210-SP21/headfirst-ch3-LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d518bd5</div>
-                                        <div class="message">Update metrics.yml</div>
+                                        <div class="sha">#66647a9</div>
+                                        <div class="message">Created second activity</div>
                                     </div>
                                 </div>
                             </section>
@@ -83,14 +83,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
+                                        <span class="repo">SER210-SP21/headfirst-ch3-LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#b5fae1a</div>
-                                        <div class="message">Update README.md</div>
+                                        <div class="sha">#601e181</div>
+                                        <div class="message">Created first activity</div>
                                     </div>
                                 </div>
                             </section>
@@ -103,14 +103,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
+                                        <span class="repo">LittleTealeaf/SER-210</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#a0ae64a</div>
-                                        <div class="message">Update README.md</div>
+                                        <div class="sha">#d72c9e9</div>
+                                        <div class="message">Lesson 03</div>
                                     </div>
                                 </div>
                             </section>
