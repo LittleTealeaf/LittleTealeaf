@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    z
       - uses: actions/checkout@v2
       - name: Recent activity
         uses: lowlighter/metrics@latest
@@ -22,3 +23,10 @@ jobs:
           plugin_activity_days: 0
           plugin_activity_filter: issue, pr, release, fork, review, push, commit
           plugin_activity_visibility: public
+      - name: Default metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: resources/default_metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories, metadata
+
