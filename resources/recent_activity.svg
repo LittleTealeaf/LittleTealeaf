@@ -23,14 +23,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">SER210-SP21/headfirst-ch3-LittleTealeaf</span>
+                                        <span class="repo">LittleTealeaf/Intellij-Settings</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
+                                    <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#df9b052</div>
-                                        <div class="message">Pass Data</div>
+                                        <div class="sha">#fb24b7c</div>
+                                        <div class="message">AI-Arctic Fox | 2020.3.1 Patch 4 &lt;thomas@druid Create adbWifiPinnedDevices.xml</div>
                                     </div>
                                 </div>
                             </section>
@@ -49,8 +49,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#84f00ae</div>
-                                        <div class="message">Called 2nd Activity</div>
+                                        <div class="sha">#52ce067</div>
+                                        <div class="message">Updated Screenshot</div>
                                     </div>
                                 </div>
                             </section>
@@ -69,8 +69,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#66647a9</div>
-                                        <div class="message">Created second activity</div>
+                                        <div class="sha">#43375ad</div>
+                                        <div class="message">Add Screenshot</div>
                                     </div>
                                 </div>
                             </section>
@@ -89,8 +89,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#601e181</div>
-                                        <div class="message">Created first activity</div>
+                                        <div class="sha">#145a336</div>
+                                        <div class="message">Create Chooser</div>
                                     </div>
                                 </div>
                             </section>
@@ -103,14 +103,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/SER-210</span>
+                                        <span class="repo">SER210-SP21/headfirst-ch3-LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d72c9e9</div>
-                                        <div class="message">Lesson 03</div>
+                                        <div class="sha">#0d93b2d</div>
+                                        <div class="message">Specify Action</div>
                                     </div>
                                 </div>
                             </section>
