@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    z
       - uses: actions/checkout@v2
       - name: Recent activity
         uses: lowlighter/metrics@latest
