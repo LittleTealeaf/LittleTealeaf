@@ -51,3 +51,9 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           config_timezone: America/New_York
+      - name: Default metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: resources/default_metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories, metadata
