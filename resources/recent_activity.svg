@@ -22,15 +22,15 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
+                                        Pushed 1 commit in
+                                        <span class="repo">SER210-SP21/headfirst-ch4-LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
+                                    <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#51c1f66</div>
-                                        <div class="message">Merge branch 'main' of https://www.github.com/LittleTealeaf/LittleTealeaf</div>
+                                        <div class="sha">#faeca74</div>
+                                        <div class="message">Completed Stopwatch Functionality</div>
                                     </div>
                                 </div>
                             </section>
@@ -43,14 +43,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/paceManager</span>
+                                        <span class="repo">SER210-SP21/headfirst-ch4-LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">1.1.0</span></div>
+                                    <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#6e92819</div>
-                                        <div class="message">Pangea Initial Commit</div>
+                                        <div class="sha">#c0b59ba</div>
+                                        <div class="message">Added Layout</div>
                                     </div>
                                 </div>
                             </section>
@@ -63,14 +63,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/EC-272</span>
+                                        <span class="repo">SER210-SP21/headfirst-ch4-LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
+                                    <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#baf705b</div>
-                                        <div class="message">class notes</div>
+                                        <div class="sha">#dffe2e4</div>
+                                        <div class="message">Renamed activity_stopwatch.xml</div>
                                     </div>
                                 </div>
                             </section>
@@ -83,14 +83,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
+                                        <span class="repo">SER210-SP21/headfirst-ch4-LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
+                                    <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#1b540b7</div>
-                                        <div class="message">Update README.md</div>
+                                        <div class="sha">#1d9f409</div>
+                                        <div class="message">Added String Resources</div>
                                     </div>
                                 </div>
                             </section>
@@ -103,14 +103,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
+                                        <span class="repo">SER210-SP21/headfirst-ch4-LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
+                                    <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#a201fa7</div>
-                                        <div class="message">Fix Syntax</div>
+                                        <div class="sha">#88f72d4</div>
+                                        <div class="message">Renamed MainActivity to StopwatchActivity</div>
                                     </div>
                                 </div>
                             </section>
