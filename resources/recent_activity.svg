@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="378" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="361" class="">
     <defs>
         <style/>
     </defs>
@@ -23,14 +23,14 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">LittleTealeaf/GDD-140-Template</span>
+                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#ec1d31a</div>
-                                        <div class="message">Add typeAcquisition</div>
+                                        <div class="sha">#a532879</div>
+                                        <div class="message">big metrics</div>
                                     </div>
                                 </div>
                             </section>
@@ -42,15 +42,35 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">LittleTealeaf/GDD-140-Project-1.2</span>
+                                        Pushed 1 commit in
+                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#bf75c6b</div>
-                                        <div class="message">Merge branch 'main' of https://github.com/LittleTealeaf/GDD-140-Project-1.2</div>
+                                        <div class="sha">#3720f6e</div>
+                                        <div class="message">Update README.md</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">LittleTealeaf/LittleTealeaf</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#b154d5c</div>
+                                        <div class="message">Update daily.yml</div>
                                     </div>
                                 </div>
                             </section>
@@ -69,7 +89,7 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#4ce7c4e</div>
+                                        <div class="sha">#b6c6e8f</div>
                                         <div class="message">Update README.md</div>
                                     </div>
                                 </div>
@@ -89,32 +109,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#66bafec</div>
-                                        <div class="message">Used original code</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">LittleTealeaf/GDD-140-Template</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#b6c1238</div>
-                                        <div class="message">clean index.html</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1235ffe</div>
-                                        <div class="message">Clean up sketch.js</div>
+                                        <div class="sha">#86113c7</div>
+                                        <div class="message">Update README.md</div>
                                     </div>
                                 </div>
                             </section>
