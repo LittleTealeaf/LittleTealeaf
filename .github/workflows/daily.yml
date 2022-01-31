@@ -34,7 +34,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_code: yes
-          plugin_code_languages: java, python, javascript
+          plugin_code_languages: java, javascript, python, tex 
           plugin_code_load: 400
           plugin_code_lines: 20
           plugin_code_visibility: public
