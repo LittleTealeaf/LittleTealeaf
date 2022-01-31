@@ -1,0 +1,49 @@
+name: Update Metrics
+
+
+on:
+  # schedule:
+  # - cron: 0 0 * * *
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Huge Metrics
+      uses: lowlighter/metrics@latest
+      with:
+        user: LittleTealeaf
+        template: classic
+        filename: resources/metrics.svg
+        token: ${{ secrets.METRICS_TOKEN }}
+        base: header, activity, community, repositories, metadata
+        config_display: large
+        config_padding: 0, 3%
+        plugin_languages: yes
+        plugin_languages_categories: markup, programming
+        plugin_languages_colors: github
+        plugin_languages_limit: 8
+        plugin_languages_recent_categories: markup, programming
+        plugin_languages_sections: most-used
+        plugin_languages_threshold: 0%
+        plugin_languages_indepth: true
+        plugin_languages_ignored: >-
+          html, tex
+        plugin_habits: yes
+        plugin_habits_facts: no
+        plugin_habits_charts: yes
+        plugin_habits_trim: yes
+        plugin_habits_from: 500
+        plugin_habits_days: 32
+        plugin_activity: yes
+        plugin_activity_limit: 5
+        plugin_activity_days: 1
+        plugin_activity_filter: issue, pr, release, fork, review, push, commit
+        plugin_activity_visibility: public
+        plugin_code: yes
+        plugin_code_languages: java, javascript, python, tex
+        plugin_code_load: 500
+        plugin_code_lines: 20
+        plugin_code_visibility: public
+        config_timezone: America/New_York
