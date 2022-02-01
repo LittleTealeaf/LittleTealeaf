@@ -51,7 +51,7 @@ jobs:
         plugin_isocalendar: yes
         plugin_isocalendar_duration: half-year
         plugin_people: yes
-        plugin_people_types: followers
+        plugin_people_types: followers, following
         plugin_lines: yes
         plugin_traffic: yes
         plugin_gists: yes
