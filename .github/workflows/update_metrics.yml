@@ -49,7 +49,7 @@ jobs:
         plugin_code_lines: 20
         plugin_code_visibility: public
         plugin_isocalendar: yes
-        plugin_isocalendar_duration: full-year
+        plugin_isocalendar_duration: half-year
         plugin_people: yes
         plugin_people_types: followers
         plugin_lines: yes
