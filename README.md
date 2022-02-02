@@ -4,14 +4,17 @@
  -->
  
  👋Hi, I'm Thomas Kwashnak. I'm a Bachelor of Arts Computer Science undergraduate at Quinnipiac University with a double minor in Economics and Data Science.
+ 
 
 <!-- ![](./resources/default_metrics.svg)  
 ![](./resources/habits_chart.svg)  
 ![](./resources/language_analysis.svg)  
 ![](./resources/code_snippet.svg)   
 ![](./resources/recent_activity.svg) -->
-![](./resources/metrics.svg)
 
+
+![](./resources/metrics.svg)
+[![Update Metrics](https://github.com/LittleTealeaf/LittleTealeaf/actions/workflows/update_metrics.yml/badge.svg?branch=main)](https://github.com/LittleTealeaf/LittleTealeaf/actions/workflows/update_metrics.yml)
 <!--- <p align="center">
  
 <a href="https://github.com/anuraghazra/github-readme-stats">
