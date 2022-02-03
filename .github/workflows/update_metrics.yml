@@ -3,7 +3,7 @@ name: Update Metrics
 
 on:
   schedule:
-  - cron: 0 */7 * * *
+  - cron: 0 */5 * * *
   workflow_dispatch:
   push:
   
