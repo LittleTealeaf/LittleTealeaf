@@ -29,7 +29,7 @@ jobs:
         plugin_languages_recent_categories: markup, programming, data, prose
         plugin_languages_recent_days: 30
         plugin_languages_recent_load: 500
-        plugin_languages_sections: most-used, recently-used
+        plugin_languages_sections: most-used
         plugin_languages_threshold: 0%
         plugin_languages_indepth: true
         plugin_languages_details: percentage, lines, bytes-size
