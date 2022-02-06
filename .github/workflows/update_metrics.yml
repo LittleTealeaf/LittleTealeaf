@@ -34,7 +34,7 @@ jobs:
         plugin_languages_indepth: true
         plugin_languages_details: percentage, lines, bytes-size
         plugin_languages_ignored: >-
-          html, css, tex
+          html, css, tex, markdown
         plugin_habits: yes
         plugin_habits_facts: no
         plugin_habits_charts: yes
