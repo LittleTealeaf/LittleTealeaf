@@ -14,7 +14,7 @@
 
 
 ![](./resources/metrics.svg)
-[![Update Metrics](https://github.com/LittleTealeaf/LittleTealeaf/actions/workflows/update_metrics.yml/badge.svg?branch=main)](https://github.com/LittleTealeaf/LittleTealeaf/actions/workflows/update_metrics.yml)
+<!-- [![Update Metrics](https://github.com/LittleTealeaf/LittleTealeaf/actions/workflows/update_metrics.yml/badge.svg?branch=main)](https://github.com/LittleTealeaf/LittleTealeaf/actions/workflows/update_metrics.yml) -->
 <!--- <p align="center">
  
 <a href="https://github.com/anuraghazra/github-readme-stats">
