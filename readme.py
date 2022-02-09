@@ -1,3 +1,10 @@
-print("hello")
-print("THIS IS ANOTHER LINE")
-print("I AM A PYTHON SCRIPT")
+import json
+
+def get_data():
+    f = open("./resources/content.json")
+    data = json.load(f)
+    f.close()
+    return data
+
+
+data = get_data()
