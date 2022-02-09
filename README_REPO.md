@@ -3,4 +3,4 @@
 
 TODO - BETTER AUTOMATE THIS
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=LittleTealeaf)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=LittleTealeaf&theme=dark)](https://git.io/streak-stats)
