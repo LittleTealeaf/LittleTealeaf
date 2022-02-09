@@ -8,3 +8,5 @@ def get_data():
 
 
 data = get_data()
+
+print(data["intro"])
