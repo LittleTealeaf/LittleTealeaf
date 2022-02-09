@@ -6,7 +6,12 @@ def get_data():
     f.close()
     return data
 
+def about_me(data):
+    print("### About Me")
+    print(data["about_me"])
+
 
 data = get_data()
 
 print(data["intro"])
+about_me(data)
