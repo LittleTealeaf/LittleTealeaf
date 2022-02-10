@@ -7,6 +7,15 @@ def details(name, content):
     return f"<details><summary>{name}</summary>{content}</details>"
 
 def codeblock(code,language=""):
-    return f"""```{language}\n{code}\n```"""
+    return f"```{language}\n{code}\n```"
 
-print(details("Code",codeblock("sudo apt install java","bash")))
+def link(content,link):
+    return f"[{content}]({link})"
+
+def quote(content):
+    string = ""
+    for line in content.split('\n'):
+        string += f"> {line}  \n"
+    return string
+
+print(quote("I am a peanut\nhello\npie"))
