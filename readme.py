@@ -14,7 +14,9 @@ def html_image(source,alt,style=""):
 
 def html_link(link,content):
     return f"<a href=\"{link}\">{content}</a>"
-        
+
+def fetch_api(url):
+    return requests.get(url).json()
 
 def md_codeblock(code,language=""):
     return f"```{language}\n{code}\n```"
@@ -76,35 +78,38 @@ def build_followers():
 def build_events():
 
     events = []
-    events_json = fetch_events()
-    for i in range(10):
-        event = events_json[i]
-        commits_count = len(event['payload']['commits'])
-        commits_plural = "commits"
-        if commits_count == 1:
-            commits_plural = "commit"
-        
-        repo_link = html_link(f"https://github.com/{event['repo']['name']}",event['repo']['name'])
-
-        event_string = f"Pushed {commits_count} {commits_plural} to {repo_link}"
-
-        for commit in event['payload']['commits']:
-
-            sha = commit['sha'][0:5:1]
-            message = commit['message']
-            url = commit['url']
-
-            sha_link = html_link(url,sha)
-
-            event_string += f"<br>{sha_link}: {message}"
-
-        events.append(event_string)
+    for event in fetch_events()[0:10]:
+        if event['type'] == 'PushEvent':
+            events.append(build_event_push(event))
+        elif event['type'] == 'CreateEvent':
+            events.append(build_event_create(event))
+        else:
+            events.append(print_json(event))
     return html_details("Recent Activity",html_list(events))
 
-def build_event_push():
-    string = ""
+def build_event_push(event):
+    commits_count = len(event['payload']['commits'])
+    commits_plural = "commits"
+    if commits_count == 1:
+        commits_plural = "commit"
+    
+    repo_link = html_link(f"https://github.com/{event['repo']['name']}",event['repo']['name'])
+
+    string = f"Pushed {commits_count} {commits_plural} to {repo_link}"
+
+    for commit in event['payload']['commits']:
+        sha = commit['sha'][0:5:1]
+        message = commit['message'].partition('\n')[0]
+        url = f"https://github.com/{event['repo']['name']}/commit/{commit['sha']}"
+        sha_link = html_link(url,sha)
+        string += f"<br>{sha_link}: {message}"
 
     return string
+
+def build_event_create(event):
+    repo_link = html_link(f"https://github.com/{event['repo']['name']}",event['repo']['name'])
+    return f"Created {repo_link}"
+
 
 print(build_followers())
 print(build_following())
