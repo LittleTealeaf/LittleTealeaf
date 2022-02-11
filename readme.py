@@ -76,7 +76,7 @@ def build_followers():
 
 
 def build_events():
-
+    # TODO: add branch
     events = []
     for event in fetch_events()[0:10]:
         if event['type'] == 'PushEvent':
