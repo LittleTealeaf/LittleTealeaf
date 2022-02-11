@@ -1,0 +1,42 @@
+[
+  {
+    "login": "eebalboni",
+    "id": 84345297,
+    "node_id": "MDQ6VXNlcjg0MzQ1Mjk3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/84345297?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/eebalboni",
+    "html_url": "https://github.com/eebalboni",
+    "followers_url": "https://api.github.com/users/eebalboni/followers",
+    "following_url": "https://api.github.com/users/eebalboni/following{/other_user}",
+    "gists_url": "https://api.github.com/users/eebalboni/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/eebalboni/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/eebalboni/subscriptions",
+    "organizations_url": "https://api.github.com/users/eebalboni/orgs",
+    "repos_url": "https://api.github.com/users/eebalboni/repos",
+    "events_url": "https://api.github.com/users/eebalboni/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/eebalboni/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "PriscillaE1",
+    "id": 91395861,
+    "node_id": "MDQ6VXNlcjkxMzk1ODYx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/91395861?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/PriscillaE1",
+    "html_url": "https://github.com/PriscillaE1",
+    "followers_url": "https://api.github.com/users/PriscillaE1/followers",
+    "following_url": "https://api.github.com/users/PriscillaE1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/PriscillaE1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/PriscillaE1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/PriscillaE1/subscriptions",
+    "organizations_url": "https://api.github.com/users/PriscillaE1/orgs",
+    "repos_url": "https://api.github.com/users/PriscillaE1/repos",
+    "events_url": "https://api.github.com/users/PriscillaE1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/PriscillaE1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+]
