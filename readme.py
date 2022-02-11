@@ -80,9 +80,25 @@ def build_events():
     for i in range(10):
         event = events_json[i]
         commits_count = len(event['payload']['commits'])
-        event_link = html_link(f"https://github.com/{event['repo']['name']}",event['repo']['name'])
-        event_title = f"Pushed {commits_count} commits to {event_link}"
-        events.append(html_details(event_title,""))  
+        commits_plural = "commits"
+        if commits_count == 1:
+            commits_plural = "commit"
+        
+        repo_link = html_link(f"https://github.com/{event['repo']['name']}",event['repo']['name'])
+
+        event_string = f"Pushed {commits_count} {commits_plural} to {repo_link}"
+
+        for commit in event['payload']['commits']:
+
+            sha = commit['sha'][0:5:1]
+            message = commit['message']
+            url = commit['url']
+
+            sha_link = html_link(url,sha)
+
+            event_string += f"<br>{sha_link}: {message}"
+
+        events.append(event_string)
     return html_details("Recent Activity",html_list(events))
 
 def build_event_push():
