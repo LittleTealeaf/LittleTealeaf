@@ -74,15 +74,16 @@ def build_followers():
 
 
 def build_events():
-    string = ""
+
+    events = []
     events_json = fetch_events()
     for i in range(10):
         event = events_json[i]
         commits_count = len(event['payload']['commits'])
         event_link = html_link(f"https://github.com/{event['repo']['name']}",event['repo']['name'])
         event_title = f"Pushed {commits_count} commits to {event_link}"
-        string += html_details(event_title,"")    
-    return html_details("Recent Activity",string)
+        events.append(html_details(event_title,""))  
+    return html_details("Recent Activity",html_list(events))
 
 def build_event_push():
     string = ""
