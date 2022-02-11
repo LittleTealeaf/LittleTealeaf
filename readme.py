@@ -98,7 +98,7 @@ def build_event_push(event):
     string = f"Pushed {commits_count} {commits_plural} to {repo_link}"
 
     for commit in event['payload']['commits']:
-        sha = commit['sha'][0:5:1]
+        sha = commit['sha'][0:7]
         message = commit['message'].partition('\n')[0]
         url = f"https://github.com/{event['repo']['name']}/commit/{commit['sha']}"
         sha_link = html_link(url,sha)
