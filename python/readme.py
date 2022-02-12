@@ -42,7 +42,7 @@ def recent_repositories():
 
         output.append(details(link(repo_name,f"https://www.github.com/{repo_name}"),hlist(revents)))
 
-    return '\n'.join(output)
+    return ''.join(output)
 
 def badges_socials():
     return " ".join([create_icon(icons['socials'][name]) for name in icons['socials']])
