@@ -1,0 +1,31 @@
+{
+    "socials": {
+        "discord": {
+            "name":"Discord",
+            "color":"%237289DA",
+            "link":"https://discord.gg/YXdv8upxag",
+            "attributes": {
+                "logo":"discord",
+                "logoColor":"white"
+            }
+        },
+        "instagram": {
+            "name":"Instagram",
+            "color":"E4405F",
+            "link":"https://www.instagram.com/gnome.tealeaf/",
+            "attributes": {
+                "logoColor":"white",
+                "logo":"instagram"
+            }
+        },
+        "linkedin": {
+            "name":"Linkedin",
+            "color":"0077B5",
+            "link":"https://www.linkedin.com/in/thomas-kwashnak/",
+            "attributes": {
+                "logo":"linkedin",
+                "logoColor":"white"
+            }
+        }
+    }
+}

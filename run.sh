@@ -1,2 +1,2 @@
 #!/bin/env sh
-python3.9 readme.py > README.md
+python3 ./python/readme.py > README.md

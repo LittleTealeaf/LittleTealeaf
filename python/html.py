@@ -9,3 +9,9 @@ def image(source,alt="",style=""):
 
 def link(content,link):
     return f"<a href=\"{link}\">{content}</a>"
+
+def line():
+    return "<br>"
+
+def paragraph():
+    return "<p>"
