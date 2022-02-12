@@ -1,3 +1,2 @@
-
-<h1>This is a header</h1>
-
+<h1>Hello, my name is Thomas!</h1>
+I'm current a student at Quinnipiac University studying Computer Science, Data Science, and Economics.
