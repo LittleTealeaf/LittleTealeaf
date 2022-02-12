@@ -1,8 +1,8 @@
 def header(content,level=1):
-    return f"<h{level}>{content}</h{level}>"
+    return tag(f"h{level}",content)
 
 def details(summary,content):
-    return f"<details><summary>{summary}</summary>{content}</details>"
+    return tag("details",tag("summary",summary) + content)
 
 def image(source,alt="",style=""):
     return f"<img src=\"{source}\" alt = \"{alt}\" style=\"{style}\">"
