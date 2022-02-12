@@ -19,5 +19,5 @@ def badges_socials():
 print(header(content['title']))
 print(badges_socials())
 print(paragraph())
-print(paragraph())g
+print(paragraph())
 print(content['introduction'])

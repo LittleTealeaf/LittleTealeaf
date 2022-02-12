@@ -26,6 +26,15 @@
                 "logo":"linkedin",
                 "logoColor":"white"
             }
+        },
+        "twitter": {
+            "name":"Twitter",
+            "color":"1DA1F2",
+            "link":"https://twitter.com/LittleTeeaaa",
+            "attributes": {
+                "logo":"twitter",
+                "logoColor":"white"
+            }
         }
     }
 }
