@@ -17,7 +17,6 @@ f_events.close()
 # events = requests.get(f"https://api.github.com/users/{username}/events").json()
 
 def recent_repositories():
-    print(header("Recent Activity",2))
     output = []
     repos = {}
     for event in events:
@@ -41,8 +40,8 @@ def recent_repositories():
                     revents.append(f"<code>{branch}</code> {commit_link}  {message}")
 
         output.append(details(link(repo_name,f"https://www.github.com/{repo_name}"),hlist(revents)))
-
-    return ''.join(output)
+        
+    return header("Recent Repositories",2) + ''.join(output)
 
 def badges_socials():
     return " ".join([create_icon(icons['socials'][name]) for name in icons['socials']])

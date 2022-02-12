@@ -12,10 +12,14 @@ def hlist(values,tag="ul"):
     return f"<ul><li>{string}</li></ul>"
 
 def link(content,link):
-    return f"<a href=\"{link}\">{content}</a>"
+    return tag(f"a href=\"{link}\"",content)
 
 def line():
     return "<br>"
+
+def tag(a,vals):
+    closeTag = a.partition(" ")[0]
+    return f"<{a}>{vals}</{closeTag}>"
 
 def paragraph():
     return "<p>"
