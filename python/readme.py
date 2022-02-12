@@ -54,5 +54,6 @@ def print_readme():
     print(paragraph())
     print(paragraph())
     print(content['introduction'])
+    print(recent_repositories())
 
-print(recent_repositories())
+print_readme()
