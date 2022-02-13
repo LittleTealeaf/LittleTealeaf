@@ -14,6 +14,7 @@ f_content.close()
 f_events = open("./tmp/events.json")
 events = json.load(f_events)
 f_events.close()
+# events = requests.get(f"https://api.github.com/users/{username}/events").json()
 
 f_followers = open("./tmp/followers.json")
 followers = json.load(f_followers)
@@ -22,7 +23,7 @@ f_followers.close()
 f_following = open("./tmp/following.json")
 following = json.load(f_following)
 f_following.close()
-# events = requests.get(f"https://api.github.com/users/{username}/events").json()
+
 
 def recent_repositories():
     output = []
@@ -54,7 +55,7 @@ def recent_repositories():
 def badges_socials():
     return " ".join([create_icon(icons['socials'][name]) for name in icons['socials']])
 
-def print_users(header,userList):
+def get_people(header,userList):
     string = ""
     for person in userList:
         string += link(image(person['avatar_url'],person['login'],"width:50px;height:50px"),person['html_url'])
@@ -66,8 +67,8 @@ def print_readme():
     print(paragraph())
     print(paragraph)
     print(content['introduction'])
-    print(print_users("Followers",followers))
-    print(print_users("Following",following))
+    print(get_people("Followers",followers))
+    print(get_people("Following",following))
     print(recent_repositories())
 
 print_readme()
