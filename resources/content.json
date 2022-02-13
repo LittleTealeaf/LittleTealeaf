@@ -1,4 +1,7 @@
 {
     "title":"Hello, my name is Thomas!",
-    "introduction":"I'm current a student at Quinnipiac University studying Computer Science, Data Science, and Economics."
+    "introduction":"I'm current a student at Quinnipiac University studying Computer Science, Data Science, and Economics.",
+    "projects": [
+        "LittleTealeaf/baritone","LittleTealeaf/paceManager"
+    ]
 }
