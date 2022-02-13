@@ -1,4 +1,4 @@
-<h1><code>LittleTealeaf.json</code></h1>
+<h1>LittleTealeaf.json</h1>
 
 ```json
 {
