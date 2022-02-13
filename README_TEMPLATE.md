@@ -8,6 +8,7 @@
 {
   "name": "Thomas Kwashnak",
   "pronouns": "He/Him/His",
+  "born": 2002,
   "status": {
     "type": "Undergraduate Student",
     "school": "Quinnipiac University",
@@ -18,31 +19,6 @@
       "Data Science",
       "Economics"
     ]
-  },
-  "interests": [
-    "Coding",
-    "Math",
-    "Video Games",
-    "Dungeons & Dragons",
-    "Hiking",
-    "Marvel"
-  ],
-  "langauges": [
-      "java",
-      "python",
-      "javascript",
-      "LaTeX",
-      "p5.js"
-  ],
-  "tools": [
-      "IntelliJ",
-      "Android Studio",
-      "Atom",
-      "Visual Studio Code"
-  ],
-  "environments": [
-      "Ubuntu",
-      "Windows"
-  ]
+  }
 }
 ```
