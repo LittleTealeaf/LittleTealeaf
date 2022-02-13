@@ -9,6 +9,7 @@
         "majors": ["Computer Science"],
         "minors": ["Data Science","Economics"]
     },
-    "interests": ["Coding","Math","Video Games","Dungeons & Dragons","Hiking"]
+    "interests": ["Coding", "Math", "Video Games", "Dungeons & Dragons", "Hiking"],
+    "skills": ["Java", "Python", "Shell"]
 }
 ```
