@@ -2,7 +2,8 @@
 
 <!-- Inspiring README: Carol42 -->
 
-<h1><code>LittleTealeaf.json</code><br></h1>
+<code>
+<h1>LittleTealeaf.json<br></h1>
 
 ```json
 {
@@ -25,4 +26,5 @@ BADGE FOR EMAIL <a href="https://discord.gg/YXdv8upxag"><img src="https://img.sh
 
 <h2>Stats</h2>
 
+</code>
 Crazy thought, maybe work on coding up a whole script to CREATE a JSON-esque README?
