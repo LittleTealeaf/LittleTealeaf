@@ -50,7 +50,7 @@ def recent_repositories():
 
         output.append(details(link(repo_name,f"https://www.github.com/{repo_name}"),hlist(revents)))
 
-    return header("Recent Repositories",2) + ''.join(output)
+    return header("Recent Activity",2) + ''.join(output)
 
 def badges_socials():
     return " ".join([create_icon(icons['socials'][name]) for name in icons['socials']])
