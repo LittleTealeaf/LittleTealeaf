@@ -1,7 +1,6 @@
 import json
 import requests
 from html import *
-from icons import *
 
 username = "LittleTealeaf"
 
@@ -50,10 +49,7 @@ def recent_repositories():
 
         output.append(details(link(repo_name,f"https://www.github.com/{repo_name}"),hlist(revents)))
 
-    return header("Recent Activity",2) + ''.join(output)
-
-def badges_socials():
-    return " ".join([create_icon(icons['socials'][name]) for name in icons['socials']])
+    return header("Recent Activityg",2) + ''.join(output)
 
 def get_people(header,userList):
     string = ""
