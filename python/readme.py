@@ -55,6 +55,8 @@ def print_recent_repositories(events):
             elif event['type'] == 'ForkEvent':
                 forkLink = html_link(event['payload']['forkee']['full_name'],event['payload']['forkee']['html_url'])
                 events.append(f"Created Fork {forkLink}")
+            # TODO: add "Merge Request" and such
+            # See https://docs.github.com/en/developers/webhooks-and-events/events/github-event-types
         reposOut.append(html_details(f"{repoLink} - {description}",html_list(events)))
     return "".join(reposOut)
 
