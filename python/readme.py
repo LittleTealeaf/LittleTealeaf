@@ -126,5 +126,5 @@ def section_activity(user):
 if __name__ == "__main__":
     user = api_github("https://api.github.com/users/LittleTealeaf")
     print(print_json_file("LittleTealeaf.json",open_json("./assets/user.json")))
-    # section_community(user)
+    section_community(user)
     section_activity(user)
