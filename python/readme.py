@@ -62,14 +62,11 @@ def print_recent_repositories(events):
         elif event['type'] == 'IssuesEvent':
             issue = event['payload']['issue']
             issueLink = html_link(f"#{issue['number']}",issue['html_url'])
-            if event['payload']['action'] == 'opened':
-                repo['events'].append(f"Issues: Opened {issueLink} - {issue['title']}")
+            if event['payload']['action'] in ['opened', 'closed', 'reopened']:
+                verb = event['payload']['action'].capitalize()
+                repo['events'].append(f"{verb} <code>{issueLink} Issue</code> {issue['title']}")
             elif event['payload']['action'] == 'edited':
                 repo['events'].append('Issue Edited')
-            elif event['payload']['action'] == 'closed':
-                repo['events'].append('Issue Closed')
-            elif event['payload']['action'] == 'reopened':
-                repo['events'].append('Issue Reopened')
             elif event['payload']['action'] == 'assigned':
                 repo['events'].append('Issue Assigned')
             elif event['payload']['action'] == 'unassigned':
@@ -95,7 +92,7 @@ def print_recent_repositories(events):
                 commitApi = api_github(commit['url'])
                 commitLink = html_link(f"#{sha}",commitApi['html_url'])
                 message = commit['message'].partition('\n')[0]
-                repo['events'].append(f"{commitLink} <code>{branch}</code> {message}")
+                repo['events'].append(f"Committed <code>{commitLink} {branch}</code> {message}")
         elif event['type'] == 'ReleaseEvent':
             repo['events'].append("Release Event")
         elif event['type'] == 'SponsorshipEvent':
