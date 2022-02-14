@@ -74,7 +74,7 @@ def print_recent_repositories(events):
         elif event['type'] == 'PushEvent':
             branch = event['payload']['ref'].split('/')[2]
             for commit in event['payload']['commits']:
-                sha = commit['sha'][:7]
+                sha = commit['sha'][:7].upper()
                 commitApi = api_github(commit['url'])
                 commitLink = html_link(f"#{sha}",commitApi['html_url'])
                 message = commit['message'].partition('\n')[0]
@@ -91,7 +91,7 @@ def print_recent_repositories(events):
         repoLink = html_link(repo['api']['full_name'],repo['api']['html_url'])
         description = repo['api']['description']
         reposOut.append(html_details(f"{repoLink} - {description}",html_list(repo['events'])))
-    return "".join(reposOut)g
+    return "".join(reposOut)
 
 
 
