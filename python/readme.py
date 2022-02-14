@@ -3,8 +3,6 @@ import requests
 from html import *
 from markdown import *
 
-username = "LittleTealeaf"
-
 # Output is made using the "print()" method, as the output is piped into a file using the > operator
 
 def open_json(fileName):
@@ -17,12 +15,12 @@ def print_github_users(header,userList):
     "I could make this one line, would that be effective? no... well..."
     string = ""
     for person in userList:
-        image = himage(person['avatar_url'],person['login'],"width:50px;height:50px")
-        string += link(image,person['html_url'])
-    return hdetails(header,string)
+        image = html_image(person['avatar_url'],person['login'],"width:50px;height:50px")
+        string += html_link(image,person['html_url'])
+    return html_details(header,string)
 
 def print_json_file(name,jsonObject):
-    fileName = hheader(name,2)
+    fileName = html_header(name,2)
     jsonBlock = json_block(jsonObject)
     return f"{fileName}\n\n{jsonBlock}"
 
