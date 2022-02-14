@@ -64,7 +64,7 @@ def print_recent_repositories(events):
             issueLink = html_link(f"#{issue['number']}",issue['html_url'])
             if event['payload']['action'] in ['opened', 'closed', 'reopened']:
                 verb = event['payload']['action'].capitalize()
-                repo['events'].append(f"{verb} <code>{issueLink} Issue</code> {issue['title']}")
+                repo['events'].append(f"Issue <code>{issueLink}</code> {verb} - {issue['title']}")
             elif event['payload']['action'] == 'edited':
                 repo['events'].append('Issue Edited')
             elif event['payload']['action'] == 'assigned':
@@ -92,7 +92,7 @@ def print_recent_repositories(events):
                 commitApi = api_github(commit['url'])
                 commitLink = html_link(f"#{sha}",commitApi['html_url'])
                 message = commit['message'].partition('\n')[0]
-                repo['events'].append(f"Committed <code>{commitLink} {branch}</code> {message}")
+                repo['events'].append(f"Commit <code>{commitLink} {branch}</code> {message}")
         elif event['type'] == 'ReleaseEvent':
             repo['events'].append("Release Event")
         elif event['type'] == 'SponsorshipEvent':
