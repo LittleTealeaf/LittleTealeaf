@@ -44,7 +44,30 @@ def print_recent_repositories(events):
         description = repoApi['description']
         events = []
         for event in repos[repo]:
-            if event['type'] == 'PushEvent':
+            if event['type'] == 'CreateEvent':
+                ...
+            elif event['type'] == 'DeleteEvent':
+                ...
+            elif event['type'] == 'ForkEvent':
+                forkLink = html_link(event['payload']['forkee']['full_name'],event['payload']['forkee']['html_url'])
+                events.append(f"Created Fork {forkLink}")
+            elif event['type'] == 'GollumEvent':
+                ...
+            elif event['type'] == 'IssueCommentEvent':
+                ...
+            elif event['type'] == 'IssueEvent':
+                ...
+            elif event['type'] == 'MemberEvent':
+                ...
+            elif event['type'] == 'PublicEvent':
+                ...
+            elif event['type'] == 'PullRequestEvent':
+                ...
+            elif event['type'] == 'PullRequestReviewEvent':
+                ...
+            elif event['type'] == 'PullRequestReviewCommentEvent':
+                ...
+            elif event['type'] == 'PushEvent':
                 branch = event['payload']['ref'].split('/')[2]
                 for commit in event['payload']['commits']:
                     sha = commit['sha'][:7]
@@ -52,9 +75,13 @@ def print_recent_repositories(events):
                     commitLink = html_link(f"#{sha}",commitApi['html_url'])
                     message = commit['message'].partition('\n')[0]
                     events.append(f"<code>{branch}</code> {commitLink} - {message}")
-            elif event['type'] == 'ForkEvent':
-                forkLink = html_link(event['payload']['forkee']['full_name'],event['payload']['forkee']['html_url'])
-                events.append(f"Created Fork {forkLink}")
+            elif event['type'] == 'ReleaseEvent':
+                ...
+            elif event['type'] == 'SponsorshipEvent':
+                ...
+            elif event['type'] == 'WatchEvent':
+                ...
+
             # TODO: add "Merge Request" and such
             # See https://docs.github.com/en/developers/webhooks-and-events/events/github-event-types
         reposOut.append(html_details(f"{repoLink} - {description}",html_list(events)))
