@@ -33,59 +33,108 @@ def print_json_file(name,jsonObject):
 def print_recent_repositories(events):
     repos = {}
     for event in events:
-        if event['repo']['url'] not in repos:
-            repos[event['repo']['url']] = [event]
-        else:
-            repos[event['repo']['url']].append(event)
+        repo_name = event['repo']['name']
+        if repo_name not in repos:
+            repos[repo_name] = {
+                'api':api_github(event['repo']['url']),
+                'events': []
+            }
+        repo = repos[repo_name]
+        if event['type'] == 'CreateEvent':
+            repo['events'].append("Create Event")
+            if event['payload']['ref_type'] == 'branch':
+                ...
+            elif event['payload']['ref_type'] == 'tag':
+                ...
+        elif event['type'] == 'DeleteEvent':
+            repo['events'].append("Delete Event")
+            if event['payload']['ref_type'] == 'branch':
+                ...
+            elif event['payload']['ref_type'] == 'tag':
+                ...
+        elif event['type'] == 'ForkEvent':
+            forkLink = html_link(event['payload']['forkee']['full_name'],event['payload']['forkee']['html_url'])
+            repo['events'].append(f"Created Fork {forkLink}")
+        elif event['type'] == 'GollumEvent':
+            repo['events'].append("Gollum Event")
+        elif event['type'] == 'IssueCommentEvent':
+            repo['events'].append("Issue Comment Event")
+        elif event['type'] == 'IssueEvent':
+            repo['events'].append("Issue Event")
+        elif event['type'] == 'MemeberEvent':
+            repo['events'].append("Member Event")
+        elif event['type'] == 'PublicEvent':
+            repo['events'].append("Repository is now Public")
+        elif event['type'] == 'PullRequestEvent':
+            repo['events'].append("Pull Request Event")
+        elif event['type'] == 'PullRequestReviewEvent':
+            repo['events'].append("Pull Request Review Event")
+        elif event['type'] == 'PullRequestReviewCommentEvent':
+            repo['events'].append("Pull Request Review Comment Event")
+        elif event['type'] == 'PushEvent':
+            branch = event['payload']['ref'].split('/')[2]
+            for commit in event['payload']['commits']:
+                sha = commit['sha'][:7]
+                commitApi = api_github(commit['url'])
+                commitLink = html_link(f"#{sha}",commitApi['html_url'])
+                message = commit['message'].partition('\n')[0]
+                repo['events'].append(f"Commit: <code>{branch}</code> {commitLink}: {message}")
+        elif event['type'] == 'ReleaseEvent':
+            repo['events'].append("Release Event")
+        elif event['type'] == 'SponsorshipEvent':
+            repo['events'].append("Sponsorship Event")
+        elif event['type'] == 'WatchEvent':
+            repo['events'].append("Watch Event")
     reposOut = []
-    for repo in repos:
-        repoApi = api_github(repo)
-        repoLink = html_link(repoApi['full_name'],repoApi['html_url'])
-        description = repoApi['description']
-        events = []
-        for event in repos[repo]:
-            if event['type'] == 'CreateEvent':
-                ...
-            elif event['type'] == 'DeleteEvent':
-                ...
-            elif event['type'] == 'ForkEvent':
-                forkLink = html_link(event['payload']['forkee']['full_name'],event['payload']['forkee']['html_url'])
-                events.append(f"Created Fork {forkLink}")
-            elif event['type'] == 'GollumEvent':
-                ...
-            elif event['type'] == 'IssueCommentEvent':
-                ...
-            elif event['type'] == 'IssueEvent':
-                ...
-            elif event['type'] == 'MemberEvent':
-                ...
-            elif event['type'] == 'PublicEvent':
-                ...
-            elif event['type'] == 'PullRequestEvent':
-                ...
-            elif event['type'] == 'PullRequestReviewEvent':
-                ...
-            elif event['type'] == 'PullRequestReviewCommentEvent':
-                ...
-            elif event['type'] == 'PushEvent':
-                branch = event['payload']['ref'].split('/')[2]
-                for commit in event['payload']['commits']:
-                    sha = commit['sha'][:7]
-                    commitApi = api_github(commit['url'])
-                    commitLink = html_link(f"#{sha}",commitApi['html_url'])
-                    message = commit['message'].partition('\n')[0]
-                    events.append(f"<code>{branch}</code> {commitLink} - {message}")
-            elif event['type'] == 'ReleaseEvent':
-                ...
-            elif event['type'] == 'SponsorshipEvent':
-                ...
-            elif event['type'] == 'WatchEvent':
-                ...
-
-            # TODO: add "Merge Request" and such
-            # See https://docs.github.com/en/developers/webhooks-and-events/events/github-event-types
-        reposOut.append(html_details(f"{repoLink} - {description}",html_list(events)))
+    for repo_name in repos:
+        repo = repos[repo_name]
+        repoLink = html_link(repo['api']['full_name'],repo['api']['html_url'])
+        description = repo['api']['description']
+        reposOut.append(html_details(f"{repoLink} - {description}",html_list(repo['events'])))
     return "".join(reposOut)
+
+    # repos = {}
+    # for event in events:
+    #     if event['repo']['url'] not in repos:
+    #         repos[event['repo']['url']] = [event]
+    #     else:
+    #         repos[event['repo']['url']].append(event)
+    # reposOut = []
+    # for repo in repos:
+    #     repoApi = api_github(repo)
+    #     repoLink = html_link(repoApi['full_name'],repoApi['html_url'])
+    #     description = repoApi['description']
+    #     events = []
+    #     # Make this more iterative, store repos as a object and then calc stuff as it goes and stores it
+    #             ...
+    #         elif event['type'] == 'PublicEvent':
+    #             events.append("Repository is now Public")
+    #         elif event['type'] == 'PullRequestEvent':
+    #             ...
+    #         elif event['type'] == 'PullRequestReviewEvent':
+    #             ...
+    #         elif event['type'] == 'PullRequestReviewCommentEvent':
+    #             ...
+    #         elif event['type'] == 'PushEvent':
+    #             # make this say something like "Commit: #aowiejf message"
+    #             branch = event['payload']['ref'].split('/')[2]
+    #             for commit in event['payload']['commits']:
+    #                 sha = commit['sha'][:7]
+    #                 commitApi = api_github(commit['url'])
+    #                 commitLink = html_link(f"#{sha}",commitApi['html_url'])
+    #                 message = commit['message'].partition('\n')[0]
+    #                 events.append(f"<code>{branch}</code> {commitLink} - {message}")
+    #         elif event['type'] == 'ReleaseEvent':
+    #             ...
+    #         elif event['type'] == 'SponsorshipEvent':
+    #             ...
+    #         elif event['type'] == 'WatchEvent':
+    #             ...
+    #
+    #         # TODO: add "Merge Request" and such
+    #         # See https://docs.github.com/en/developers/webhooks-and-events/events/github-event-types
+    #     reposOut.append(html_details(f"{repoLink} - {description}",html_list(events)))
+    # return "".join(reposOut)
 
 
 
