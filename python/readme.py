@@ -95,7 +95,7 @@ def print_recent_repositories(events):
                 commitApi = api_github(commit['url'])
                 commitLink = html_link(f"#{sha}",commitApi['html_url'])
                 message = commit['message'].partition('\n')[0]
-                repo['events'].append(f"Commit: <code>{branch}</code> {commitLink}: {message}")
+                repo['events'].append(f"{commitLink} <code>{branch}</code> {message}")
         elif event['type'] == 'ReleaseEvent':
             repo['events'].append("Release Event")
         elif event['type'] == 'SponsorshipEvent':
