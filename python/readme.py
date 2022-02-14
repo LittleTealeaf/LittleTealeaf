@@ -59,8 +59,25 @@ def print_recent_repositories(events):
             repo['events'].append("Gollum Event")
         elif event['type'] == 'IssueCommentEvent':
             repo['events'].append("Issue Comment Event")
-        elif event['type'] == 'IssueEvent':
-            repo['events'].append("Issue Event")
+        elif event['type'] == 'IssuesEvent':
+            issue = event['payload']['issue']
+            issueLink = html_link(f"#{issue['number']}",issue['html_url'])
+            if event['payload']['action'] == 'opened':
+                repo['events'].append(f"Issues: Opened {issueLink} - {issue['title']}")
+            elif event['payload']['action'] == 'edited':
+                repo['events'].append('Issue Edited')
+            elif event['payload']['action'] == 'closed':
+                repo['events'].append('Issue Closed')
+            elif event['payload']['action'] == 'reopened':
+                repo['events'].append('Issue Reopened')
+            elif event['payload']['action'] == 'assigned':
+                repo['events'].append('Issue Assigned')
+            elif event['payload']['action'] == 'unassigned':
+                repo['events'].append('Issue Unassigned')
+            elif event['payload']['action'] == 'labeled':
+                repo['events'].append('Issue Labeled')
+            elif event['payload']['action'] == 'unlabeled':
+                repo['events'].append('Issue Unlabeled')
         elif event['type'] == 'MemeberEvent':
             repo['events'].append("Member Event")
         elif event['type'] == 'PublicEvent':
