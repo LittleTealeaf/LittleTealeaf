@@ -31,18 +31,6 @@ def print_json_file(name,jsonObject):
     return f"{fileName}\n\n{jsonBlock}"
 
 def print_recent_repositories(events):
-    # repos = []
-    # for event in eventsJson:
-    #     if event['repo']['url'] not in repos:
-    #         repos.append(event['repo']['url'])
-    # repoString = []
-    # for repo in repos[:5]:
-    #     api = api_github(repo)
-    #     link = html_link(api['full_name'],api['html_url'])
-    #     repoString.append(f"{link} - {api['description']}")
-    # header = html_header("Recent Repositories",3)
-    # string = html_list(repoString)
-    # return f"{header}\n{string}"
     repos = {}
     for event in events:
         if event['repo']['url'] not in repos:
@@ -79,6 +67,7 @@ def section_community(user):
 
 def section_activity(user):
     events = api_github(user['events_url'] + "/public")
+    print(html_header("Recent Activity",3))
     print(print_recent_repositories(events))
 
 # Where the magic happens. This will output the markdown contents
