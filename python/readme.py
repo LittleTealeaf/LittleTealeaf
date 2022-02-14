@@ -91,50 +91,7 @@ def print_recent_repositories(events):
         repoLink = html_link(repo['api']['full_name'],repo['api']['html_url'])
         description = repo['api']['description']
         reposOut.append(html_details(f"{repoLink} - {description}",html_list(repo['events'])))
-    return "".join(reposOut)
-
-    # repos = {}
-    # for event in events:
-    #     if event['repo']['url'] not in repos:
-    #         repos[event['repo']['url']] = [event]
-    #     else:
-    #         repos[event['repo']['url']].append(event)
-    # reposOut = []
-    # for repo in repos:
-    #     repoApi = api_github(repo)
-    #     repoLink = html_link(repoApi['full_name'],repoApi['html_url'])
-    #     description = repoApi['description']
-    #     events = []
-    #     # Make this more iterative, store repos as a object and then calc stuff as it goes and stores it
-    #             ...
-    #         elif event['type'] == 'PublicEvent':
-    #             events.append("Repository is now Public")
-    #         elif event['type'] == 'PullRequestEvent':
-    #             ...
-    #         elif event['type'] == 'PullRequestReviewEvent':
-    #             ...
-    #         elif event['type'] == 'PullRequestReviewCommentEvent':
-    #             ...
-    #         elif event['type'] == 'PushEvent':
-    #             # make this say something like "Commit: #aowiejf message"
-    #             branch = event['payload']['ref'].split('/')[2]
-    #             for commit in event['payload']['commits']:
-    #                 sha = commit['sha'][:7]
-    #                 commitApi = api_github(commit['url'])
-    #                 commitLink = html_link(f"#{sha}",commitApi['html_url'])
-    #                 message = commit['message'].partition('\n')[0]
-    #                 events.append(f"<code>{branch}</code> {commitLink} - {message}")
-    #         elif event['type'] == 'ReleaseEvent':
-    #             ...
-    #         elif event['type'] == 'SponsorshipEvent':
-    #             ...
-    #         elif event['type'] == 'WatchEvent':
-    #             ...
-    #
-    #         # TODO: add "Merge Request" and such
-    #         # See https://docs.github.com/en/developers/webhooks-and-events/events/github-event-types
-    #     reposOut.append(html_details(f"{repoLink} - {description}",html_list(events)))
-    # return "".join(reposOut)
+    return "".join(reposOut)g
 
 
 
