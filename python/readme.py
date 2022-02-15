@@ -115,7 +115,7 @@ def section_community(user):
     print(print_github_users("Following",api_github(user['following_url'])))
 
 def section_activity(user):
-    events = api_github(user['events_url'] + "/public")
+    events = api_github(user['events_url'].partition("{")[0] + "/public")
     print(html_header("Recent Activity",3))
     print(print_recent_repositories(events))
 
