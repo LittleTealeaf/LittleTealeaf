@@ -41,17 +41,12 @@ def print_recent_repositories(events):
             }
         repo = repos[repo_name]
         if event['type'] == 'CreateEvent':
-            repo['events'].append("Create Event")
-            if event['payload']['ref_type'] == 'branch':
-                ...
-            elif event['payload']['ref_type'] == 'tag':
-                ...
+            type = event['payload']['ref_type'].capitalize()
+            repo['events'].append(f"{type} Created: <code>{event['payload']['ref']}</code>")
+
         elif event['type'] == 'DeleteEvent':
-            repo['events'].append("Delete Event")
-            if event['payload']['ref_type'] == 'branch':
-                ...
-            elif event['payload']['ref_type'] == 'tag':
-                ...
+            type = event['payload']['ref_type'].capitalize()
+            repo['events'].append(f"{type} Deleted: <code>{event['payload']['ref']}</code>")
         elif event['type'] == 'ForkEvent':
             forkLink = html_link(event['payload']['forkee']['full_name'],event['payload']['forkee']['html_url'])
             repo['events'].append(f"Created Fork {forkLink}")
@@ -98,7 +93,7 @@ def print_recent_repositories(events):
         elif event['type'] == 'SponsorshipEvent':
             repo['events'].append("Sponsorship Event")
         elif event['type'] == 'WatchEvent':
-            repo['events'].append("Watch Event")
+            repo['events'].append("Started watching repository")
     reposOut = []
     for repo_name in repos:
         repo = repos[repo_name]
