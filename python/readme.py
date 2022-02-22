@@ -1,8 +1,8 @@
 import json
 import requests
 import sys
-from html import *
-from markdown import *
+from html_formatting import *
+from markdown_formatting import *
 
 github_token = sys.argv[1].partition('\r')[0]
 
@@ -41,9 +41,9 @@ def print_recent_repositories(events):
             }
         repo = repos[repo_name]
         if event['type'] == 'CreateEvent':
+            # CAN ALSO BE REPOSITORY
             type = event['payload']['ref_type'].capitalize()
             repo['events'].append(f"{type} Created: <code>{event['payload']['ref']}</code>")
-
         elif event['type'] == 'DeleteEvent':
             type = event['payload']['ref_type'].capitalize()
             repo['events'].append(f"{type} Deleted: <code>{event['payload']['ref']}</code>")
