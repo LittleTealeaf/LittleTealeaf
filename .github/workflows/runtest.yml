@@ -9,6 +9,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install dependancies
-      run: python3 -m pip install numpy pillow
+      run: python3 -m pip install -r ./python/requirements.txt
     - name: Run ./run.sh
       run: ./run.sh
