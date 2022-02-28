@@ -8,5 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Install dependancies
+      run: python3 -m pip install numpy
     - name: Run ./run.sh
       run: ./run.sh
