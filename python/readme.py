@@ -3,6 +3,7 @@ import requests
 import sys
 from html_formatting import *
 from markdown_formatting import *
+from image_formatting import *
 
 github_token = sys.argv[1].partition('\r')[0]
 
@@ -22,7 +23,8 @@ def api_github(url):
 def print_github_users(header,userList):
     "screw it, one line"
     imgAttr = "width:50px;height:50px"
-    users = [html_link(html_img(person['avatar_url'],person['login'],imgAttr),person['html_url']) for person in userList]
+    
+    users = [html_link(html_img(image_format_src(person['avatar_url'],make_circular=True),person['login'],imgAttr),person['html_url']) for person in userList]
     return html_details(header,"".join(users))
 
 def print_json_file(name,jsonObject):
