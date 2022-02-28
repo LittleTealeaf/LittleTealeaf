@@ -35,6 +35,11 @@ def generate_source_name(seed):
     return "".join(random.sample(chars,10)) + ".png"
 
 def image_format_src(src,make_circular=False,width=-1,height=-1):
+    saveName = img_res + " " + generate_source_name(src + str(make_circular) + str(width) + str(height))
+
+    if os.path.exists(saveName):
+        return saveName
+
     response = requests.get(src)
     image = Image.open(BytesIO(response.content)).convert('RGBA')
 
@@ -43,8 +48,6 @@ def image_format_src(src,make_circular=False,width=-1,height=-1):
     
     if width != -1 and height != -1:
         image = image.resize((width,height))
-
-    saveName = img_res + " " + generate_source_name(src + str(make_circular) + str(width) + str(height))
 
     image.convert('RGBA').save(saveName)
     return saveName
