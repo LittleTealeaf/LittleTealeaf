@@ -237,7 +237,7 @@ def section_community(user):
 
 def section_activity(user):
     events = api_github(user['events_url'].partition("{")[0] + "/public")
-    print(html_header("Recently Active Repositories",3))
+    print(html_header("Recent Activity",3))
     # print(print_recent_repo_events(events))
     print(print_recent_repos(events))
 
