@@ -201,7 +201,7 @@ def print_recent_repo_events(events):
 
 def print_recent_repos(events):
 
-    contributor_img_size = "13px"
+    contributor_img_size = "15px"
 
     repolinks = []
     for event in events:
