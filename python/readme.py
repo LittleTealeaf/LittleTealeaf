@@ -23,8 +23,14 @@ def api_github(url):
 def print_github_users(header,userList):
     "screw it, one line"
     imgAttr = "width:30px;height:30px"
+
+    users = []
+    for person in userList:
+        imgsrc = image_format_src(person['avatar_url'],make_circular=True)
+        img = html_img(imgsrc,person['login'],imgAttr)
+        link = html_link(img,person['html_url'])
+        users.append(link)
     
-    users = [html_link(html_img(image_format_src(person['avatar_url'],make_circular=True),person['login'],imgAttr),person['html_url']) for person in userList]
     return html_tag("b",header) + ":<br>" + "".join(users) + "<br>"
 
 def print_json_file(name,jsonObject):
