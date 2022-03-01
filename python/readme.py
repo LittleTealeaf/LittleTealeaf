@@ -25,7 +25,6 @@ def print_github_users(header,userList):
     imgAttr = "width:30px;height:30px"
     
     users = [html_link(html_img(image_format_src(person['avatar_url'],make_circular=True),person['login'],imgAttr),person['html_url']) for person in userList]
-    # return html_details(header,"".join(users))
     return html_tag("b",header) + ":<br>" + "".join(users) + "<br>"
 
 def print_json_file(name,jsonObject):
