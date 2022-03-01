@@ -37,7 +37,7 @@ def print_json_file(name,jsonObject):
     jsonBlock = json_block(jsonObject)
     return f"{fileName}\n\n{jsonBlock}"
 
-def print_recent_repositories(events):
+def print_recent_repo_events(events):
     max_text_length = 50
 
     def format_message(message):
@@ -208,7 +208,7 @@ def section_community(user):
 def section_activity(user):
     events = api_github(user['events_url'].partition("{")[0] + "/public")
     print(html_header("Recent Activity",3))
-    print(print_recent_repositories(events))
+    print(print_recent_repo_events(events))
 
 # Where the magic happens. This will output the markdown contents
 if __name__ == "__main__":
