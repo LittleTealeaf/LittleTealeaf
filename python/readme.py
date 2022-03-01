@@ -37,22 +37,22 @@ def print_json_file(name,jsonObject):
     jsonBlock = json_block(jsonObject)
     return f"{fileName}\n\n{jsonBlock}"
 
+def format_message(message, max_text_length = 50):
+    if not message:
+        return ""
+    msg = message.partition('\n')[0].split(' ')
+    count = 0
+    string = []
+    while count < max_text_length and len(msg) > 0:
+        s = msg.pop(0)
+        count += len(s)
+        string.append(s)
+    if len(msg) > 0:
+        return ' '.join(string) + "..."
+    else:
+        return ' '.join(string)
+
 def print_recent_repo_events(events):
-    max_text_length = 50
-
-    def format_message(message):
-        msg = message.partition('\n')[0].split(' ')
-        count = 0
-        string = []
-        while count < max_text_length and len(msg) > 0:
-            s = msg.pop(0)
-            count += len(s)
-            string.append(s)
-        if len(msg) > 0:
-            return ' '.join(string) + "..."
-        else:
-            return ' '.join(string)
-
     def format_event(event):
         t = event['type']
         payload = event['payload']
@@ -199,6 +199,36 @@ def print_recent_repo_events(events):
     repos = [printEvents[repo] for repo in printEvents]
     return html_list(repos)
 
+def print_recent_repos(events):
+
+    contributor_img_size = "13px"
+
+    repolinks = []
+    for event in events:
+        if event['repo']['url'] not in repolinks:
+            repolinks.append(event['repo']['url'])
+    
+    printvals = []
+    for apilink in repolinks:
+        repo = api_github(apilink)
+        
+        repolink = html_link(repo['full_name'],repo['html_url'])
+
+        description = format_message(repo['description'])
+
+        collaborators = []
+
+        for person in api_github(repo['collaborators_url']):
+            if len(collaborators) < 10:
+              imgsrc = image_format_src(person['avatar_url'],make_circular=True)
+              img = html_img(imgsrc,person['login'],f"width:{contributor_img_size};height:{contributor_img_size}")
+              link = html_link(img,person['html_url'])
+              collaborators.append(link)
+        collaboratorString = "".join(collaborators)
+        
+        printvals.append(f"{collaboratorString} {repolink}<br><i>{description}</i>")
+
+    return html_list(printvals)
 
 def section_community(user):
     print(html_header("Community",3))
@@ -208,7 +238,8 @@ def section_community(user):
 def section_activity(user):
     events = api_github(user['events_url'].partition("{")[0] + "/public")
     print(html_header("Recent Activity",3))
-    print(print_recent_repo_events(events))
+    # print(print_recent_repo_events(events))
+    print(print_recent_repos(events))
 
 # Where the magic happens. This will output the markdown contents
 if __name__ == "__main__":
