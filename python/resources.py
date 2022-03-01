@@ -4,7 +4,9 @@ import os
 
 dir_res_gen = os.path.join('.','assets','gen')
 
-def clean_gens():
+def load_gens():
+    if not os.path.exists(dir_res_gen):
+        os.makedirs(dir_res_gen)
     for f in glob.glob(f"{dir_res_gen}/*"):
         os.remove(f)
 
