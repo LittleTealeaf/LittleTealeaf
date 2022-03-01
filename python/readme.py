@@ -226,7 +226,7 @@ def print_recent_repos(events):
               collaborators.append(link)
         collaboratorString = "".join(collaborators)
         
-        printvals.append(f"{collaboratorString} {repolink}<br><i>{description}</i>")
+        printvals.append(f"{collaboratorString} {repolink} <i>{description}</i>")
 
     return html_list(printvals)
 
