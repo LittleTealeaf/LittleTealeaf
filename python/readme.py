@@ -21,7 +21,6 @@ def api_github(url):
     return requests.get(url.partition("{")[0],headers={'authorization':f"token {github_token}"}).json()
 
 def print_github_users(header,userList):
-    "screw it, one line"
     imgAttr = "width:30px;height:30px"
 
     users = []
