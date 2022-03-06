@@ -12,13 +12,13 @@
 ![](./resources/code_snippet.svg)   
 ![](./resources/recent_activity.svg) -->
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<!-- <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LittleTealeaf&layout=compact&title_color=fff&text_color=fff&bg_color=0D1117&hide=HTML" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=LittleTealeaf&title_color=fff&text_color=fff&icon_color=F7DF1E&bg_color=0D1117&show_icons=true" />
 </a>
- </p> 
+ </p>  -->
 
 
 ![](./resources/metrics.svg)
