@@ -9,8 +9,12 @@ def html_list(values,tag="ul"):
     return html_tag(tag,html_tag("li","</li><li>".join(values)))
 
 def html_link(content,link):
-    return html_tag(f"a href=\"{link}\"",content)
+    return html_tag("a",content,{'href': link })
 
-def html_tag(a,vals):
-    closeTag = a.partition(" ")[0]
-    return f"<{a}>{vals}</{closeTag}>"
+
+def html_img(src,alt="",style=""):
+    return f"<img src=\"{source}\" alt=\"{alt}\" style=\"{style}\">"
+
+def html_tag(tag,value,attributes={}):
+    attribute_string = " ".join([f"{item}=\"{attributes[item]}\"" for item in attributes])
+    return f"<{tag} {attribute_string}>{value}</{tag}>"
