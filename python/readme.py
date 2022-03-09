@@ -32,7 +32,7 @@ def print_users(users,size="30px"):
     images = []
     for u in users:
         img_src = generate_asset_path(u['login'] + str(size) + "circular","png")
-        image_format(image_src(u['avatar_url']),make_circular=True).save(img_src)
+        image_format(image_src(u['avatar_url']),attributes={'circular':True}).save(img_src)
         image = html_img(img_src,alt=u['login'],style=f"width:{size};height:{size}")
         images.append(html_link(image,u['html_url']))
     return " ".join(images)

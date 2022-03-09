@@ -20,23 +20,23 @@ def image_read(path):
 def image_src(url):
     return Image.open(BytesIO(requests.get(url).content))
 
-def image_format(img,make_circular=False,width=-1,height=-1):
-    # TODO convert this to use an attributes object
-    image = img
-    if make_circular:
-        image = image_format_circular(image)
+# def image_format(img,make_circular=False,width=-1,height=-1):
+#     # TODO convert this to use an attributes object
+#     image = img
+#     if make_circular:
+#         image = image_format_circular(image)
     
-    if width != -1:
-        if height != -1:
-            image = image.resize((width,height))
-        else:
-            image = image.resize((width,image.size[1]))
-    elif height != -1:
-        image = image.resize((image.size[0],height))
+#     if width != -1:
+#         if height != -1:
+#             image = image.resize((width,height))
+#         else:
+#             image = image.resize((width,image.size[1]))
+#     elif height != -1:
+#         image = image.resize((image.size[0],height))
     
-    return image
+#     return image
 
-def image_format_new(image,attributes={}):
+def image_format(image,attributes={}):
     img = image
     if 'circular' in attributes and attributes['circular']:
         img = image_format_circular(img)
