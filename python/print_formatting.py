@@ -2,15 +2,19 @@ import json
 
 
 def html_header(content,level=1):
+    "Prints a header in HTML, uses the current level to indicate what level it is"
     return html_tag(f"h{level}",content)
 
 def html_details(summary,content):
+    "Prints the contents in a html drop-down with a summary label"
     return html_tag("details",html_tag("summary",summary) + content)
 
-def html_list(values,tag="ul"):
-    return html_tag(tag,html_tag("li","</li><li>".join(values)))
+def html_list(values,outer="ul",inner="li"):
+    "Prints items in an HTML list"
+    return html_tag(outer,"".join([html_tag(inner,item) for item in values]))
 
 def html_link(content,link):
+    "Creates an HTML link with the content and the link"
     return html_tag("a",content,{'href': link })
 
 def html_img(src,alt="",style=""):
