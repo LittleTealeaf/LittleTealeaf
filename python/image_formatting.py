@@ -1,23 +1,8 @@
-from email.mime import image
-import os
-import glob
-import numpy as np
-import requests
-import random
-
+import os, glob, numpy as np, requests, random
 from PIL import Image, ImageDraw, ImageFilter
 from io import BytesIO
 
-img_res = './assets/imgs/'
-name_length = 10
-
-if not os.path.exists(img_res):
-    os.makedirs(img_res)
-
-for f in glob.glob(f"{img_res}/*"):
-    os.remove(f)
-
-def circular(img):
+def image_format_circular(img):
     npImage = np.array(img.convert('RGBA'))
     h,w = img.size
 
@@ -28,26 +13,24 @@ def circular(img):
     img.putalpha(alpha.filter(ImageFilter.GaussianBlur(4)))
 
     return img
-    
-def generate_source_name(seed):
-    random.seed(seed)
-    chars = "abcdefghijklmnopqrstuvwxyz1234567890"
-    return "".join(random.sample(chars,10)) + ".png"
 
-def image_format_src(src,make_circular=False,width=-1,height=-1):
-    saveName = img_res + " " + generate_source_name(src + str(make_circular) + str(width) + str(height))
+def image_read(path):
+    return Image.open(path)
 
-    if os.path.exists(saveName):
-        return saveName
+def image_src(url):
+    return Image.open(BytesIO(requests.get(url).content))
 
-    response = requests.get(src)
-    image = Image.open(BytesIO(response.content)).convert('RGBA')
-
+def image_format(img,make_circular=False,width=-1,height=-1):
+    image = img
     if make_circular:
-        image = circular(image)
+        image = image_format_circular(image)
     
-    if width != -1 and height != -1:
-        image = image.resize((width,height))
-
-    image.convert('RGBA').save(saveName)
-    return saveName
+    if width != -1:
+        if height != -1:
+            image = image.resize((width,height))
+        else:
+            image = image.resize((width,image.size[1]))
+    elif height != -1:
+        image = image.resize((image.size[0],height))
+    
+    return image
