@@ -21,6 +21,7 @@ def image_src(url):
     return Image.open(BytesIO(requests.get(url).content))
 
 def image_format(img,make_circular=False,width=-1,height=-1):
+    # TODO convert this to use an attributes object
     image = img
     if make_circular:
         image = image_format_circular(image)
