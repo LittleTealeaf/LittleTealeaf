@@ -2,8 +2,8 @@ import json
 import requests
 import sys
 
-from assets import *
-from formatting import *
+from python_assets import *
+from print_formatting import *
 
 github_token = ""
 
