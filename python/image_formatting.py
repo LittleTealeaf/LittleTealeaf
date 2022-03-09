@@ -35,3 +35,16 @@ def image_format(img,make_circular=False,width=-1,height=-1):
         image = image.resize((image.size[0],height))
     
     return image
+
+def image_format_new(image,attributes={}):
+    img = image
+    if 'circular' in attributes and attributes['circular']:
+        img = image_format_circular(img)
+    
+    size = img.size
+    if 'width' in attributes:
+        size[0] = attributes['width']
+    if 'height' in attributes:
+        size[1] = attributes['height']
+    img = img.resize(size)
+    return img
