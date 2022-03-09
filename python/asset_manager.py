@@ -11,8 +11,8 @@ def initialize_assets():
     for f in glob.glob(f"{dir_res_gen}/*"):
         os.remove(f)
 
-def generate_asset_name(seed,ext,length=10):
-    random.seed(str(seed))
+def generate_asset_name(seed,ext,length):
+    random.seed(str(seed) + ext)
     valid_chars = "abcdefghijklmnopqrstuvwxyz1234567890"
     chars = "".join(random.sample(valid_chars,length))
     return f"{chars}.{ext}"
