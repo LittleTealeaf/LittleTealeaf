@@ -12,19 +12,22 @@
 ![](./resources/code_snippet.svg)   
 ![](./resources/recent_activity.svg) -->
 
-<!-- <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LittleTealeaf&layout=compact&title_color=fff&text_color=fff&bg_color=0D1117&hide=HTML" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=LittleTealeaf&title_color=fff&text_color=fff&icon_color=F7DF1E&bg_color=0D1117&show_icons=true" />
-</a>
- </p>  -->
+
 
 
 ![](./resources/metrics.svg)
 <!-- [![Update Metrics](https://github.com/LittleTealeaf/LittleTealeaf/actions/workflows/update_metrics.yml/badge.svg?branch=main)](https://github.com/LittleTealeaf/LittleTealeaf/actions/workflows/update_metrics.yml) -->
 <!--- 
 *Note, HTML is not listed as it is over-represented via javadocs. Additionally, some languages are in my repositories, however since I did not write them, I do not know them as well* --->
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LittleTealeaf&layout=compact&title_color=fff&text_color=fff&bg_color=0D1117&hide=HTML" />
+</a>
+<!-- <a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=LittleTealeaf&title_color=fff&text_color=fff&icon_color=F7DF1E&bg_color=0D1117&show_icons=true" />
+</a> -->
+ </p> 
+
 <p align="center">
  
 
