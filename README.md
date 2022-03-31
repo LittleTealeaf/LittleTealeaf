@@ -3,7 +3,7 @@
 - I love dungeons & dragons, martial arts, rubiks cubes, and learning!
  -->
  
- 👋Hi, I'm Thomas Kwashnak. I'm a Bachelor of Arts Computer Science undergraduate at Quinnipiac University with a double minor in Economics and Data Science.
+ 👋Hi, I'm Thomas Kwashnak. I'm a Bachelor Arts Computer Science and Data Science Double Major at Quinnipiac University with a minor in Economics.
  
 
 <!-- ![](./resources/default_metrics.svg)  
