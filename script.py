@@ -11,6 +11,7 @@ def out(content: str):
 
 user = github.getREST("https://api.github.com/users/LittleTealeaf")
 
+print("Getting Stats")
 stats_api = github.getGraphQL("""{
   user(login: "LittleTealeaf") {
     contributionsCollection {
@@ -29,6 +30,7 @@ stats_api = github.getGraphQL("""{
   }
 }""")
 
+print("Getting Schemas")
 schemas = github.getGraphQL("""{
   __schema {
     types {
