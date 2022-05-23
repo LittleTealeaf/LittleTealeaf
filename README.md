@@ -1,4 +1,3 @@
-
 ```json
 {
     "name": "Thomas Kwashnak",
@@ -23,3 +22,10 @@
     ]
 }
 ```
+```json
+{
+    "total contributions": 8422,
+    "consecutive days streak": 125
+}
+```
+*made with python*
