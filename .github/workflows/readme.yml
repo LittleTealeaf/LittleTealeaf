@@ -1,0 +1,28 @@
+name: Update README
+
+on:
+  schedule:
+  - cron: 0 */8 * * *
+  workflow_dispatch:
+
+jobs:
+  update_readme:
+    name: Update README
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repsoitory
+      uses: actions/checkout@v3
+    - name: Set Up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.9'
+        cache: 'pip'
+    - name: Script Cache
+      uses: actions/cache@v3
+      with:
+        path: cache
+        key: ${{hashFiles('**/*.py')}}
+    - name: Install Python Dependencies
+      run: pip install -r requirements.txt
+    - name: Update README
+      run: python script.py
