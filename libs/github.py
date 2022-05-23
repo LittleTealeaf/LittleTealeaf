@@ -33,4 +33,4 @@ def getGraphQL(query: dict):
         cache.store_cache(query,request.json())
         return request.json()
     else:
-        raise Exception("Query failed: " + request.status_code)
+        raise Exception("Query failed: " + str(request.status_code))
