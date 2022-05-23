@@ -22,8 +22,7 @@ def getREST(url: str, params: dict = {}):
         return data
 
 def getGraphQL(query: dict):
-    key = json.dumps(query)
-    che = cache.get_cache(key)
+    che = cache.get_cache(query)
     if che != None:
         return che
 
@@ -31,7 +30,7 @@ def getGraphQL(query: dict):
         'authorization': f'token {os.getenv("API_TOKEN")}'
     })
     if request.status_code == 200:
-        cache.store_cache(key,request.json())
+        cache.store_cache(query,request.json())
         return request.json()
     else:
-        raise Exception("Query failed")
+        raise Exception("Query failed: " + request.status_code)
