@@ -24,5 +24,10 @@ jobs:
         key: ${{hashFiles('**/*.py')}}
     - name: Install Python Dependencies
       run: pip install -r requirements.txt
-    - name: Update README
+    - name: Run Script
       run: python script.py
+    - name: Push Changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
+        branch: ${{github.ref}}
