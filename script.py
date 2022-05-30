@@ -7,8 +7,6 @@ def out(content: str):
     with open("README.md",'w') as file:
         file.write(content)
 
-
-
 user = github.getREST("https://api.github.com/users/LittleTealeaf")
 
 print("Getting Stats")
