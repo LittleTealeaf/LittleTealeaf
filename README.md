@@ -24,8 +24,8 @@
 ```
 ```json
 {
-    "total contributions": 9566,
-    "consecutive days streak": 190
+    "total contributions": 9567,
+    "consecutive days streak": 0
 }
 ```
 *made with python*
