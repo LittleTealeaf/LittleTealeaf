@@ -21,7 +21,7 @@ waka_recent = wakatime.getData('/api/v1/users/LittleTealeaf/stats/last_30_days')
 top_languages = waka_stats['languages'][0:5]
 top_languages_recent = waka_recent['languages'][0:5]
 
-def format_language(language,time = True):git a
+def format_language(language,time = True):
     name = language['name']
     text = language['text'] if time else f"{language['percent']}%"
     return f'{name} - {text}'
