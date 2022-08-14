@@ -13,7 +13,7 @@ def store_cache(key,value):
 
     cache = load_cache(key)
     if cache != None:
-        if cache['value'] == value:
+        if json.dumps(cache['value']) == json.dumps(value):
             cache['duration'] = min(60 * 60 * 24 * 7,cache['duration'] * 1.5)
         else:
             cache['duration'] = max(1,cache['duration'] / 2)
