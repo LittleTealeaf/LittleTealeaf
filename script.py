@@ -1,9 +1,12 @@
 import json
 import string
+from libs.cache import clean_cache
 import libs.github as github
 from libs.markdown import *
 from libs.util import *
 import libs.wakatime as wakatime
+
+clean_cache()
 
 def out(content: str):
     with open("README.md",'w') as file:
@@ -18,7 +21,7 @@ waka_recent = wakatime.getData('/api/v1/users/LittleTealeaf/stats/last_30_days')
 top_languages = waka_stats['languages'][0:5]
 top_languages_recent = waka_recent['languages'][0:5]
 
-def format_language(language,time = True):
+def format_language(language,time = True):git a
     name = language['name']
     text = language['text'] if time else f"{language['percent']}%"
     return f'{name} - {text}'
