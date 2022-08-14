@@ -27,3 +27,4 @@ def getData(endpoint: str, params: dict = {}):
 
         cache.store_cache(key,data)
         return data
+    print(response.text)
