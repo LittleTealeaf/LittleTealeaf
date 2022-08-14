@@ -8,7 +8,7 @@ load_dotenv()
 
 
 def getREST(url: str, params: dict = {}):
-    key = f'{url}{params}'
+    key = f'GITHUB - {url}{params}'
     che = cache.get_cache(key)
     if che != None:
         return che
@@ -20,6 +20,7 @@ def getREST(url: str, params: dict = {}):
         data = request.json()
         cache.store_cache(key,data)
         return data
+    print(request.text)
 
 def getGraphQL(query: dict):
     che = cache.get_cache(query)
