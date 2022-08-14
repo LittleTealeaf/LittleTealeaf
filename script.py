@@ -17,14 +17,35 @@ user = github.getREST("https://api.github.com/users/LittleTealeaf")
 
 waka_stats = wakatime.getData('/api/v1/users/LittleTealeaf/stats/all_time')['data']
 waka_recent = wakatime.getData('/api/v1/users/LittleTealeaf/stats/last_30_days')['data']
+waka_daily = wakatime.getData('/api/v1/users/LittleTealeaf/status_bar/today')['data']
 
-top_languages = waka_stats['languages'][0:5]
-top_languages_recent = waka_recent['languages'][0:5]
+def format_recent_project(project):
+    name = project["name"]
+    if 'github_api' in project:
+        url: str = project['github_api']['html_url']
+        # name = f'[{project["github_api"]["full_name"]}]({url})'
+        name = f'<a href="{url}">{project["github_api"]["full_name"]}</a>'
+    time_in_last_7_days = project['text']
+
+    return f'{name} - {time_in_last_7_days}'
 
 def format_language(language,time = True):
     name = language['name']
     text = language['text'] if time else f"{language['percent']}%"
     return f'{name} - {text}'
+
+def format_name_percentage(item):
+    return f"{item['name']} - {item['percent']}%"
+
+top_editors = waka_stats['editors'][0:5]
+top_operating_systems = waka_stats['operating_systems'][0:5]
+
+top_languages = waka_stats['languages'][0:5]
+top_languages_recent = waka_recent['languages'][0:5]
+
+top_editors_print = [format_name_percentage(editor) for editor in top_editors]
+top_operating_systems_print = [format_name_percentage(opsys) for opsys in top_operating_systems]
+
 
 top_languages_print = [format_language(language,time=False) for language in top_languages]
 top_languages_recent_print = [format_language(language,time=True) for language in top_languages_recent]
@@ -38,15 +59,7 @@ for project in top_projects_recent:
         project['github_api'] = project_github_api
     project['project_api'] = project_data
 
-def format_recent_project(project):
-    name = project["name"]
-    if 'github_api' in project:
-        url: str = project['github_api']['html_url']
-        # name = f'[{project["github_api"]["full_name"]}]({url})'
-        name = f'<a href="{url}">{project["github_api"]["full_name"]}</a>'
-    time_in_last_7_days = project['text']
 
-    return f'{name} - {time_in_last_7_days}'
 
 print_project_list = [format_recent_project(project) for project in top_projects_recent]
 
@@ -57,11 +70,13 @@ stats = ""
 out(f"""
 {aboutme}
 
-<details><summary>Recent Projects (Last 7 days)</summary>
+### My current projects (Last 7 days):
 <ul><li>{
     '</li><li>'.join(print_project_list)
-}</li></ul></details>
+}</li></ul>
 
+
+### My Stats
 <details><summary>Top Recent Languages</summary>
 <ul><li>{
     '</li><li>'.join(top_languages_recent_print)
@@ -70,6 +85,16 @@ out(f"""
 <details><summary>Top All-Time Languages</summary>
 <ul><li>{
     '</li><li>'.join(top_languages_print)
+}</li></ul></details>
+
+<details><summary>Most used Editors</summary>
+<ul><li>{
+    '</li><li>'.join(top_editors_print)
+}</li></ul></details>
+
+<details><summary>Most used Operating Systems</summary>
+<ul><li>{
+    '</li><li>'.join(top_operating_systems_print)
 }</li></ul></details>
 
 *made with python*
