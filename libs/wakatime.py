@@ -15,14 +15,15 @@ def getData(endpoint: str, params: dict = {}):
     if che != None:
         return che
     params = params.copy()
+    params['api_key'] = os.getenv("WAKA_TOKEN")
 
     url = f"https://www.wakatime.com{endpoint}"
     response = requests.get(
         url,
         params=params,
-        headers={
-            "Authorization": f'Basic {base64.b64encode(os.getenv("WAKA_TOKEN").encode("ascii"))}'
-        },
+        # headers={
+        #     "Authorization": f'Basic {base64.b64encode(os.getenv("WAKA_TOKEN").encode("ascii"))}'
+        # },
     )
     print(endpoint)
 
