@@ -1,5 +1,6 @@
 import json
 import os
+from pathlib import Path
 from random import Random
 from time import time
 
@@ -48,3 +49,15 @@ def load_cache(key):
 def sanitize_key(key):
     rand = Random(key)
     return "".join(rand.choices(VALID_FILE_CHARACTERS,k=10)) + '.json'
+
+def clean_cache():
+    for file in os.listdir(os.path.join('.','cache')):
+        mark_delete = False
+        with open(os.path.join('.','cache',file)) as f:
+            cache = json.load(f)
+            if cache['expires'] < time() - 60 * 60 * 6:
+                mark_delete = True
+        if mark_delete:
+            os.remove(os.path.join('.','cache',file))
+
+clean_cache()
