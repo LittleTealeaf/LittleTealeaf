@@ -3,10 +3,12 @@ import os
 from random import Random
 from time import time
 
+VERSION = '1'
+
 VALID_FILE_CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_-"
 
 def store_cache(key,value):
-    key = sanitize_key(key)
+    key = sanitize_key(f'{VERSION}{key}')
 
     cache = load_cache(key)
     if cache != None:
