@@ -4,7 +4,7 @@ from pathlib import Path
 from random import Random
 from time import time
 
-VERSION = '1'
+VERSION = '2'
 
 VALID_FILE_CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_-"
 
