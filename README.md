@@ -28,8 +28,8 @@
 - **Languages**: TypeScript, Other, Python, SCSS, JSON, YAML, Java, Markdown, Git Config, Bash
 
 ### Most Used Tools and Languages
-- **Operating Systems**: Windows
+- **Operating Systems**: Windows, WSL
 - **Code Editors**: VS Code, Browser, IntelliJ
-- **Languages**: TypeScript, Python, Other, SCSS, JSON, YAML, Java, Markdown, Git Config, Bash
+- **Languages**: TypeScript, Python, Other, SCSS, JSON, YAML, Java, HTML, Markdown, CSS
 
 *auto-generated using python*
