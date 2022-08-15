@@ -7,7 +7,7 @@ from time import time
 VERSION = '5'
 DEFAULT_TIME = 6
 MIN_TIME = 1
-MAX_TIME = 72
+MAX_TIME = 24
 
 VALID_FILE_CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890_-"
 
