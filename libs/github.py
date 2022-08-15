@@ -8,10 +8,13 @@ load_dotenv()
 
 
 def getREST(url: str, params: dict = {}):
+
     key = f'GITHUB - {url}{params}'
     che = cache.get_cache(key)
     if che != None:
         return che
+    
+    print(url)
 
     request = requests.get(url,params=params,headers={
         'authorization': f'token {os.getenv("API_TOKEN")}'

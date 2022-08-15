@@ -1,8 +1,7 @@
 import json
 
 def load_json(file):
-    with open(file) as f:
-        return json.load(f)
+    return open_file(file,json.load)
 
 def open_file(file,action):
     with open(file) as f:
