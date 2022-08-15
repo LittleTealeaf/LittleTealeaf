@@ -49,7 +49,7 @@ out(
     f"""
 {about_me}
 
-### Latest Projects (Last 7 days)
+### What I'm Working On (Last 7 days)
 {bullet_list(current_projects)}
 
 ### Recently Used Tools and Languages (Last 30 days)
