@@ -38,9 +38,20 @@ def format_current_project(project):
 
 current_projects = [format_current_project(project) for project in current_projects]
 
-def format_waka_list(data):
-    return ", ".join(item['name'] for item in data)
+def format_waka_list(data,percentage=False,time=False):
+    values = []
+    for item in data:
+        name = item['name']
+        if percentage:
+            values.append(f"{name} ({item['percent']}%)")
+            continue
+        if time:
+            values.append(f"{name} ({item['text']})")
+            continue
+        values.append(name)
 
+    return ", ".join(values)
+    # return ", ".join(item['name'] for item in data)
 
 
 
@@ -55,14 +66,14 @@ out(
 {bullet_list(current_projects)}
 
 ### Recently Used Tools and Languages (Last 30 days)
-- **Operating Systems**: {format_waka_list(waka_monthly['operating_systems'][0:5])}
+- **Operating Systems**: {format_waka_list(waka_monthly['operating_systems'][0:5],percentage=True)}
 - **Code Editors**: {format_waka_list(waka_monthly['editors'][0:5])}
 - **Languages**: {format_waka_list(waka_monthly['languages'][0:10])}
 
 ### Most Used Tools and Languages
-- **Operating Systems**: {format_waka_list(waka_all['operating_systems'][0:5])}
-- **Code Editors**: {format_waka_list(waka_all['editors'][0:5])}
-- **Languages**: {format_waka_list(waka_all['languages'][0:10])}
+- **Operating Systems**: {format_waka_list(waka_all['operating_systems'][0:5],percentage=True)}
+- **Code Editors**: {format_waka_list(waka_all['editors'][0:5],percentage=True)}
+- **Languages**: {format_waka_list(waka_all['languages'][0:5],percentage=True)}
 
 *auto-generated using python*
 """
