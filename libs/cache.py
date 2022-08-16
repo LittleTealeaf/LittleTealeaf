@@ -4,7 +4,7 @@ from pathlib import Path
 from random import Random
 from time import time
 
-VERSION = '6'
+VERSION = '7'
 DEFAULT_TIME = 6
 MIN_TIME = 1
 MAX_TIME = 24
