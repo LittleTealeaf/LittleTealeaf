@@ -16,10 +16,6 @@ def out(content: str):
 
 about_me = code_block("json", json.dumps(load_json("config/aboutme.json"), indent=2))
 
-
-# waka_all = wakatime.getData("/api/v1/users/current/stats/all_time")["data"]
-# waka_monthly = wakatime.getData("/api/v1/users/current/stats/last_30_days")["data"]
-# waka_weekly = wakatime.getData("/api/v1/users/current/stats/last_7_days")["data"]
 waka_all = wakatime.getStats("all_time")
 waka_monthly = wakatime.getStats("last_30_days")
 waka_weekly = wakatime.getStats("last_7_days")
@@ -54,7 +50,6 @@ out(
 
 - Undergraduate Student at Quinnipiac University studying Computer Science and Data Science, with a minor in economics.
 - Not currently looking for a job, but wide open for internship opportunities for Summer 2023
-- I'm an "anything-but-apple" enthusiast. Doesn't mean I completely dispise apple, just means I personally prefer other companies.
 
 ### What I'm Working On (Last 7 days)
 {bullet_list(current_projects)}
