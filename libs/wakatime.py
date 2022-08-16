@@ -41,7 +41,9 @@ def getStats(timeFrame: str):
     }
 
     stats = None
-    while not stats:
+    attempts = 0
+    while not stats and attempts < 10:
+        attempts = attempts + 1
         print(f"Fetching stats for {timeFrame}")
         response = requests.get(f'https://www.wakatime.com/api/v1/users/current/stats/{timeFrame}',params=params)
         data = response.json()["data"]
@@ -50,5 +52,6 @@ def getStats(timeFrame: str):
             break
         print(f"Waiting 60 seconds before attempting again")
         time.sleep(60)
-    cache.store_cache(key,stats)
+    if stats:
+        cache.store_cache(key,stats)
     return stats
