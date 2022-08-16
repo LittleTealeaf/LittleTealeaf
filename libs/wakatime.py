@@ -2,7 +2,7 @@ import requests
 import os
 from dotenv import load_dotenv
 import libs.cache as cache
-import base64
+import time
 
 
 load_dotenv()
@@ -21,9 +21,6 @@ def getData(endpoint: str, params: dict = {}):
     response = requests.get(
         url,
         params=params,
-        # headers={
-        #     "Authorization": f'Basic {base64.b64encode(os.getenv("WAKA_TOKEN").encode("ascii"))}'
-        # },
     )
     print(endpoint)
 
@@ -33,3 +30,25 @@ def getData(endpoint: str, params: dict = {}):
         cache.store_cache(key, data)
         return data
     print(response.text)
+
+def getStats(timeFrame: str):
+    key = f"WAKATIME/STATS/{timeFrame}"
+    che = cache.get_cache(key)
+    if che != None:
+        return che
+    params = {
+        'api_key': os.getenv('WAKA_TOKEN')
+    }
+
+    stats = None
+    while not stats:
+        print(f"Fetching stats for {timeFrame}")
+        response = requests.get(f'https://www.wakatime.com/api/v1/users/current/stats/{timeFrame}',params=params)
+        data = response.json()["data"]
+        if data["is_up_to_date"]:
+            stats = data
+            break
+        print(f"Waiting 60 seconds before attempting again")
+        time.sleep(60)
+    cache.store_cache(key,stats)
+    return stats

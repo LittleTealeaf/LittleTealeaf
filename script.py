@@ -17,9 +17,12 @@ def out(content: str):
 about_me = code_block("json", json.dumps(load_json("config/aboutme.json"), indent=2))
 
 
-waka_all = wakatime.getData("/api/v1/users/LittleTealeaf/stats/all_time")["data"]
-waka_monthly = wakatime.getData("/api/v1/users/LittleTealeaf/stats/last_30_days")["data"]
-waka_weekly = wakatime.getData("/api/v1/users/LittleTealeaf/stats/last_7_days")["data"]
+# waka_all = wakatime.getData("/api/v1/users/current/stats/all_time")["data"]
+# waka_monthly = wakatime.getData("/api/v1/users/current/stats/last_30_days")["data"]
+# waka_weekly = wakatime.getData("/api/v1/users/current/stats/last_7_days")["data"]
+waka_all = wakatime.getStats("all_time")
+waka_monthly = wakatime.getStats("last_30_days")
+waka_weekly = wakatime.getStats("last_7_days")
 
 current_projects = waka_weekly["projects"][0:10]
 
