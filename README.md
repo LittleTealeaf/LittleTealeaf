@@ -30,6 +30,6 @@
 ### Most Used Tools and Languages
 - **Operating Systems**: Windows, WSL
 - **Code Editors**: VS Code, Browser, IntelliJ
-- **Languages**: TypeScript, Python, Other, SCSS, JSON, YAML, Java, HTML, Markdown, CSS
+- **Languages**: TypeScript, Python, Other, SCSS, JavaScript, CSS, JSON, HTML, YAML, Java
 
 *auto-generated using python*
