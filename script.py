@@ -51,7 +51,6 @@ def format_waka_list(data,percentage=False,time=False):
         values.append(name)
 
     return ", ".join(values)
-    # return ", ".join(item['name'] for item in data)
 
 
 
