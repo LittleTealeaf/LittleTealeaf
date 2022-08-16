@@ -50,7 +50,11 @@ def format_waka_list(data):
 
 out(
     f"""
-{about_me}
+### Hello There! I'm Thomas Kwashnak
+
+- Undergraduate Student at Quinnipiac University studying Computer Science and Data Science, with a minor in economics.
+- Not currently looking for a job, but wide open for internship opportunities for Summer 2023
+- I'm an "anything-but-apple" enthusiast. Doesn't mean I completely dispise apple, just means I personally prefer other companies.
 
 ### What I'm Working On (Last 7 days)
 {bullet_list(current_projects)}
