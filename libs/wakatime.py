@@ -47,11 +47,11 @@ def getStats(timeFrame: str):
         print(f"Fetching stats for {timeFrame}")
         response = requests.get(f'https://www.wakatime.com/api/v1/users/current/stats/{timeFrame}',params=params)
         data = response.json()["data"]
-        if data["is_up_to_date"]:
+        if data["is_up_to_date"] && data["status"] == "ok":
             stats = data
             break
-        print(f"Waiting 60 seconds before attempting again")
-        time.sleep(60)
+        print(f"Waiting 3 minutes before attempting again")
+        time.sleep(180)
     if stats:
         cache.store_cache(key,stats)
     return stats
