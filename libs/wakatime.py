@@ -11,9 +11,9 @@ load_dotenv()
 def getData(endpoint: str, params: dict = {}):
 
     key = f"WAKATIME - {endpoint}{params}"
-    che = cache.get_cache(key)
-    if che != None:
-        return che
+#     che = cache.get_cache(key)
+#     if che != None:
+#         return che
     params = params.copy()
     params['api_key'] = os.getenv("WAKA_TOKEN")
 
