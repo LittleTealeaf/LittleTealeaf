@@ -5,6 +5,7 @@ import libs.github as github
 from libs.markdown import *
 from libs.util import *
 import libs.wakatime as wakatime
+import datetime
 
 clean_cache()
 
@@ -53,6 +54,7 @@ def format_waka_list(data,percentage=False,time=False):
     return ", ".join(values)
 
 
+now = datetime.datetime.now()
 
 out(
     f"""
@@ -60,6 +62,8 @@ out(
 
 - Undergraduate Student at Quinnipiac University studying Computer Science and Data Science, with a minor in economics.
 - Not currently looking for a job, but wide open for internship opportunities for Summer 2023
+
+You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
 {bullet_list(current_projects)}
@@ -74,6 +78,7 @@ out(
 - **Code Editors**: {format_waka_list(waka_all['editors'][0:5],percentage=True)}
 - **Languages**: {format_waka_list(waka_all['languages'][0:5],percentage=True)}
 
-*auto-generated using python*
+*auto-generated using python.*
+*last updated {now.strftime('%Y-%m-%d %H:%M:%S')}*
 """
 )
