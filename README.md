@@ -20,4 +20,3 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 - **Languages**: Python (44.7%), TypeScript (34.53%), JavaScript (5.4%), CSS (5.14%), JSON (3.18%)
 
 *auto-generated using python.*
-*last updated 2022-08-20 10:05:50*
