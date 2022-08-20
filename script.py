@@ -5,7 +5,7 @@ import libs.github as github
 from libs.markdown import *
 from libs.util import *
 import libs.wakatime as wakatime
-import datetime
+
 
 clean_cache()
 
@@ -54,7 +54,6 @@ def format_waka_list(data,percentage=False,time=False):
     return ", ".join(values)
 
 
-now = datetime.datetime.now()
 
 out(
     f"""
