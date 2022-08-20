@@ -68,14 +68,14 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 {bullet_list(current_projects)}
 
 ### Recently Used Tools and Languages (Last 30 days)
-- **Operating Systems**: {format_waka_list(waka_monthly['operating_systems'][0:5],percentage=True)}
+- **Operating Systems**: {format_waka_list(waka_monthly['operating_systems'][0:5],percentage=False)}
 - **Code Editors**: {format_waka_list(waka_monthly['editors'][0:5])}
 - **Languages**: {format_waka_list(waka_monthly['languages'][0:10])}
 
 ### Most Used Tools and Languages
-- **Operating Systems**: {format_waka_list(waka_all['operating_systems'][0:5],percentage=True)}
-- **Code Editors**: {format_waka_list(waka_all['editors'][0:5],percentage=True)}
-- **Languages**: {format_waka_list(waka_all['languages'][0:5],percentage=True)}
+- **Operating Systems**: {format_waka_list(waka_all['operating_systems'][0:5],percentage=False)}
+- **Code Editors**: {format_waka_list(waka_all['editors'][0:5],percentage=False)}
+- **Languages**: {format_waka_list(waka_all['languages'][0:5],percentage=False)}
 
 *auto-generated using python.*
 """
