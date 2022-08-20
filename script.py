@@ -78,6 +78,6 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 - **Code Editors**: {format_waka_list(waka_all['editors'][0:5],percentage=True)}
 - **Languages**: {format_waka_list(waka_all['languages'][0:5],percentage=True)}
 
-*auto-generated using python. last updated {now.strftime('%Y-%m-%d %H:%M:%S')}*
+*auto-generated using python.*
 """
 )
