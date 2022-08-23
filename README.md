@@ -12,7 +12,7 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 ### Recently Used Tools and Languages (Last 30 days)
 - **Operating Systems**: Windows, Linux, WSL
 - **Code Editors**: VS Code, WebStorm, IntelliJ, DataSpell, PyCharmCore
-- **Languages**: Python, TypeScript, JavaScript, CSS, JSON, SCSS, HTML, Java, Markdown, Other
+- **Languages**: Python, TypeScript, JavaScript, CSS, JSON, SCSS, HTML, Markdown, Java, Other
 
 ### Most Used Tools and Languages
 - **Operating Systems**: Windows, Linux, WSL
