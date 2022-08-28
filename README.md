@@ -7,7 +7,7 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li><a href="https://github.com/LittleTealeaf/mlcube">LittleTealeaf/mlcube</a> (Jupyter Notebook) - 6 hrs 39 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">LittleTealeaf/littletealeaf.github.io</a> (JavaScript) - 1 hr 51 mins<br>A personal website project</li><li><a href="https://github.com/LittleTealeaf/auction">LittleTealeaf/auction</a> (TypeScript) - 42 mins<br>An auction website made with Next.js</li><li><a href="https://github.com/LittleTealeaf/LittleTealeaf">LittleTealeaf/LittleTealeaf</a> (Python) - 18 mins<br>Config files for my GitHub profile.</li><li>O2K22 - 15 mins</li><li><a href="https://github.com/LittleTealeaf/JavaMarkdown">LittleTealeaf/JavaMarkdown</a> (Java) - 11 mins<br>A Markdown Builder Library for Java</li><li><a href="https://github.com/LittleTealeaf/SER-210-Final">LittleTealeaf/SER-210-Final</a> (Java) - 3 mins<br>Github Chat Android App</li></ul>
+<ul><li><a href="https://github.com/LittleTealeaf/mlcube">LittleTealeaf/mlcube</a> (Jupyter Notebook) - 7 hrs 19 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">LittleTealeaf/littletealeaf.github.io</a> (JavaScript) - 2 hrs 7 mins<br>A personal website project</li><li><a href="https://github.com/LittleTealeaf/auction">LittleTealeaf/auction</a> (TypeScript) - 20 mins<br>An auction website made with Next.js</li><li>O2K22 - 15 mins</li></ul>
 
 ### Recently Used Tools and Languages (Last 30 days)
 - **Operating Systems**: Windows, Linux, WSL
