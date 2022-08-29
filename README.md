@@ -7,7 +7,7 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li><a href="https://github.com/LittleTealeaf/mlcube">LittleTealeaf/mlcube</a> (Jupyter Notebook) - 7 hrs 19 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">LittleTealeaf/littletealeaf.github.io</a> (JavaScript) - 2 hrs 7 mins<br>A personal website project</li><li><a href="https://github.com/LittleTealeaf/auction">LittleTealeaf/auction</a> (TypeScript) - 20 mins<br>An auction website made with Next.js</li><li>O2K22 - 15 mins</li></ul>
+<ul><li><a href="https://github.com/LittleTealeaf/mlcube">LittleTealeaf/mlcube</a> (Jupyter Notebook) - 8 hrs 42 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">LittleTealeaf/littletealeaf.github.io</a> (JavaScript) - 2 hrs 55 mins<br>A personal website project</li><li><a href="https://github.com/LittleTealeaf/auction">LittleTealeaf/auction</a> (TypeScript) - 20 mins<br>An auction website made with Next.js</li><li>O2K22 - 15 mins</li></ul>
 
 ### Recently Used Tools and Languages (Last 30 days)
 - **Operating Systems**: Windows, Linux, WSL
