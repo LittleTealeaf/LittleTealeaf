@@ -67,15 +67,15 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 ### What I'm Working On (Last 7 days)
 {bullet_list(current_projects)}
 
-### Recently Used Tools and Languages (Last 30 days)
-- **Operating Systems**: {format_waka_list(waka_monthly['operating_systems'][0:5],percentage=False)}
-- **Code Editors**: {format_waka_list(waka_monthly['editors'][0:5])}
-- **Languages**: {format_waka_list(waka_monthly['languages'][0:10])}
+### What tools have I been using? (Last 30 days)
+- **Languages:** {format_waka_list(waka_monthly['languages'][0:5])}
+- **Editors:** {format_waka_list(waka_monthly['editors'][0:5])}
+- **Operating Systems:** {format_waka_list(waka_monthly['operating_systems'][0:5])}
 
-### Most Used Tools and Languages
-- **Operating Systems**: {format_waka_list(waka_all['operating_systems'][0:5],percentage=False)}
-- **Code Editors**: {format_waka_list(waka_all['editors'][0:5],percentage=False)}
-- **Languages**: {format_waka_list(waka_all['languages'][0:5],percentage=False)}
+### What are my most used tools? (All Time)
+- **Languages:** {format_waka_list(waka_all['languages'][0:5])}
+- **Editors:** {format_waka_list(waka_all['editors'][0:5])}
+- **Operating Systems:** {format_waka_list(waka_all['operating_systems'][0:5])}
 
 *auto-generated using python.*
 """
