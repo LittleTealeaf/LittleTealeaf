@@ -11,8 +11,8 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 
 ### Recently Used Tools and Languages (Last 30 days)
 - **Operating Systems**: Windows, Linux, WSL
-- **Code Editors**: VS Code, WebStorm, IntelliJ, DataSpell, PyCharmCore
-- **Languages**: Python, TypeScript, JavaScript, CSS, JSON, HTML, SCSS, Markdown, Java, Other
+- **Code Editors**: VS Code, WebStorm, IntelliJ, DataSpell, Sublime Text
+- **Languages**: Python, TypeScript, JavaScript, CSS, SCSS, JSON, HTML, Markdown, Other, Java
 
 ### Most Used Tools and Languages
 - **Operating Systems**: Windows, Linux, WSL
