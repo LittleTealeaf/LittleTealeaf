@@ -7,16 +7,16 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 8 hrs 54 mins<br>A personal website project</li><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Python) - 8 hrs 22 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>PL-101 - 1 hr 4 mins</li><li>CSC-375 - 38 mins</li><li>SER-340 - 35 mins</li><li>Unknown Project - 13 mins</li><li><a href="https://github.com/LittleTealeaf/LittleTealeaf">LittleTealeaf</a> (Python) - 13 mins<br>Config files for my GitHub profile.</li><li>Hello M5Stack - 11 mins</li><li>EC-365 - 11 mins</li></ul>
+<ul><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Python) - 8 hrs 23 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 8 hrs 12 mins<br>A personal website project</li><li>SER-340 - 1 hr 8 mins</li><li>PL-101 - 1 hr 4 mins</li><li>EC-365 - 52 mins</li><li>CSC-375 - 38 mins</li><li>Unknown Project - 17 mins</li><li><a href="https://github.com/LittleTealeaf/LittleTealeaf">LittleTealeaf</a> (Python) - 13 mins<br>Config files for my GitHub profile.</li><li>Hello M5Stack - 11 mins</li></ul>
 
 ### What tools have I been using? (Last 30 days)
-- **Languages:** Python, TypeScript, JavaScript, CSS, Markdown
-- **Editors:** VS Code, WebStorm, DataSpell, IntelliJ, Sublime Text
+- **Languages:** Python, TypeScript, JavaScript, Markdown, CSS
+- **Editors:** VS Code, DataSpell, WebStorm, IntelliJ, Sublime Text
 - **Operating Systems:** Windows, Linux, WSL
 
 ### What are my most used tools? (All Time)
-- **Languages:** Python, TypeScript, JavaScript, CSS, Markdown
-- **Editors:** VS Code, WebStorm, DataSpell, IntelliJ, Sublime Text
+- **Languages:** Python, TypeScript, JavaScript, Markdown, CSS
+- **Editors:** VS Code, DataSpell, WebStorm, IntelliJ, Sublime Text
 - **Operating Systems:** Windows, Linux, WSL
 
 *auto-generated using python.*
