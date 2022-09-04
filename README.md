@@ -12,11 +12,11 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 ### What tools have I been using? (Last 30 days)
 - **Languages:** Python, TypeScript, JavaScript, Markdown, CSS
 - **Editors:** VS Code, DataSpell, WebStorm, IntelliJ, Sublime Text
-- **Operating Systems:** json, random, tensorflow, numpy, keras
+- **Operating Systems:** Windows, Linux, WSL
 
 ### What are my most used tools? (All Time)
 - **Languages:** Python, TypeScript, JavaScript, Markdown, CSS
 - **Editors:** VS Code, DataSpell, WebStorm, IntelliJ, Sublime Text
-- **Operating Systems:** json, random, tensorflow, numpy, keras
+- **Operating Systems:** Windows, Linux, WSL
 
 *auto-generated using python.*
