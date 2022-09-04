@@ -17,6 +17,6 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 ### What are my most used tools? (All Time)
 - **Languages:** Python, TypeScript, JavaScript, Markdown, CSS
 - **Editors:** VS Code, DataSpell, WebStorm, IntelliJ, Sublime Text
-- **Operating Systems:** Windows, Linux, WSL
+- **Operating Systems:** json, random, tensorflow, numpy, keras
 
 *auto-generated using python.*
