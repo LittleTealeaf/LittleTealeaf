@@ -53,5 +53,7 @@ def getStats(timeFrame: str):
         print(f"Waiting 3 minutes before attempting again")
         time.sleep(180)
     if stats:
-        cache.store_cache(key,stats)
+        cache.store_cache(key,stats, no_delete=True)
+    else:
+        stats = cache.get_cache(key,no_delete=True)
     return stats
