@@ -32,8 +32,9 @@ def format_current_project(project):
     )["data"]
     if waka_project["repository"] != None:
         github_api = github.getREST(waka_project["repository"]["url"])
-        name = f"<a href=\"{github_api['html_url']}\">{github_api['name'] if 'LittleTealeaf' in github_api['full_name'] else github_api['full_name']}</a> ({github_api['language']})"
-        description = '<br>' + github_api['description']
+        if github_api:
+            name = f"<a href=\"{github_api['html_url']}\">{github_api['name'] if 'LittleTealeaf' in github_api['full_name'] else github_api['full_name']}</a> ({github_api['language']})"
+            description = '<br>' + github_api['description']
 
     return f"{name} - {project['text']}{description}"
 
