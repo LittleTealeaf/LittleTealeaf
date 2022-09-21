@@ -7,16 +7,16 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Python) - 4 hrs 19 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>EC-365 - 2 hrs 9 mins</li><li>PL-101 - 1 hr 52 mins</li><li>SER-340 - 1 hr 28 mins</li><li>CSC-375 - 1 hr 24 mins</li><li>DungeonTuesdays - 1 hr 15 mins</li><li><a href="https://github.com/LittleTealeaf/auction">auction</a> (TypeScript) - 1 hr 6 mins<br>An auction website made with Next.js</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 1 hr 5 mins<br>A personal website project</li><li>search - 48 mins</li><li>Unknown Project - 45 mins</li></ul>
+<ul><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Python) - 2 hrs 47 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>EC-365 - 2 hrs 47 mins</li><li>SER-340 - 2 hrs 33 mins</li><li>HelloSeeeduino - 2 hrs 27 mins</li><li>DS-300 - 2 hrs 2 mins</li><li>PL-101 - 1 hr 36 mins</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 1 hr 9 mins<br>A personal website project</li><li>GDD201Quiz - 50 mins</li><li>Unknown Project - 49 mins</li><li>PaceTracker - 32 mins</li></ul>
 
 ### What tools have I been using? (Last 30 days)
-- **Languages:** Python, Markdown, JavaScript, TypeScript, CSS
-- **Editors:** VS Code, DataSpell, Gedit, WebStorm, IntelliJ
-- **Operating Systems:** Windows, Linux, WSL
+- **Languages:** Python, Markdown, RMarkdown, JavaScript, Bash
+- **Editors:** VS Code, DataSpell, Gedit, Vim, WebStorm
+- **Operating Systems:** Linux, Windows, WSL
 
 ### What are my most used tools? (All Time)
-- **Languages:** Python, TypeScript, Markdown, JavaScript, CSS
-- **Editors:** VS Code, DataSpell, Gedit, WebStorm, IntelliJ
+- **Languages:** Python, Markdown, TypeScript, JavaScript, RMarkdown
+- **Editors:** VS Code, DataSpell, Gedit, Vim, WebStorm
 - **Operating Systems:** Windows, Linux, WSL
 
 *auto-generated using python.*
