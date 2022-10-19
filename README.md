@@ -7,7 +7,7 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Jupyter Notebook) - 5 hrs 49 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>PL-101 - 4 hrs 24 mins</li><li>SER-340 - 3 hrs 38 mins</li><li>EC-365 - 1 hr 41 mins</li><li>DS-300 - 1 hr 30 mins</li><li>Unknown Project - 40 mins</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 32 mins<br>A personal website project</li><li>littletealeaf.github.io.react - 27 mins</li><li>CSC375_Assignment_2 - 23 mins</li><li>css_practice_github - 23 mins</li></ul>
+<ul><li>PL-101 - 4 hrs 24 mins</li><li>SER-340 - 4 hrs 2 mins</li><li>DS-300 - 2 hrs 14 mins</li><li>EC-365 - 2 hrs 12 mins</li><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Jupyter Notebook) - 1 hr 52 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>Unknown Project - 1 hr 8 mins</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 31 mins<br>A personal website project</li><li>littletealeaf.github.io.react - 27 mins</li><li>CSC375_Assignment_2 - 23 mins</li><li>css_practice_github - 23 mins</li></ul>
 
 ### What tools have I been using? (Last 30 days)
 - **Languages:** Python, RMarkdown, JavaScript, TeX, SCSS
