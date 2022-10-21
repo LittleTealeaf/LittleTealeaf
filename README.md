@@ -7,10 +7,10 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Jupyter Notebook) - 6 hrs 22 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>SER-340 - 5 hrs 11 mins</li><li>PL-101 - 3 hrs 34 mins</li><li>DS-300 - 2 hrs 14 mins</li><li>EC-365 - 2 hrs 12 mins</li><li>CSC-375-Assignment-3-2 - 1 hr 37 mins</li><li>Unknown Project - 47 mins</li><li>CSC-375-Assignment-3-1 - 45 mins</li><li>littletealeaf.github.io.react - 27 mins</li><li>css_practice_github - 23 mins</li></ul>
+<ul><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Jupyter Notebook) - 9 hrs 8 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>SER-340 - 4 hrs 16 mins</li><li>PL-101 - 3 hrs 34 mins</li><li>CSC-375-Assignment-3-2 - 2 hrs 9 mins</li><li>EC-365 - 1 hr 46 mins</li><li>DS-300 - 1 hr 44 mins</li><li>CSC-375-Assignment-3-1 - 45 mins</li><li>Unknown Project - 37 mins</li><li>css_practice_github - 23 mins</li><li>CSC375-IoT - 20 mins</li></ul>
 
 ### What tools have I been using? (Last 30 days)
-- **Languages:** Python, RMarkdown, JavaScript, TeX, Markdown
+- **Languages:** Python, RMarkdown, JavaScript, TeX, SCSS
 - **Editors:** VS Code, DataSpell, Vim, Gedit
 - **Operating Systems:** Linux, WSL, Windows
 
