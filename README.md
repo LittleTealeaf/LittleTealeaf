@@ -7,16 +7,16 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 6 hrs 37 mins<br>A personal website project</li><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Python) - 6 hrs 32 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>PL-101 - 2 hrs 3 mins</li><li><a href="https://github.com/LittleTealeaf/resume">resume</a> (HTML) - 1 hr 33 mins<br>A digital resume</li><li>EC-365 - 1 hr 12 mins</li><li>SER-340 - 1 hr 8 mins</li><li>CSC-375 - 38 mins</li><li>No Project - 31 mins</li><li><a href="https://github.com/LittleTealeaf/LittleTealeaf">LittleTealeaf</a> (Python) - 13 mins<br>Config files for my GitHub profile.</li><li>test - 11 mins</li></ul>
+<ul><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Jupyter Notebook) - 8 hrs 59 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>CSC-375-Assignment-3-2 - 2 hrs 9 mins</li><li>DS-300 - 1 hr 48 mins</li><li>EC-365 - 1 hr 40 mins</li><li>SER-340 - 1 hr 29 mins</li><li>PL-101 - 57 mins</li><li>CSC-375-ESP32-Now - 47 mins</li><li>CSC-375-Assignment-3-1 - 45 mins</li><li>CSC375-IoT - 20 mins</li><li>CSC-375-ESPNow-Mac - 16 mins</li></ul>
 
 ### What tools have I been using? (Last 30 days)
-- **Languages:** Python, TypeScript, JavaScript, Markdown, CSS
-- **Editors:** VS Code, DataSpell, WebStorm, IntelliJ, Gedit
-- **Operating Systems:** Windows, Linux, WSL
+- **Languages:** Python, RMarkdown, TeX, Markdown, JavaScript
+- **Editors:** VS Code, DataSpell, Vim, Gedit
+- **Operating Systems:** Linux, WSL, Windows
 
 ### What are my most used tools? (All Time)
-- **Languages:** Python, TypeScript, JavaScript, Markdown, CSS
-- **Editors:** VS Code, DataSpell, WebStorm, IntelliJ, Gedit
-- **Operating Systems:** Windows, Linux, WSL
+- **Languages:** Python, Markdown, RMarkdown, JavaScript, TypeScript
+- **Editors:** VS Code, DataSpell, Vim, Gedit, WebStorm
+- **Operating Systems:** Linux, Windows, WSL
 
 *auto-generated using python.*

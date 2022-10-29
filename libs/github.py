@@ -1,10 +1,13 @@
 import json
 import requests
 import os
-from dotenv import load_dotenv
 import libs.cache as cache
 
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except:
+    ...
 
 
 def getREST(url: str, params: dict = {}):
