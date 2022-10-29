@@ -13,12 +13,16 @@ def getREST(url: str, params: dict = {}):
     che = cache.get_cache(key)
     if che != None:
         return che
-    
+
     print(url)
 
     request = requests.get(url,params=params,headers={
         'authorization': f'token {os.getenv("API_TOKEN")}'
     })
+
+    if request.status_code == 404:
+        return None
+
     if request:
         data = request.json()
         cache.store_cache(key,data)
