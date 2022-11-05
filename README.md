@@ -7,10 +7,10 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li>SER-340-Project - 4 hrs 23 mins</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 4 hrs 8 mins<br>A personal website project</li><li>DS-300 - 2 hrs 2 mins</li><li>SER-340 - 2 hrs 2 mins</li><li>SER-340-Practice-5 - 1 hr 47 mins</li><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Jupyter Notebook) - 1 hr 34 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>PL-101 - 57 mins</li><li>Unknown Project - 38 mins</li><li><a href="https://github.com/LittleTealeaf/wordle">wordle</a> (JavaScript) - 33 mins<br>Creating my own wordle clone</li><li>EC-365-Project - 26 mins</li></ul>
+<ul><li>SER-340-Project - 4 hrs 23 mins</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 4 hrs 8 mins<br>A personal website project</li><li>DS-300 - 2 hrs 2 mins</li><li>SER-340 - 2 hrs 1 min</li><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Jupyter Notebook) - 1 hr 34 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li><li>Unknown Project - 34 mins</li><li><a href="https://github.com/LittleTealeaf/wordle">wordle</a> (JavaScript) - 33 mins<br>Creating my own wordle clone</li><li>EC-365-Project - 26 mins</li><li><a href="https://github.com/LittleTealeaf/TicTacToe">TicTacToe</a> (JavaScript) - 20 mins<br>A simple TicTacToe Web Game</li><li>PL-101 - 15 mins</li></ul>
 
 ### What tools have I been using? (Last 30 days)
-- **Languages:** Python, TeX, RMarkdown, Markdown, HTML
+- **Languages:** Python, RMarkdown, TeX, Markdown, HTML
 - **Editors:** VS Code, DataSpell, Vim, Gedit
 - **Operating Systems:** Linux, WSL, Windows
 
