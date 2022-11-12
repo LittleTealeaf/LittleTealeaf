@@ -7,7 +7,7 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li>SER-340-Project - 5 hrs 49 mins</li><li><a href="https://github.com/LittleTealeaf/dotfiles">dotfiles</a> (Lua) - 2 hrs 5 mins</li><li>CSC375-IoT - 1 hr 45 mins</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 1 hr 24 mins<br>A personal website project</li><li>SER-340-Practice-6 - 1 hr 21 mins</li><li>Unknown Project - 1 hr 17 mins</li><li>PL-101 - 55 mins</li><li>DS-300 - 30 mins</li><li><a href="https://github.com/LittleTealeaf/TicTacToe">TicTacToe</a> (JavaScript) - 29 mins<br>A simple TicTacToe Web Game</li><li>EC-365 - 22 mins</li></ul>
+<ul><li>SER-340-Project - 5 hrs 49 mins</li><li><a href="https://github.com/LittleTealeaf/dotfiles">dotfiles</a> (Lua) - 2 hrs 14 mins</li><li>CSC375-IoT - 1 hr 45 mins</li><li>SER-340-Practice-6 - 1 hr 28 mins</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 1 hr 24 mins<br>A personal website project</li><li>Unknown Project - 1 hr 17 mins</li><li>PL-101 - 57 mins</li><li>DS-300 - 30 mins</li><li><a href="https://github.com/LittleTealeaf/TicTacToe">TicTacToe</a> (JavaScript) - 29 mins<br>A simple TicTacToe Web Game</li><li>EC-365 - 22 mins</li></ul>
 
 ### What tools have I been using? (Last 30 days)
 - **Languages:** TeX, Python, RMarkdown, Markdown, HTML
