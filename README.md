@@ -7,10 +7,10 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li>SER-340-Project - 5 hrs 49 mins</li><li><a href="https://github.com/LittleTealeaf/dotfiles">dotfiles</a> (Lua) - 2 hrs 14 mins</li><li>CSC375-IoT - 1 hr 45 mins</li><li>SER-340-Practice-6 - 1 hr 28 mins</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 1 hr 24 mins<br>A personal website project</li><li>Unknown Project - 1 hr 17 mins</li><li>PL-101 - 57 mins</li><li>DS-300 - 30 mins</li><li>EC-365 - 22 mins</li><li>EC-365-Project - 18 mins</li></ul>
+<ul><li><a href="https://github.com/LittleTealeaf/dotfiles">dotfiles</a> (Lua) - 1 hr 50 mins</li><li>CSC375-IoT - 1 hr 45 mins</li><li>SER-340-Practice-6 - 1 hr 28 mins</li><li><a href="https://github.com/LittleTealeaf/littletealeaf.github.io">littletealeaf.github.io</a> (Python) - 1 hr 24 mins<br>A personal website project</li><li>PL-101 - 57 mins</li><li>Unknown Project - 53 mins</li><li>DS-300 - 30 mins</li><li>EC-365 - 22 mins</li><li>EC-365-Project - 18 mins</li><li><a href="https://github.com/LittleTealeaf/mlcube">mlcube</a> (Jupyter Notebook) - 10 mins<br>Using Reinforcement Learning to solve a Rubik's Cube</li></ul>
 
 ### What tools have I been using? (Last 30 days)
-- **Languages:** TeX, Python, RMarkdown, Markdown, HTML
+- **Languages:** Python, TeX, RMarkdown, Markdown, HTML
 - **Editors:** VS Code, DataSpell, Vim, Neovim, Gedit
 - **Operating Systems:** Linux, Windows, WSL
 
