@@ -7,16 +7,16 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li><a href="https://github.com/LittleTealeaf/EC-365-Project">EC-365-Project</a> (Jupyter Notebook) - 6 hrs 25 mins<br>My final project and all accompanying material for Econometics</li><li><a href="https://github.com/LittleTealeaf/dotfiles">dotfiles</a> (Lua) - 2 hrs 50 mins</li><li>CSC-375-Assignment-4 - 2 hrs 1 min</li><li>EC-365 - 1 hr 48 mins</li><li>PL-101 - 1 hr 40 mins</li><li>SER-340-Checkpoint-2 - 56 mins</li><li>CSC375-IoT - 47 mins</li><li>Unknown Project - 43 mins</li><li>CSC-375-P-4 - 39 mins</li><li>SER-340-Practice-6 - 32 mins</li></ul>
+<ul><li><a href="https://github.com/LittleTealeaf/EC-365-Project">EC-365-Project</a> (Jupyter Notebook) - 6 hrs 7 mins<br>My final project and all accompanying material for Econometics</li><li><a href="https://github.com/LittleTealeaf/dotfiles">dotfiles</a> (Lua) - 4 hrs 3 mins</li><li>CSC-375-Assignment-4 - 2 hrs 19 mins</li><li>EC-365 - 1 hr 48 mins</li><li>Unknown Project - 1 hr 24 mins</li><li>PL-101 - 1 hr 23 mins</li><li>SER-340-Checkpoint-2 - 56 mins</li><li>CSC375-IoT - 47 mins</li><li>CSC-375-P-4 - 39 mins</li><li>DS-300 - 28 mins</li></ul>
 
 ### What tools have I been using? (Last 30 days)
-- **Languages:** Python, TeX, Markdown, RMarkdown, C++
+- **Languages:** Python, TeX, RMarkdown, Markdown, HTML
 - **Editors:** VS Code, Neovim, DataSpell, Vim, Gedit
 - **Operating Systems:** Linux, Windows, WSL
 
 ### What are my most used tools? (All Time)
 - **Languages:** Python, Markdown, RMarkdown, JavaScript, TeX
-- **Editors:** VS Code, DataSpell, Vim, Neovim, Gedit
+- **Editors:** VS Code, DataSpell, Neovim, Vim, Gedit
 - **Operating Systems:** Linux, Windows, WSL
 
 *auto-generated using python.*
