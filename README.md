@@ -7,7 +7,7 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li><a href="https://github.com/LittleTealeaf/dotfiles">dotfiles</a> (Lua) - 8 hrs 38 mins</li><li><a href="https://github.com/LittleTealeaf/EC-365-Project">EC-365-Project</a> (Jupyter Notebook) - 6 hrs 7 mins<br>My final project and all accompanying material for Econometics</li><li>CSC-375-Assignment-4 - 2 hrs 19 mins</li><li>SER-340-Practice-6 - 1 hr 50 mins</li><li>EC-365 - 1 hr 48 mins</li><li>Unknown Project - 1 hr 38 mins</li><li>PL-101 - 1 hr 23 mins</li><li>SER-340-Checkpoint-2 - 56 mins</li><li>CSC375-IoT - 47 mins</li><li>SER-340-Project - 47 mins</li></ul>
+<ul><li><a href="https://github.com/LittleTealeaf/dotfiles">dotfiles</a> (Lua) - 8 hrs 38 mins<br>My Personal Dotfiles</li><li><a href="https://github.com/LittleTealeaf/EC-365-Project">EC-365-Project</a> (Jupyter Notebook) - 6 hrs 7 mins<br>My final project and all accompanying material for Econometics</li><li>CSC-375-Assignment-4 - 2 hrs 19 mins</li><li>SER-340-Practice-6 - 1 hr 50 mins</li><li>EC-365 - 1 hr 48 mins</li><li>Unknown Project - 1 hr 38 mins</li><li>PL-101 - 1 hr 23 mins</li><li>SER-340-Checkpoint-2 - 56 mins</li><li>CSC375-IoT - 47 mins</li><li>SER-340-Project - 47 mins</li></ul>
 
 ### What tools have I been using? (Last 30 days)
 - **Languages:** TeX, Markdown, Lua, Python, RMarkdown
