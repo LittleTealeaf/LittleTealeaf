@@ -7,10 +7,10 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### What I'm Working On (Last 7 days)
-<ul><li>PL-101 - 12 hrs 9 mins</li><li>CSC-375-Final - 7 hrs 23 mins</li><li>SER-340-Project - 7 hrs 18 mins</li><li>AdventOfCode2022 - 5 hrs 19 mins</li><li><a href="https://github.com/LittleTealeaf/EC-365-Project">EC-365-Project</a> (Jupyter Notebook) - 1 hr 54 mins<br>My final project and all accompanying material for Econometics</li><li>CSC-375-Final-Part-2 - 1 hr 42 mins</li><li><a href="https://github.com/LittleTealeaf/LittleTealeaf">LittleTealeaf</a> (Python) - 1 hr 26 mins<br>Config files for my GitHub profile.</li><li>CSC-375-Final-Part-1 - 1 hr 16 mins</li><li>DS-300 - 1 hr 5 mins</li><li><a href="https://github.com/LittleTealeaf/dotfiles">dotfiles</a> (Lua) - 59 mins<br>My Personal Dotfiles</li></ul>
+<ul><li>PL-101 - 15 hrs 51 mins</li><li>SER-340-Project - 7 hrs 18 mins</li><li>AdventOfCode2022 - 5 hrs 19 mins</li><li>CSC-375-Final - 2 hrs 20 mins</li><li>CSC-375-Final-Part-2 - 2 hrs 13 mins</li><li><a href="https://github.com/LittleTealeaf/EC-365-Project">EC-365-Project</a> (Jupyter Notebook) - 1 hr 54 mins<br>My final project and all accompanying material for Econometics</li><li>CSC-375-Final-Part-1 - 1 hr 51 mins</li><li>Unknown Project - 1 hr 36 mins</li><li><a href="https://github.com/LittleTealeaf/LittleTealeaf">LittleTealeaf</a> (Python) - 1 hr 26 mins<br>Config files for my GitHub profile.</li><li>DS-300 - 1 hr 5 mins</li></ul>
 
 ### What tools have I been using? (Last 30 days)
-- **Languages:** C++, Lua, Python, Markdown, TeX
+- **Languages:** C++, Lua, TeX, Markdown, Python
 - **Editors:** Neovim, VS Code, DataSpell, Android Studio, Vim
 - **Operating Systems:** Linux, Windows, WSL
 
