@@ -65,8 +65,10 @@ out(
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
-### What I'm Working On (Last 7 days)
-{bullet_list(current_projects)}
+### Most Recent Tools (Last 7 days)
+- **Languages:** {format_waka_list(waka_weekly['languages'][0:5])}
+- **Editors:** {format_waka_list(waka_weekly['editors'][0:5])}
+- **Operating Systems:** {format_waka_list(waka_weekly['operating_systems'][0:5])}
 
 ### What tools have I been using? (Last 30 days)
 - **Languages:** {format_waka_list(waka_monthly['languages'][0:5])}
