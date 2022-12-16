@@ -7,8 +7,8 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
 ### Most Recent Tools (Last 7 days)
-- **Languages:** C++, TeX, HTML, Lua, Bash
-- **Editors:** Neovim, VS Code, Gedit
+- **Languages:** C++, TeX, Python, RMarkdown, Lua
+- **Editors:** Neovim, VS Code, DataSpell, Gedit
 - **Operating Systems:** Linux, Windows
 
 ### What tools have I been using? (Last 30 days)
