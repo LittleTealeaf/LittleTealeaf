@@ -23,23 +23,6 @@ waka_weekly = wakatime.getStats("last_7_days")
 
 current_projects = waka_weekly["projects"][0:10]
 
-
-def format_current_project(project):
-    name = project["name"]
-    description = ""
-    waka_project = wakatime.getData(
-        f'/api/v1/users/LittleTealeaf/projects/{project["name"]}'
-    )["data"]
-    if waka_project["repository"] != None:
-        github_api = github.getREST(waka_project["repository"]["url"])
-        if github_api:
-            name = f"<a href=\"{github_api['html_url']}\">{github_api['name'] if 'LittleTealeaf' in github_api['full_name'] else github_api['full_name']}</a> ({github_api['language']})"
-            description = ('<br>' + github_api['description']) if github_api['description'] is not None else ''
-
-    return f"{name} - {project['text']}{description}"
-
-current_projects = [format_current_project(project) for project in current_projects]
-
 def format_waka_list(data,percentage=False,time=False):
     values = []
     for item in data:
@@ -55,6 +38,15 @@ def format_waka_list(data,percentage=False,time=False):
     return ", ".join(values)
 
 
+def build_tools(data,title, top = 6,):
+
+
+    return f"""### {title} ({data['human_readable_total']})
+- **Languages**: {format_waka_list(data['languages'][0:top], percentage=True)}
+- **Editors**: {format_waka_list(data['editors'][0:top], percentage=True)}
+- **Operating Systems**: {format_waka_list(data['operating_systems'][0:top], percentage=True)}
+    """
+
 
 out(
     f"""
@@ -65,21 +57,24 @@ out(
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
-### Most Recent Tools (Last 7 days)
-- **Languages:** {format_waka_list(waka_weekly['languages'][0:5])}
-- **Editors:** {format_waka_list(waka_weekly['editors'][0:5])}
-- **Operating Systems:** {format_waka_list(waka_weekly['operating_systems'][0:5])}
-
-### What tools have I been using? (Last 30 days)
-- **Languages:** {format_waka_list(waka_monthly['languages'][0:5])}
-- **Editors:** {format_waka_list(waka_monthly['editors'][0:5])}
-- **Operating Systems:** {format_waka_list(waka_monthly['operating_systems'][0:5])}
-
-### What are my most used tools? (All Time)
-- **Languages:** {format_waka_list(waka_all['languages'][0:5])}
-- **Editors:** {format_waka_list(waka_all['editors'][0:5])}
-- **Operating Systems:** {format_waka_list(waka_all['operating_systems'][0:5])}
+{build_tools(waka_weekly,"Last Week")}
+{build_tools(waka_monthly,"Last Month")}
+{build_tools(waka_all,"All Time")}
 
 *auto-generated using python.*
 """
 )
+# ### Most Recent Tools (Last 7 days)
+# - **Languages:** {format_waka_list(waka_weekly['languages'][0:5])}
+# - **Editors:** {format_waka_list(waka_weekly['editors'][0:5])}
+# - **Operating Systems:** {format_waka_list(waka_weekly['operating_systems'][0:5])}
+
+# ### What tools have I been using? (Last 30 days)
+# - **Languages:** {format_waka_list(waka_monthly['languages'][0:5])}
+# - **Editors:** {format_waka_list(waka_monthly['editors'][0:5])}
+# - **Operating Systems:** {format_waka_list(waka_monthly['operating_systems'][0:5])}
+
+# ### What are my most used tools? (All Time)
+# - **Languages:** {format_waka_list(waka_all['languages'][0:5])}
+# - **Editors:** {format_waka_list(waka_all['editors'][0:5])}
+# - **Operating Systems:** {format_waka_list(waka_all['operating_systems'][0:5])}
