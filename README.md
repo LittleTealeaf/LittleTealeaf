@@ -6,20 +6,20 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
-### Last Week (34 hrs 24 mins)
-- **Languages**: C++ (25.02%), TeX (23.29%), Python (23.2%), Rust (10.98%), RMarkdown (6.81%), Git (3.62%)
-- **Editors**: VS Code (53.2%), Neovim (40.01%), DataSpell (6.79%)
-- **Operating Systems**: Linux (60.96%), Windows (39.04%)
+### Last Week (35 hrs 30 mins)
+- **Languages**: TeX (22.56%), Python (22.01%), Rust (21.42%), C++ (15.1%), RMarkdown (6.6%), Git (4.96%)
+- **Editors**: Neovim (47.17%), VS Code (46.25%), DataSpell (6.58%)
+- **Operating Systems**: Linux (62.18%), Windows (37.82%)
     
-### Last Month (150 hrs 7 mins)
-- **Languages**: C++ (20.21%), TeX (15.19%), Lua (10.95%), Python (10.39%), HTML (7.02%), Markdown (6.5%)
-- **Editors**: Neovim (70.15%), VS Code (18.07%), DataSpell (6.34%), Android Studio (4.91%), Gedit (0.25%), Vim (0.15%)
-- **Operating Systems**: Linux (78.81%), Windows (15.8%), WSL (5.4%)
+### Last Month (148 hrs 21 mins)
+- **Languages**: C++ (20.47%), TeX (15.38%), Python (10.53%), Lua (8.7%), Markdown (6.6%), RMarkdown (6.43%)
+- **Editors**: Neovim (69.76%), VS Code (18.31%), DataSpell (6.42%), Android Studio (4.97%), Gedit (0.26%), Vim (0.15%)
+- **Operating Systems**: Linux (82.77%), Windows (16.0%), WSL (1.23%)
     
-### All Time (471 hrs 6 mins)
-- **Languages**: Python (25.15%), TeX (9.3%), C++ (9.26%), Markdown (9.17%), RMarkdown (8.26%), JavaScript (5.77%)
-- **Editors**: VS Code (63.66%), Neovim (23.92%), DataSpell (7.88%), Android Studio (1.57%), Vim (1.47%), Gedit (1.15%)
-- **Operating Systems**: Linux (59.65%), Windows (28.46%), WSL (11.9%)
+### All Time (475 hrs 47 mins)
+- **Languages**: Python (24.9%), TeX (9.21%), C++ (9.17%), Markdown (9.09%), RMarkdown (8.18%), JavaScript (5.71%)
+- **Editors**: VS Code (63.04%), Neovim (24.66%), DataSpell (7.81%), Android Studio (1.55%), Vim (1.45%), Gedit (1.14%)
+- **Operating Systems**: Linux (60.04%), Windows (28.18%), WSL (11.78%)
     
 
 *auto-generated using python.*
