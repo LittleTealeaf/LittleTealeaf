@@ -4,7 +4,7 @@
 - Undergraduate Student at Quinnipiac University studying Computer Science and Data Science, with a minor in economics.
 - Not currently looking for a job, but wide open for internship opportunities for Summer 2023
 
-You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
+You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
 ### Last Week (34 hrs 7 mins)
 - **Languages**: Rust (31.34%), TeX (23.48%), Python (22.9%), RMarkdown (6.87%), C++ (6.39%), Git (5.06%)
@@ -17,8 +17,8 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 - **Operating Systems**: Linux (82.93%), Windows (16.57%), WSL (0.5%)
     
 ### All Time (479 hrs 9 mins)
-- **Languages**: Python (24.75%), TeX (9.15%), C++ (9.11%), Markdown (9.03%), RMarkdown (8.13%), JavaScript (5.67%)
-- **Editors**: VS Code (62.6%), Neovim (25.18%), DataSpell (7.75%), Android Studio (1.54%), Vim (1.44%), Gedit (1.13%)
+- **Languages**: Python (24.75%), TeX (9.15%), C++ (9.11%), Markdown (9.03%), RMarkdown (8.13%), JavaScript (5.67%), HTML (5.21%), Lua (4.4%), TypeScript (3.0%), SCSS (2.99%)
+- **Editors**: VS Code (62.6%), Neovim (25.18%), DataSpell (7.75%), Android Studio (1.54%), Vim (1.44%), Gedit (1.13%), WebStorm (0.19%), IntelliJ (0.09%), Sublime Text (0.06%), PyCharmCore (0.01%)
 - **Operating Systems**: Linux (60.32%), Windows (27.99%), WSL (11.7%)
     
 

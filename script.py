@@ -45,6 +45,7 @@ def build_tools(data,title, top = 6,):
 - **Operating Systems**: {format_waka_list(data['operating_systems'][0:top], percentage=True)}
     """
 
+# https://github.com/alexandresanlim/Badges4-README.md-Profile
 
 out(
     f"""
@@ -57,7 +58,7 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 
 {build_tools(waka_weekly,"Last Week")}
 {build_tools(waka_monthly,"Last Month")}
-{build_tools(waka_all,"All Time")}
+{build_tools(waka_all,"All Time", top=10)}
 
 *auto-generated using python.*
 """
