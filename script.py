@@ -39,8 +39,6 @@ def format_waka_list(data,percentage=False,time=False):
 
 
 def build_tools(data,title, top = 6,):
-
-
     return f"""### {title} ({data['human_readable_total']})
 - **Languages**: {format_waka_list(data['languages'][0:top], percentage=True)}
 - **Editors**: {format_waka_list(data['editors'][0:top], percentage=True)}
@@ -55,7 +53,7 @@ out(
 - Undergraduate Student at Quinnipiac University studying Computer Science and Data Science, with a minor in economics.
 - Not currently looking for a job, but wide open for internship opportunities for Summer 2023
 
-You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
+You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
 {build_tools(waka_weekly,"Last Week")}
 {build_tools(waka_monthly,"Last Month")}
@@ -64,17 +62,3 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 *auto-generated using python.*
 """
 )
-# ### Most Recent Tools (Last 7 days)
-# - **Languages:** {format_waka_list(waka_weekly['languages'][0:5])}
-# - **Editors:** {format_waka_list(waka_weekly['editors'][0:5])}
-# - **Operating Systems:** {format_waka_list(waka_weekly['operating_systems'][0:5])}
-
-# ### What tools have I been using? (Last 30 days)
-# - **Languages:** {format_waka_list(waka_monthly['languages'][0:5])}
-# - **Editors:** {format_waka_list(waka_monthly['editors'][0:5])}
-# - **Operating Systems:** {format_waka_list(waka_monthly['operating_systems'][0:5])}
-
-# ### What are my most used tools? (All Time)
-# - **Languages:** {format_waka_list(waka_all['languages'][0:5])}
-# - **Editors:** {format_waka_list(waka_all['editors'][0:5])}
-# - **Operating Systems:** {format_waka_list(waka_all['operating_systems'][0:5])}
