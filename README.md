@@ -6,20 +6,20 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io)
 
-### Last Week (35 hrs 30 mins)
-- **Languages**: TeX (22.56%), Python (22.01%), Rust (21.42%), C++ (15.1%), RMarkdown (6.6%), Git (4.96%)
-- **Editors**: Neovim (47.17%), VS Code (46.25%), DataSpell (6.58%)
-- **Operating Systems**: Linux (62.18%), Windows (37.82%)
+### Last Week (34 hrs 7 mins)
+- **Languages**: Rust (31.34%), TeX (23.48%), Python (22.9%), RMarkdown (6.87%), C++ (6.39%), Git (5.06%)
+- **Editors**: VS Code (47.44%), Neovim (45.65%), DataSpell (6.85%), Rider (0.06%)
+- **Operating Systems**: Linux (60.59%), Windows (39.41%)
     
-### Last Month (148 hrs 21 mins)
-- **Languages**: C++ (20.47%), TeX (15.38%), Python (10.53%), Lua (8.7%), Markdown (6.6%), RMarkdown (6.43%)
-- **Editors**: Neovim (69.76%), VS Code (18.31%), DataSpell (6.42%), Android Studio (4.97%), Gedit (0.26%), Vim (0.15%)
-- **Operating Systems**: Linux (82.77%), Windows (16.0%), WSL (1.23%)
+### Last Month (142 hrs 54 mins)
+- **Languages**: C++ (21.25%), TeX (15.97%), Python (10.86%), Rust (7.59%), RMarkdown (6.68%), HTML (6.4%)
+- **Editors**: Neovim (70.75%), VS Code (16.85%), DataSpell (6.67%), Android Studio (5.16%), Gedit (0.26%), Vim (0.16%)
+- **Operating Systems**: Linux (82.93%), Windows (16.57%), WSL (0.5%)
     
-### All Time (475 hrs 47 mins)
-- **Languages**: Python (24.9%), TeX (9.21%), C++ (9.17%), Markdown (9.09%), RMarkdown (8.18%), JavaScript (5.71%)
-- **Editors**: VS Code (63.04%), Neovim (24.66%), DataSpell (7.81%), Android Studio (1.55%), Vim (1.45%), Gedit (1.14%)
-- **Operating Systems**: Linux (60.04%), Windows (28.18%), WSL (11.78%)
+### All Time (479 hrs 9 mins)
+- **Languages**: Python (24.75%), TeX (9.15%), C++ (9.11%), Markdown (9.03%), RMarkdown (8.13%), JavaScript (5.67%)
+- **Editors**: VS Code (62.6%), Neovim (25.18%), DataSpell (7.75%), Android Studio (1.54%), Vim (1.44%), Gedit (1.13%)
+- **Operating Systems**: Linux (60.32%), Windows (27.99%), WSL (11.7%)
     
 
 *auto-generated using python.*
