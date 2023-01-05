@@ -6,20 +6,20 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
-### Last Week (15 hrs 32 mins)
-- **Languages**: Rust (41.36%), Lua (39.12%), Python (7.72%), Git (4.01%), HTML (2.98%), JavaScript (2.13%)
-- **Editors**: Neovim (78.63%), VS Code (21.37%)
-- **Operating Systems**: Linux (89.18%), Windows (10.82%)
+### Last Week (17 hrs 11 mins)
+- **Languages**: Rust (45.94%), Lua (35.36%), Python (6.98%), Git (3.93%), HTML (2.69%), JavaScript (1.92%)
+- **Editors**: Neovim (80.69%), VS Code (19.31%)
+- **Operating Systems**: Linux (90.22%), Windows (9.78%)
     
-### Last Month (120 hrs 19 mins)
-- **Languages**: Rust (20.21%), TeX (18.93%), C++ (15.14%), Python (14.0%), Lua (7.4%), HTML (5.55%)
-- **Editors**: Neovim (77.52%), VS Code (20.21%), DataSpell (1.94%), Gedit (0.24%), Vim (0.07%), Rider (0.02%)
-- **Operating Systems**: Linux (85.73%), Windows (14.27%)
+### Last Month (116 hrs 7 mins)
+- **Languages**: Rust (22.1%), TeX (19.62%), C++ (13.66%), Python (13.2%), Lua (7.58%), HTML (5.75%)
+- **Editors**: Neovim (76.72%), VS Code (20.93%), DataSpell (2.01%), Gedit (0.25%), Vim (0.07%), Rider (0.02%)
+- **Operating Systems**: Linux (85.21%), Windows (14.79%)
     
-### All Time (509 hrs 30 mins)
-- **Languages**: Python (24.19%), TeX (8.6%), C++ (8.57%), Markdown (8.51%), RMarkdown (7.64%), JavaScript (5.54%), Lua (5.34%), HTML (5.1%), Rust (4.75%), SCSS (3.04%)
-- **Editors**: VS Code (59.59%), Neovim (28.91%), DataSpell (7.29%), Android Studio (1.45%), Vim (1.36%), Gedit (1.06%), WebStorm (0.18%), IntelliJ (0.09%), Sublime Text (0.05%), PyCharmCore (0.01%)
-- **Operating Systems**: Linux (62.29%), Windows (26.71%), WSL (11.0%)
+### All Time (511 hrs 9 mins)
+- **Languages**: Python (24.11%), TeX (8.58%), C++ (8.54%), Markdown (8.48%), RMarkdown (7.62%), JavaScript (5.52%), Lua (5.32%), HTML (5.08%), Rust (5.02%), SCSS (3.03%)
+- **Editors**: VS Code (59.4%), Neovim (29.14%), DataSpell (7.27%), Android Studio (1.44%), Vim (1.35%), Gedit (1.06%), WebStorm (0.18%), IntelliJ (0.09%), Sublime Text (0.05%), PyCharmCore (0.01%)
+- **Operating Systems**: Linux (62.41%), Windows (26.62%), WSL (10.97%)
     
 
 *auto-generated using python.*
