@@ -21,6 +21,10 @@ waka_all = wakatime.getStats("all_time")
 waka_monthly = wakatime.getStats("last_30_days")
 waka_weekly = wakatime.getStats("last_7_days")
 
+assert waka_weekly is not None
+assert waka_monthly is not None
+assert waka_all is not None
+
 current_projects = waka_weekly["projects"][0:10]
 
 def format_waka_list(data,percentage=False,time=False):
@@ -38,11 +42,11 @@ def format_waka_list(data,percentage=False,time=False):
     return ", ".join(values)
 
 
-def build_tools(data,title, top = 6,):
+def build_tools(data,title, top = 6, percentage: bool = True, time: bool = False):
     return f"""### {title} ({data['human_readable_total']})
-- **Languages**: {format_waka_list(data['languages'][0:top], percentage=True)}
-- **Editors**: {format_waka_list(data['editors'][0:top], percentage=True)}
-- **Operating Systems**: {format_waka_list(data['operating_systems'][0:top], percentage=True)}
+- **Languages**: {format_waka_list(data['languages'][0:top], percentage=percentage, time = time)}
+- **Editors**: {format_waka_list(data['editors'][0:top], percentage=percentage, time = time)}
+- **Operating Systems**: {format_waka_list(data['operating_systems'][0:top], percentage=percentage, time = time)}
     """
 
 # https://github.com/alexandresanlim/Badges4-README.md-Profile
@@ -58,7 +62,7 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 
 {build_tools(waka_weekly,"Last Week")}
 {build_tools(waka_monthly,"Last Month")}
-{build_tools(waka_all,"All Time", top=10)}
+{build_tools(waka_all,"All Time", top=10, percentage = False, time = True)}
 
 *auto-generated using python.*
 """

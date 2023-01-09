@@ -17,9 +17,9 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 - **Operating Systems**: Linux (80.37%), Windows (18.99%), WSL (0.64%)
     
 ### All Time (515 hrs 24 mins)
-- **Languages**: Python (23.91%), Markdown (8.61%), TeX (8.51%), C++ (8.47%), RMarkdown (7.56%), Rust (5.5%), JavaScript (5.47%), Lua (5.28%), HTML (5.04%), SCSS (3.01%)
-- **Editors**: VS Code (58.92%), Neovim (29.52%), DataSpell (7.21%), Android Studio (1.43%), Vim (1.34%), Gedit (1.05%), Obsidian (0.19%), WebStorm (0.18%), IntelliJ (0.09%), Sublime Text (0.05%)
-- **Operating Systems**: Linux (62.41%), Windows (26.6%), WSL (10.99%)
+- **Languages**: Python (124 hrs 23 mins), Markdown (44 hrs 46 mins), TeX (44 hrs 14 mins), C++ (44 hrs 3 mins), RMarkdown (39 hrs 18 mins), Rust (28 hrs 38 mins), JavaScript (28 hrs 28 mins), Lua (27 hrs 28 mins), HTML (26 hrs 14 mins), SCSS (15 hrs 38 mins)
+- **Editors**: VS Code (306 hrs 32 mins), Neovim (153 hrs 35 mins), DataSpell (37 hrs 30 mins), Android Studio (7 hrs 27 mins), Vim (6 hrs 58 mins), Gedit (5 hrs 27 mins), Obsidian (59 mins), WebStorm (54 mins), IntelliJ (26 mins), Sublime Text (16 mins)
+- **Operating Systems**: Linux (324 hrs 42 mins), Windows (138 hrs 23 mins), WSL (57 hrs 9 mins)
     
 
 *auto-generated using python.*
