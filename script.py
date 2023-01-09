@@ -32,10 +32,10 @@ def format_waka_list(data,percentage=False,time=False):
     for item in data:
         name = item['name']
         if percentage:
-            values.append(f"{name} <sub>{item['percent']}%</sub>")
+            values.append(f"{name} ({item['percent']}%)")
             continue
         if time:
-            values.append(f"{name} <sub>{item['text']}</sub>")
+            values.append(f"{name} ({item['text']})")
             continue
         values.append(name)
 
@@ -62,7 +62,7 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 
 {build_tools(waka_weekly,"Last Week")}
 {build_tools(waka_monthly,"Last Month")}
-{build_tools(waka_all,"All Time", top=10, percentage = False, time = True)}
+{build_tools(waka_all,"All Time", percentage = False, time = True)}
 
 *auto-generated using python.*
 """

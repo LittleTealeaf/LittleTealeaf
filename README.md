@@ -7,19 +7,19 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
 ### Last Week (10 hrs 55 mins)
-- **Languages**: Rust <sub>81.51%</sub>, Markdown <sub>9.13%</sub>, Text <sub>5.95%</sub>, Git <sub>2.55%</sub>, Other <sub>0.3%</sub>, Lua <sub>0.24%</sub>
-- **Editors**: Neovim <sub>90.53%</sub>, Obsidian <sub>9.12%</sub>, VS Code <sub>0.35%</sub>
-- **Operating Systems**: Linux <sub>85.63%</sub>, Windows <sub>9.31%</sub>, WSL <sub>5.06%</sub>
+- **Languages**: Rust (81.51%), Markdown (9.13%), Text (5.95%), Git (2.55%), Other (0.3%), Lua (0.24%)
+- **Editors**: Neovim (90.53%), Obsidian (9.12%), VS Code (0.35%)
+- **Operating Systems**: Linux (85.63%), Windows (9.31%), WSL (5.06%)
     
 ### Last Month (86 hrs 26 mins)
-- **Languages**: Rust <sub>32.83%</sub>, C++ <sub>16.32%</sub>, Python <sub>14.7%</sub>, Lua <sub>9.49%</sub>, TeX <sub>9.26%</sub>, Git <sub>4.19%</sub>
-- **Editors**: Neovim <sub>70.73%</sub>, VS Code <sub>25.39%</sub>, DataSpell <sub>2.7%</sub>, Obsidian <sub>1.15%</sub>, Rider <sub>0.03%</sub>
-- **Operating Systems**: Linux <sub>80.37%</sub>, Windows <sub>18.99%</sub>, WSL <sub>0.64%</sub>
+- **Languages**: Rust (32.83%), C++ (16.32%), Python (14.7%), Lua (9.49%), TeX (9.26%), Git (4.19%)
+- **Editors**: Neovim (70.73%), VS Code (25.39%), DataSpell (2.7%), Obsidian (1.15%), Rider (0.03%)
+- **Operating Systems**: Linux (80.37%), Windows (18.99%), WSL (0.64%)
     
 ### All Time (515 hrs 24 mins)
-- **Languages**: Python <sub>124 hrs 23 mins</sub>, Markdown <sub>44 hrs 46 mins</sub>, TeX <sub>44 hrs 14 mins</sub>, C++ <sub>44 hrs 3 mins</sub>, RMarkdown <sub>39 hrs 18 mins</sub>, Rust <sub>28 hrs 38 mins</sub>, JavaScript <sub>28 hrs 28 mins</sub>, Lua <sub>27 hrs 28 mins</sub>, HTML <sub>26 hrs 14 mins</sub>, SCSS <sub>15 hrs 38 mins</sub>
-- **Editors**: VS Code <sub>306 hrs 32 mins</sub>, Neovim <sub>153 hrs 35 mins</sub>, DataSpell <sub>37 hrs 30 mins</sub>, Android Studio <sub>7 hrs 27 mins</sub>, Vim <sub>6 hrs 58 mins</sub>, Gedit <sub>5 hrs 27 mins</sub>, Obsidian <sub>59 mins</sub>, WebStorm <sub>54 mins</sub>, IntelliJ <sub>26 mins</sub>, Sublime Text <sub>16 mins</sub>
-- **Operating Systems**: Linux <sub>324 hrs 42 mins</sub>, Windows <sub>138 hrs 23 mins</sub>, WSL <sub>57 hrs 9 mins</sub>
+- **Languages**: Python (124 hrs 23 mins), Markdown (44 hrs 46 mins), TeX (44 hrs 14 mins), C++ (44 hrs 3 mins), RMarkdown (39 hrs 18 mins), Rust (28 hrs 38 mins)
+- **Editors**: VS Code (306 hrs 32 mins), Neovim (153 hrs 35 mins), DataSpell (37 hrs 30 mins), Android Studio (7 hrs 27 mins), Vim (6 hrs 58 mins), Gedit (5 hrs 27 mins)
+- **Operating Systems**: Linux (324 hrs 42 mins), Windows (138 hrs 23 mins), WSL (57 hrs 9 mins)
     
 
 *auto-generated using python.*
