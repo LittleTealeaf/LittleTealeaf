@@ -32,10 +32,10 @@ def format_waka_list(data,percentage=False,time=False):
     for item in data:
         name = item['name']
         if percentage:
-            values.append(f"{name} ({item['percent']}%)")
+            values.append(f"{name} (*{item['percent']}%*)")
             continue
         if time:
-            values.append(f"{name} ({item['text']})")
+            values.append(f"{name} (*{item['text']}*)")
             continue
         values.append(name)
 
