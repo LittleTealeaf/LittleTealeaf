@@ -7,14 +7,14 @@
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
 ### Last Week (10 hrs 55 mins)
-- **Languages**: Rust (81.51%), Markdown (9.13%), Text (5.95%), Git (2.55%), Other (0.3%), Lua (0.24%)
-- **Editors**: Neovim (90.53%), Obsidian (9.12%), VS Code (0.35%)
-- **Operating Systems**: Linux (85.63%), Windows (9.31%), WSL (5.06%)
+- **Languages**: Rust (8 hrs 55 mins), Markdown (59 mins), Text (39 mins), Git (16 mins), Other (1 min), Lua (1 min)
+- **Editors**: Neovim (9 hrs 54 mins), Obsidian (59 mins), VS Code (2 mins)
+- **Operating Systems**: Linux (9 hrs 22 mins), Windows (1 hr 1 min), WSL (33 mins)
     
 ### Last Month (86 hrs 26 mins)
-- **Languages**: Rust (32.83%), C++ (16.32%), Python (14.7%), Lua (9.49%), TeX (9.26%), Git (4.19%)
-- **Editors**: Neovim (70.73%), VS Code (25.39%), DataSpell (2.7%), Obsidian (1.15%), Rider (0.03%)
-- **Operating Systems**: Linux (80.37%), Windows (18.99%), WSL (0.64%)
+- **Languages**: Rust (28 hrs 28 mins), C++ (14 hrs 9 mins), Python (12 hrs 45 mins), Lua (8 hrs 13 mins), TeX (8 hrs 2 mins), Git (3 hrs 38 mins)
+- **Editors**: Neovim (61 hrs 21 mins), VS Code (22 hrs 1 min), DataSpell (2 hrs 20 mins), Obsidian (59 mins), Rider (1 min)
+- **Operating Systems**: Linux (69 hrs 42 mins), Windows (16 hrs 28 mins), WSL (33 mins)
     
 ### All Time (515 hrs 24 mins)
 - **Languages**: Python (124 hrs 23 mins), Markdown (44 hrs 46 mins), TeX (44 hrs 14 mins), C++ (44 hrs 3 mins), RMarkdown (39 hrs 18 mins), Rust (28 hrs 38 mins)

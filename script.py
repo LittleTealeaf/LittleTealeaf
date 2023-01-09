@@ -60,8 +60,8 @@ out(
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
-{build_tools(waka_weekly,"Last Week")}
-{build_tools(waka_monthly,"Last Month")}
+{build_tools(waka_weekly,"Last Week", percentage = False, time = True)}
+{build_tools(waka_monthly,"Last Month", percentage = False, time = True)}
 {build_tools(waka_all,"All Time", percentage = False, time = True)}
 
 *auto-generated using python.*
