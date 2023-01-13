@@ -64,6 +64,6 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 {build_tools(waka_monthly,"Last Month", percentage = False, time = True)}
 {build_tools(waka_all,"All Time", percentage = False, time = True)}
 
-*auto-generated using python.*
+*auto-generated using python. data collected since August 2022*
 """
 )
