@@ -22,4 +22,4 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 - **Operating Systems**: Linux (331 hrs 20 mins), Windows (138 hrs 57 mins), WSL (67 hrs 45 mins)
     
 
-*auto-generated using python.*
+*auto-generated using python. data collected since August 2022*
