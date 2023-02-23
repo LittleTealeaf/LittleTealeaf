@@ -6,20 +6,20 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
-### Last Week (27 hrs 2 mins)
-- **Languages**: Python (8 hrs 18 mins), Rust (5 hrs 33 mins), SQL (4 hrs 37 mins), Markdown (3 hrs 41 mins), R (1 hr 29 mins), JSON (42 mins)
-- **Editors**: VS Code (15 hrs 3 mins), DataSpell (7 hrs 27 mins), Neovim (5 hrs 5 mins), Azure Data Studio (4 mins), Obsidian (1 min), Gedit (0 secs)
-- **Operating Systems**: Linux (11 hrs 34 mins), WSL (10 hrs 33 mins), Windows (5 hrs 34 mins)
+### Last Week (26 hrs 43 mins)
+- **Languages**: Python (7 hrs 43 mins), Rust (6 hrs 34 mins), SQL (4 hrs 23 mins), Markdown (3 hrs 26 mins), R (1 hr 49 mins), JSON (36 mins)
+- **Editors**: VS Code (12 hrs 45 mins), DataSpell (9 hrs 7 mins), Neovim (5 hrs 26 mins), Gedit (0 secs)
+- **Operating Systems**: Linux (11 hrs 47 mins), WSL (10 hrs 17 mins), Windows (5 hrs 14 mins)
     
-### Last Month (90 hrs 46 mins)
-- **Languages**: Markdown (23 hrs 53 mins), Rust (18 hrs 3 mins), Python (17 hrs 35 mins), Lua (8 hrs 8 mins), SQL (5 hrs 50 mins), Other (4 hrs 16 mins)
-- **Editors**: Neovim (64 hrs 33 mins), VS Code (20 hrs 39 mins), DataSpell (7 hrs 30 mins), Azure Data Studio (1 hr 52 mins), Gedit (12 mins), Vim (7 mins)
-- **Operating Systems**: Linux (74 hrs 45 mins), WSL (14 hrs 10 mins), Windows (6 hrs 6 mins)
+### Last Month (90 hrs 43 mins)
+- **Languages**: Markdown (23 hrs 30 mins), Rust (18 hrs 44 mins), Python (17 hrs 55 mins), SQL (7 hrs 8 mins), Lua (7 hrs 1 min), Other (4 hrs 9 mins)
+- **Editors**: Neovim (61 hrs 31 mins), VS Code (21 hrs 50 mins), DataSpell (9 hrs 10 mins), Azure Data Studio (1 hr 52 mins), Gedit (12 mins), Vim (7 mins)
+- **Operating Systems**: Linux (73 hrs 23 mins), WSL (15 hrs 18 mins), Windows (6 hrs 10 mins)
     
-### All Time (644 hrs)
-- **Languages**: Python (148 hrs 50 mins), Markdown (70 hrs 45 mins), Rust (59 hrs 32 mins), TeX (44 hrs 36 mins), C++ (44 hrs 3 mins), Lua (41 hrs 25 mins)
-- **Editors**: VS Code (327 hrs 47 mins), Neovim (254 hrs 50 mins), DataSpell (45 hrs), Vim (7 hrs 31 mins), Android Studio (7 hrs 27 mins), Gedit (5 hrs 39 mins)
-- **Operating Systems**: Linux (425 hrs 6 mins), Windows (145 hrs 40 mins), WSL (83 hrs 4 mins)
+### All Time (649 hrs 15 mins)
+- **Languages**: Python (150 hrs 2 mins), Markdown (71 hrs 54 mins), Rust (60 hrs 40 mins), TeX (44 hrs 36 mins), C++ (44 hrs 3 mins), Lua (41 hrs 25 mins)
+- **Editors**: VS Code (329 hrs 1 min), Neovim (257 hrs 11 mins), DataSpell (46 hrs 41 mins), Vim (7 hrs 31 mins), Android Studio (7 hrs 27 mins), Gedit (5 hrs 39 mins)
+- **Operating Systems**: Linux (429 hrs 7 mins), Windows (145 hrs 46 mins), WSL (84 hrs 12 mins)
     
 
 *auto-generated using python. data collected since August 2022*
