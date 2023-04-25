@@ -6,15 +6,15 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
-### Last Week (26 hrs 27 mins)
-- **Languages**: R (5 hrs 19 mins), Rust (5 hrs 2 mins), TypeScript (4 hrs 1 min), Lua (3 hrs 15 mins), RMarkdown (1 hr 57 mins), Python (1 hr 45 mins)
-- **Editors**: Neovim (15 hrs 4 mins), DataSpell (9 hrs 50 mins), VS Code (1 hr 31 mins), Vim (1 min), Obsidian (0 secs)
-- **Operating Systems**: Linux (18 hrs 58 mins), Windows (4 hrs 3 mins), WSL (3 hrs 27 mins)
+### Last Week (24 hrs 47 mins)
+- **Languages**: R (5 hrs 19 mins), Rust (5 hrs 2 mins), TypeScript (3 hrs 11 mins), Lua (2 hrs 33 mins), RMarkdown (1 hr 57 mins), Python (1 hr 45 mins)
+- **Editors**: Neovim (13 hrs 23 mins), DataSpell (9 hrs 50 mins), VS Code (1 hr 31 mins), Vim (1 min), Obsidian (0 secs)
+- **Operating Systems**: Linux (17 hrs 28 mins), Windows (4 hrs 3 mins), WSL (3 hrs 16 mins)
     
-### Last Month (123 hrs 50 mins)
-- **Languages**: TypeScript (27 hrs 54 mins), Rust (23 hrs 40 mins), Lua (21 hrs 18 mins), Python (12 hrs 57 mins), Markdown (10 hrs 13 mins), SQL (8 hrs 17 mins)
-- **Editors**: Neovim (88 hrs 43 mins), DataSpell (17 hrs 43 mins), VS Code (17 hrs 16 mins), Obsidian (8 mins), Gedit (4 mins), Vim (3 mins)
-- **Operating Systems**: Linux (104 hrs 58 mins), WSL (10 hrs 48 mins), Windows (8 hrs 11 mins)
+### Last Month (119 hrs 17 mins)
+- **Languages**: TypeScript (27 hrs 54 mins), Lua (21 hrs 18 mins), Rust (20 hrs 44 mins), Python (12 hrs 57 mins), Markdown (9 hrs 50 mins), SQL (7 hrs 42 mins)
+- **Editors**: Neovim (88 hrs 43 mins), DataSpell (17 hrs 26 mins), VS Code (12 hrs 58 mins), Obsidian (8 mins), Gedit (4 mins), Vim (3 mins)
+- **Operating Systems**: Linux (104 hrs 58 mins), Windows (7 hrs 55 mins), WSL (6 hrs 30 mins)
     
 ### All Time (858 hrs 24 mins)
 - **Languages**: Python (174 hrs 24 mins), Rust (107 hrs 36 mins), Markdown (92 hrs 3 mins), Lua (88 hrs 27 mins), C++ (45 hrs 39 mins), TeX (44 hrs 36 mins)
