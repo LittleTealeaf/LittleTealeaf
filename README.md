@@ -6,15 +6,15 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
-### Last Week (5 hrs 53 mins)
-- **Languages**: Rust (3 hrs 16 mins), SCSS (46 mins), HTML (36 mins), YAML (25 mins), TOML (21 mins), Other (11 mins)
-- **Editors**: Neovim (5 hrs 53 mins), VS Code (6 mins), Vim (4 mins)
-- **Operating Systems**: Linux (5 hrs 58 mins), Windows (6 mins)
+### Last Week (3 hrs 34 mins)
+- **Languages**: Rust (2 hrs 34 mins), YAML (25 mins), TOML (21 mins), Other (11 mins), Markdown (6 mins), Git (4 mins)
+- **Editors**: Neovim (3 hrs 34 mins), VS Code (6 mins), Vim (4 mins)
+- **Operating Systems**: Linux (3 hrs 38 mins), Windows (6 mins)
     
-### Last Month (79 hrs 35 mins)
-- **Languages**: Rust (44 hrs 25 mins), SCSS (11 hrs 57 mins), Lua (6 hrs 7 mins), HTML (5 hrs 24 mins), JavaScript (3 hrs 15 mins), YAML (2 hrs 11 mins)
-- **Editors**: Neovim (62 hrs 35 mins), VS Code (12 hrs 12 mins), Rider (3 hrs 15 mins), Obsidian (51 mins), DataSpell (43 mins), Vim (8 mins)
-- **Operating Systems**: Linux (62 hrs 47 mins), Windows (17 hrs 3 mins)
+### Last Month (71 hrs 52 mins)
+- **Languages**: Rust (36 hrs 43 mins), SCSS (11 hrs 57 mins), Lua (6 hrs 7 mins), HTML (5 hrs 24 mins), JavaScript (3 hrs 15 mins), YAML (2 hrs 11 mins)
+- **Editors**: Neovim (58 hrs 5 mins), VS Code (12 hrs 12 mins), Obsidian (51 mins), DataSpell (43 mins), Vim (8 mins), Gedit (4 mins)
+- **Operating Systems**: Linux (58 hrs 18 mins), Windows (13 hrs 50 mins)
     
 ### All Time (1,075 hrs 31 mins)
 - **Languages**: Rust (249 hrs 27 mins), Python (181 hrs 38 mins), Lua (103 hrs 17 mins), Markdown (96 hrs 8 mins), TeX (50 hrs 15 mins), C++ (45 hrs 39 mins)
