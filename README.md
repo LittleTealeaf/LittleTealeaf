@@ -11,10 +11,10 @@ You can see more on my personal website! [littletealeaf.github.io](https://littl
 - **Editors**: Neovim (7 hrs 37 mins), VS Code (2 hrs), Rider (55 mins), Gedit (0 secs)
 - **Operating Systems**: Linux (7 hrs 38 mins), Windows (2 hrs 55 mins)
     
-### Last Month (33 hrs 12 mins)
-- **Languages**: Rust (22 hrs 39 mins), YAML (2 hrs 14 mins), Lua (1 hr 46 mins), SCSS (1 hr 45 mins), HTML (1 hr 43 mins), TOML (1 hr 7 mins)
-- **Editors**: Neovim (25 hrs 40 mins), VS Code (6 hrs 30 mins), Rider (55 mins), Gedit (11 mins), Obsidian (4 mins)
-- **Operating Systems**: Linux (25 hrs 51 mins), Windows (7 hrs 29 mins)
+### Last Month (33 hrs 14 mins)
+- **Languages**: Rust (22 hrs 40 mins), YAML (2 hrs 14 mins), Lua (1 hr 46 mins), SCSS (1 hr 45 mins), HTML (1 hr 43 mins), TOML (1 hr 7 mins)
+- **Editors**: Neovim (25 hrs 41 mins), VS Code (6 hrs 30 mins), Rider (55 mins), Gedit (11 mins), Obsidian (4 mins)
+- **Operating Systems**: Linux (25 hrs 53 mins), Windows (7 hrs 29 mins)
     
 ### All Time (1,108 hrs 43 mins)
 - **Languages**: Rust (272 hrs 7 mins), Python (182 hrs 13 mins), Lua (105 hrs 3 mins), Markdown (96 hrs 18 mins), TeX (50 hrs 15 mins), C++ (45 hrs 39 mins)
