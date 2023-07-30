@@ -6,10 +6,10 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
-### Last Week (9 hrs 48 mins)
-- **Languages**: Rust (4 hrs 50 mins), SCSS (1 hr 45 mins), HTML (1 hr 38 mins), JavaScript (51 mins), Python (34 mins), TOML (4 mins)
-- **Editors**: Neovim (6 hrs 28 mins), VS Code (2 hrs 24 mins), Rider (55 mins), Gedit (0 secs)
-- **Operating Systems**: Linux (6 hrs 28 mins), Windows (3 hrs 19 mins)
+### Last Week (7 hrs 20 mins)
+- **Languages**: Rust (4 hrs 50 mins), SCSS (1 hr 1 min), HTML (43 mins), JavaScript (19 mins), Python (19 mins), TOML (4 mins)
+- **Editors**: Neovim (4 hrs), VS Code (2 hrs 24 mins), Rider (55 mins)
+- **Operating Systems**: Linux (4 hrs), Windows (3 hrs 19 mins)
     
 ### Last Month (34 hrs 41 mins)
 - **Languages**: Rust (24 hrs 33 mins), YAML (2 hrs 7 mins), SCSS (1 hr 45 mins), HTML (1 hr 43 mins), Lua (1 hr 41 mins), TOML (58 mins)
