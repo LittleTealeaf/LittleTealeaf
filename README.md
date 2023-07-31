@@ -6,15 +6,15 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
-### Last Week (7 hrs 20 mins)
-- **Languages**: Rust (4 hrs 50 mins), SCSS (1 hr 1 min), HTML (43 mins), JavaScript (19 mins), Python (19 mins), TOML (4 mins)
-- **Editors**: Neovim (4 hrs), VS Code (2 hrs 24 mins), Rider (55 mins)
-- **Operating Systems**: Linux (4 hrs), Windows (3 hrs 19 mins)
+### Last Week (4 hrs 59 mins)
+- **Languages**: Rust (4 hrs 50 mins), TOML (4 mins), HTML (1 min), JSON (1 min), SCSS (1 min), Lua (0 secs)
+- **Editors**: VS Code (2 hrs 24 mins), Neovim (1 hr 39 mins), Rider (55 mins)
+- **Operating Systems**: Windows (3 hrs 19 mins), Linux (1 hr 39 mins)
     
-### Last Month (34 hrs 41 mins)
-- **Languages**: Rust (24 hrs 33 mins), YAML (2 hrs 7 mins), SCSS (1 hr 45 mins), HTML (1 hr 43 mins), Lua (1 hr 41 mins), TOML (58 mins)
-- **Editors**: Neovim (25 hrs 24 mins), VS Code (8 hrs 10 mins), Rider (55 mins), Gedit (11 mins), Obsidian (4 mins)
-- **Operating Systems**: Linux (25 hrs 36 mins), Windows (9 hrs 9 mins)
+### Last Month (32 hrs 40 mins)
+- **Languages**: Rust (22 hrs 48 mins), YAML (2 hrs), SCSS (1 hr 45 mins), Lua (1 hr 41 mins), HTML (1 hr 38 mins), TOML (54 mins)
+- **Editors**: Neovim (24 hrs 41 mins), VS Code (6 hrs 52 mins), Rider (55 mins), Gedit (11 mins), Obsidian (4 mins)
+- **Operating Systems**: Linux (24 hrs 52 mins), Windows (7 hrs 52 mins)
     
 ### All Time (1,111 hrs 26 mins)
 - **Languages**: Rust (274 hrs 49 mins), Python (182 hrs 13 mins), Lua (105 hrs 4 mins), Markdown (96 hrs 18 mins), TeX (50 hrs 15 mins), C++ (45 hrs 39 mins)
