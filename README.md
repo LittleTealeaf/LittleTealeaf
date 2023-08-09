@@ -6,10 +6,10 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
-### Last Week (18 hrs 21 mins)
-- **Languages**: Other (3 hrs 32 mins), yuck (3 hrs 17 mins), SCSS (3 hrs 1 min), JavaScript (2 hrs 55 mins), HTML (2 hrs 32 mins), Python (1 hr 40 mins)
-- **Editors**: Neovim (17 hrs 37 mins), VS Code (3 hrs 33 mins), Unknown Editor (33 mins), DataSpell (6 mins), Gedit (2 mins), Rider (0 secs)
-- **Operating Systems**: Linux (18 hrs 20 mins), Windows (3 hrs 33 mins)
+### Last Week (18 hrs 3 mins)
+- **Languages**: Other (3 hrs 29 mins), yuck (3 hrs 17 mins), SCSS (3 hrs 1 min), JavaScript (2 hrs 55 mins), HTML (2 hrs 32 mins), Python (1 hr 35 mins)
+- **Editors**: Neovim (17 hrs 26 mins), VS Code (3 hrs 33 mins), Unknown Editor (33 mins), Android Studio (0 secs), IntelliJ (0 secs)
+- **Operating Systems**: Linux (18 hrs 6 mins), Windows (3 hrs 26 mins)
     
 ### Last Month (43 hrs 22 mins)
 - **Languages**: Rust (16 hrs 11 mins), SCSS (4 hrs 47 mins), HTML (4 hrs 11 mins), JavaScript (3 hrs 52 mins), Other (3 hrs 40 mins), yuck (3 hrs 17 mins)
