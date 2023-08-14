@@ -6,15 +6,15 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
-### Last Week (16 hrs 33 mins)
-- **Languages**: yuck (5 hrs 10 mins), Other (4 hrs 4 mins), SCSS (1 hr 55 mins), CSS (1 hr 36 mins), hypr (1 hr 19 mins), Bash (59 mins)
-- **Editors**: Neovim (19 hrs 48 mins), Unknown Editor (33 mins), Android Studio (8 mins), VS Code (7 mins)
-- **Operating Systems**: Linux (20 hrs 29 mins), Windows (8 mins)
+### Last Week (9 hrs 50 mins)
+- **Languages**: yuck (4 hrs 14 mins), Other (1 hr 37 mins), SCSS (1 hr 35 mins), hypr (1 hr 19 mins), sh (38 mins), JSON (22 mins)
+- **Editors**: Neovim (11 hrs 19 mins), Android Studio (8 mins)
+- **Operating Systems**: Linux (11 hrs 19 mins), Windows (8 mins)
     
-### Last Month (48 hrs 39 mins)
-- **Languages**: Rust (15 hrs 35 mins), SCSS (5 hrs 41 mins), yuck (5 hrs 10 mins), Other (4 hrs 15 mins), HTML (4 hrs 11 mins), JavaScript (3 hrs 52 mins)
-- **Editors**: Neovim (41 hrs 50 mins), VS Code (9 hrs 4 mins), Rider (55 mins), Unknown Editor (33 mins), Gedit (14 mins), Android Studio (8 mins)
-- **Operating Systems**: Linux (42 hrs 45 mins), Windows (10 hrs 10 mins)
+### Last Month (44 hrs 21 mins)
+- **Languages**: Rust (14 hrs 20 mins), SCSS (5 hrs 41 mins), yuck (5 hrs 10 mins), Other (4 hrs 15 mins), HTML (4 hrs 11 mins), JavaScript (3 hrs 52 mins)
+- **Editors**: Neovim (37 hrs 42 mins), VS Code (9 hrs 4 mins), Rider (55 mins), Unknown Editor (33 mins), Android Studio (8 mins), DataSpell (6 mins)
+- **Operating Systems**: Linux (38 hrs 26 mins), Windows (10 hrs 10 mins)
     
 ### All Time (1,137 hrs 47 mins)
 - **Languages**: Rust (276 hrs 27 mins), Python (183 hrs 54 mins), Lua (106 hrs 1 min), Markdown (96 hrs 20 mins), TeX (50 hrs 15 mins), C++ (45 hrs 39 mins)
