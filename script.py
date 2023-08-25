@@ -56,7 +56,6 @@ out(
 ### Hello There! I'm Thomas Kwashnak
 
 - Undergraduate Student at Quinnipiac University studying Computer Science and Data Science, with a minor in economics.
-- Available for part-time internships during the Fall 2023 Semester
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
