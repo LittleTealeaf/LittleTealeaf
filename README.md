@@ -5,14 +5,14 @@
 
 You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
 
-### Last Week (9 hrs 27 mins)
-- **Languages**: Lua (1 hr 53 mins), Rust (1 hr 38 mins), TOML (57 mins), Java (51 mins), Bash (41 mins), Objective-C (40 mins)
-- **Editors**: Neovim (8 hrs 45 mins), IntelliJ (24 mins), VS Code (7 mins), Android Studio (6 mins), DataSpell (3 mins)
-- **Operating Systems**: Linux (9 hrs 19 mins), Windows (7 mins)
+### Last Week (7 hrs 53 mins)
+- **Languages**: Lua (1 hr 53 mins), Rust (1 hr 21 mins), Java (49 mins), TOML (46 mins), Objective-C (40 mins), Python (21 mins)
+- **Editors**: Neovim (7 hrs 12 mins), IntelliJ (24 mins), VS Code (7 mins), Android Studio (6 mins), DataSpell (3 mins)
+- **Operating Systems**: Linux (7 hrs 46 mins), Windows (7 mins)
     
 ### Last Month (46 hrs 32 mins)
 - **Languages**: Rust (6 hrs 55 mins), yuck (5 hrs 11 mins), SCSS (4 hrs 45 mins), Other (4 hrs 26 mins), JavaScript (3 hrs 8 mins), Lua (3 hrs 4 mins)
-- **Editors**: Neovim (42 hrs 20 mins), VS Code (7 hrs 12 mins), Unknown Editor (33 mins), IntelliJ (24 mins), Android Studio (15 mins), DataSpell (9 mins)
+- **Editors**: Neovim (42 hrs 21 mins), VS Code (7 hrs 12 mins), Unknown Editor (33 mins), IntelliJ (24 mins), Android Studio (15 mins), DataSpell (9 mins)
 - **Operating Systems**: Linux (43 hrs 39 mins), Windows (7 hrs 19 mins)
     
 ### All Time (1,155 hrs 15 mins)
