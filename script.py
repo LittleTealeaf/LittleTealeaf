@@ -1,66 +1,46 @@
-import json
-import os
 from libs.cache import clean_cache
-import libs.github as github
-from libs.markdown import *
-from libs.util import *
-import libs.wakatime as wakatime
+from libs.utils import out
+from libs.wakatime import getStats
+from libs.markdown import table
 
 
 clean_cache()
 
+wakatime_stats = getStats("last_7_days")
 
-def out(content: str):
-    with open("README.md", "w") as file:
-        file.write(content)
-
-
-about_me = code_block("json", json.dumps(load_json("config/aboutme.json"), indent=2))
-
-waka_all = wakatime.getStats("all_time")
-waka_monthly = wakatime.getStats("last_30_days")
-waka_weekly = wakatime.getStats("last_7_days")
-
-assert waka_weekly is not None
-assert waka_monthly is not None
-assert waka_all is not None
-
-current_projects = waka_weekly["projects"][0:10]
-
-def format_waka_list(data,percentage=False,time=False):
-    values = []
-    for item in data:
-        name = item['name']
-        if percentage:
-            values.append(f"{name} ({item['percent']}%)")
-            continue
-        if time:
-            values.append(f"{name} ({item['text']})")
-            continue
-        values.append(name)
-
-    return ", ".join(values)
+extracted = {
+    "Languages": wakatime_stats["languages"][0:5],
+    "Editors": wakatime_stats["editors"][0:5],
+    "Operating Systems": wakatime_stats["operating_systems"][0:5]
+}
 
 
-def build_tools(data,title, top = 6, percentage: bool = True, time: bool = False):
-    return f"""### {title} ({data['human_readable_total']})
-- **Languages**: {format_waka_list(data['languages'][0:top], percentage=percentage, time = time)}
-- **Editors**: {format_waka_list(data['editors'][0:top], percentage=percentage, time = time)}
-- **Operating Systems**: {format_waka_list(data['operating_systems'][0:top], percentage=percentage, time = time)}
-    """
+waka_table = table(
+    headers=["Past Week Stats"],
+    content=[
+        [
+            ", ".join(
+                [
+                    f"{item['name']} ({item['text']})"
+                    for item in data
+                ]
+            )
 
-# https://github.com/alexandresanlim/Badges4-README.md-Profile
+        ] for category, data in extracted.items()
+    ]
+)
+
 
 out(
     f"""
-### Hello There! I'm Thomas Kwashnak
+### Hello there! I'm Thomas Kwashnak
 
-Undergraduate Student at Quinnipiac University studying Computer Science and Data Science, with a minor in economics.
+I'm a Computer Science and Data Science double major with an Economics
+minor at Quinnipiac University, graduating in 2024.
+I enjoy diving into algorithms and learning the inner-workings of the tools
+many programmers take for granted.
 
-You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). 
+{waka_table}
 
-{build_tools(waka_weekly,"Last Week", percentage = False, time = True)}
-
-*auto-generated using python. data collected since August 2022*
 """
 )

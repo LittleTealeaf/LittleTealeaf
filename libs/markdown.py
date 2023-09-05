@@ -1,9 +1,13 @@
+def table(headers, content, spacing=None):
+    headers_str = " | ".join(headers)
+    spacing_str = " | ".join(
+        spacing if spacing is not None else len(headers) * [":---:"])
 
-def code_block(language: str, content: str):
-    return f"```{language}\n{content}\n```"
+    rows = []
+    for row in content:
+        cells = " | ".join(row)
+        rows.append(f"| {cells} |")
 
-def quote(content: str):
-    return "> " + content.replace("\n","\n> ")
+    body = "\n".join(rows)
 
-def bullet_list(content: list[str]):
-    return f"<ul>{''.join(f'<li>{item}</li>' for item in content)}</ul>"
+    return f"| {headers_str} |\n| {spacing_str} |\n{body}"
