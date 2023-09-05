@@ -55,13 +55,11 @@ out(
     f"""
 ### Hello There! I'm Thomas Kwashnak
 
-- Undergraduate Student at Quinnipiac University studying Computer Science and Data Science, with a minor in economics.
+Undergraduate Student at Quinnipiac University studying Computer Science and Data Science, with a minor in economics.
 
-You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). Fair warning! I'm still finding time to finish up my website, so there's not much there yet.
+You can see more on my personal website! [littletealeaf.github.io](https://littletealeaf.github.io). 
 
 {build_tools(waka_weekly,"Last Week", percentage = False, time = True)}
-{build_tools(waka_monthly,"Last Month", percentage = False, time = True)}
-{build_tools(waka_all,"All Time", percentage = False, time = True)}
 
 *auto-generated using python. data collected since August 2022*
 """
