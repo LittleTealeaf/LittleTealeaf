@@ -14,7 +14,7 @@ def getData(endpoint: str, params: dict = {}):
         return che
 
     params = params.copy()
-    params['api_key'] = os.getenv('WAKATIME_TOKEN')
+    params['api_key'] = os.getenv('WAKA_TOKEN')
 
     url = f"https://www.wakatime.com/{endpoint}"
     response = requests.get(url, params=params)
@@ -30,7 +30,7 @@ def getStats(timeFrame: str):
     key = f"WAKATIME/STATS/{timeFrame}"
 
     params = {
-        'api_key': os.getenv('WAKATIME_TOKEN')
+        'api_key': os.getenv('WAKA_TOKEN')
     }
 
     stats = None
