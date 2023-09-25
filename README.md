@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Python (4 hrs 31 mins), Java (2 hrs 37 mins), Markdown (1 hr 29 mins), Rust (51 mins), Ezhil (27 mins) |
-| Neovim (6 hrs 2 mins), DataSpell (4 hrs 24 mins), VS Code (7 mins), RustRover (6 mins), WebStorm (5 mins) |
-| Linux (8 hrs 2 mins), Windows (2 hrs 45 mins) |
+| Python (4 hrs 24 mins), Rust (4 hrs), Markdown (1 hr 29 mins), Java (1 hr 22 mins), Ezhil (36 mins) |
+| Neovim (7 hrs 48 mins), DataSpell (4 hrs 24 mins), VS Code (18 mins), RustRover (6 mins), WebStorm (5 mins) |
+| Linux (9 hrs 47 mins), Windows (2 hrs 56 mins) |
 
