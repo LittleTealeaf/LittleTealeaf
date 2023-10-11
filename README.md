@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (11 hrs 24 mins), Python (5 hrs 28 mins), Lua (2 hrs 23 mins), Markdown (2 hrs 14 mins), C++ (1 hr 30 mins) |
-| Neovim (19 hrs 10 mins), DataSpell (5 hrs 22 mins), VS Code (2 hrs 48 mins), Android Studio (2 mins) |
-| Linux (22 hrs 33 mins), Windows (4 hrs 50 mins) |
+| Rust (11 hrs 12 mins), Markdown (2 hrs 14 mins), BibTeX (2 hrs 9 mins), Lua (2 hrs 6 mins), Python (2 hrs 2 mins) |
+| Neovim (18 hrs 44 mins), VS Code (4 hrs 19 mins), DataSpell (1 hr 55 mins), Android Studio (2 mins) |
+| Linux (20 hrs 42 mins), Windows (4 hrs 19 mins) |
 
