@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (20 hrs 6 mins), Lua (8 hrs 53 mins), Python (4 hrs 55 mins), TeX (2 hrs 17 mins), Java (2 hrs 10 mins) |
-| Neovim (41 hrs 26 mins), DataSpell (2 hrs 44 mins), VS Code (8 mins), Unknown Editor (0 secs) |
-| Linux (41 hrs 5 mins), Windows (2 hrs 51 mins), WSL (22 mins) |
+| Rust (19 hrs 17 mins), Lua (9 hrs 9 mins), Python (6 hrs 8 mins), TeX (2 hrs 17 mins), Java (2 hrs 10 mins) |
+| Neovim (38 hrs 49 mins), DataSpell (4 hrs 48 mins), VS Code (8 mins), Unknown Editor (0 secs) |
+| Linux (38 hrs 21 mins), Windows (4 hrs 55 mins), WSL (29 mins) |
 
