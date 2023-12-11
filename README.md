@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (23 hrs 35 mins), TeX (3 hrs 13 mins), Bash (2 hrs 55 mins), Lua (1 hr 52 mins), Markdown (49 mins) |
-| Vim (20 hrs 52 mins), Neovim (14 hrs 9 mins), IntelliJ (3 mins) |
-| Linux (33 hrs 28 mins), WSL (1 hr 37 mins) |
+| Rust (19 hrs 18 mins), Bash (3 hrs 46 mins), Lua (1 hr 51 mins), Markdown (49 mins), Python (36 mins) |
+| Vim (23 hrs 9 mins), Neovim (4 hrs 59 mins), IntelliJ (3 mins) |
+| Linux (27 hrs 2 mins), WSL (1 hr 10 mins) |
 
