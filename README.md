@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (13 hrs 37 mins), TeX (4 hrs 58 mins), Lua (1 hr 47 mins), Bash (1 hr 12 mins), quarto (27 mins) |
-| Vim (23 hrs 42 mins), IntelliJ (3 mins), VS Code (1 min) |
-| Linux (23 hrs 46 mins), Windows (1 min) |
+| Rust (11 hrs 8 mins), TeX (4 hrs 58 mins), Lua (1 hr 45 mins), Bash (1 hr 8 mins), quarto (27 mins) |
+| Vim (21 hrs 18 mins), VS Code (1 min) |
+| Linux (21 hrs 18 mins), Windows (1 min) |
 
