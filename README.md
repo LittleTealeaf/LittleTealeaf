@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (10 hrs 54 mins), Lua (1 hr 40 mins), Cuda (1 hr 4 mins), C++ (45 mins), Python (11 mins) |
-| Neovim (10 hrs 25 mins), Vim (5 hrs 6 mins) |
-| Linux (13 hrs 52 mins), WSL (1 hr 40 mins) |
+| Rust (11 hrs 45 mins), Lua (1 hr 15 mins), HTML (10 mins), SCSS (8 mins), CSS (8 mins) |
+| Neovim (8 hrs 43 mins), Vim (5 hrs 6 mins) |
+| Linux (13 hrs 49 mins) |
 
