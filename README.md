@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (11 hrs 4 mins), Lua (1 hr 4 mins), SCSS (8 mins), Text (6 mins), TOML (5 mins) |
-| Neovim (7 hrs 31 mins), Vim (5 hrs 6 mins) |
-| Linux (12 hrs 3 mins), WSL (34 mins) |
+| Rust (10 hrs 18 mins), Lua (39 mins), Text (14 mins), TOML (5 mins), Bash (4 mins) |
+| Neovim (6 hrs 19 mins), Vim (5 hrs 6 mins) |
+| Linux (10 hrs 44 mins), WSL (42 mins) |
 
