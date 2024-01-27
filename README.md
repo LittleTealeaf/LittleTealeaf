@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (7 hrs 28 mins), Java (2 hrs 49 mins), Markdown (2 hrs 32 mins), quarto (1 hr 2 mins), Lua (53 mins) |
-| Neovim (10 hrs 18 mins), Vim (5 hrs 6 mins), DataSpell (4 mins) |
-| Linux (15 hrs 19 mins), WSL (10 mins) |
+| Rust (6 hrs 35 mins), Java (2 hrs 49 mins), Markdown (2 hrs 32 mins), quarto (1 hr 2 mins), Lua (45 mins) |
+| Neovim (9 hrs 17 mins), Vim (5 hrs 6 mins), DataSpell (4 mins) |
+| Linux (14 hrs 18 mins), WSL (9 mins) |
 
