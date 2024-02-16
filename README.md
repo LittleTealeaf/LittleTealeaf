@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (11 hrs 31 mins), Java (1 hr 44 mins), Lua (1 hr 14 mins), quarto (1 hr 9 mins), YAML (17 mins) |
-| Neovim (10 hrs 22 mins), Vim (5 hrs 6 mins), VS Code (1 hr 6 mins), Rustrover (11 mins) |
-| Linux (15 hrs 15 mins), Windows (1 hr 7 mins), WSL (23 mins) |
+| Rust (12 hrs 9 mins), Java (1 hr 44 mins), quarto (1 hr 1 min), Lua (29 mins), Python (25 mins) |
+| Neovim (10 hrs 38 mins), Vim (5 hrs 6 mins), VS Code (1 hr 6 mins), Rustrover (11 mins) |
+| Linux (15 hrs 31 mins), Windows (1 hr 7 mins), WSL (23 mins) |
 
