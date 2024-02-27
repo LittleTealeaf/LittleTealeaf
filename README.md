@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (5 hrs 49 mins), Python (3 hrs 26 mins), Lua (3 hrs 16 mins), quarto (2 hrs 39 mins), Makefile (1 hr 37 mins) |
-| Neovim (10 hrs 28 mins), Vim (5 hrs 6 mins), VS Code (3 hrs 35 mins), DataSpell (29 mins), Android Studio (6 mins) |
-| Linux (15 hrs 21 mins), WSL (4 hrs 1 min), Windows (29 mins) |
+| Rust (5 hrs 4 mins), Python (3 hrs 11 mins), Lua (2 hrs 47 mins), quarto (2 hrs 39 mins), Makefile (1 hr 46 mins) |
+| Neovim (15 hrs 2 mins), VS Code (3 hrs 35 mins), DataSpell (29 mins), IntelliJ (6 mins) |
+| Linux (14 hrs 42 mins), WSL (4 hrs 2 mins), Windows (29 mins) |
 
