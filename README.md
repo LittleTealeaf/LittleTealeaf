@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| TeX (2 hrs 36 mins), Rust (2 hrs 12 mins), Lua (1 hr 36 mins), Java (1 hr 35 mins), Markdown (34 mins) |
-| Neovim (10 hrs 30 mins), VS Code (26 mins), DataSpell (5 mins) |
-| Linux (10 hrs 35 mins), WSL (14 mins), Windows (11 mins) |
+| Cuda (3 hrs 19 mins), TeX (2 hrs 27 mins), Rust (1 hr 58 mins), Java (53 mins), Lua (38 mins) |
+| Neovim (8 hrs 37 mins), VS Code (3 hrs 55 mins), DataSpell (5 mins) |
+| Linux (8 hrs 23 mins), WSL (4 hrs 1 min), Windows (11 mins) |
 
