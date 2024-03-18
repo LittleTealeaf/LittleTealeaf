@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (7 hrs 55 mins), Cuda (3 hrs 5 mins), Lua (1 hr 21 mins), Other (35 mins), Makefile (30 mins) |
-| Neovim (9 hrs 42 mins), VS Code (5 hrs 36 mins) |
-| Linux (9 hrs 22 mins), WSL (3 hrs 48 mins), Windows (2 hrs 8 mins) |
+| Rust (8 hrs 48 mins), Cuda (3 hrs 5 mins), Lua (1 hr 25 mins), Other (54 mins), Makefile (30 mins) |
+| Neovim (9 hrs 14 mins), VS Code (6 hrs 37 mins) |
+| Linux (8 hrs 53 mins), WSL (3 hrs 49 mins), Windows (3 hrs 9 mins) |
 
