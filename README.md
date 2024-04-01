@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Python (6 hrs 36 mins), Lua (1 hr 26 mins), Rust (1 hr 7 mins), Kotlin (31 mins), Cuda (20 mins) |
-| Neovim (10 hrs 26 mins), Android Studio (57 mins), VS Code (44 mins) |
-| Linux (11 hrs 13 mins), WSL (49 mins), Windows (6 mins) |
+| Python (6 hrs 36 mins), Cuda (2 hrs 8 mins), Lua (1 hr 26 mins), Rust (1 hr 14 mins), R (1 hr 2 mins) |
+| Neovim (9 hrs 44 mins), VS Code (5 hrs 58 mins), Android Studio (57 mins) |
+| Linux (10 hrs 31 mins), WSL (6 hrs 2 mins), Windows (6 mins) |
 
