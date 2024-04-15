@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (3 hrs 38 mins), RMarkdown (3 hrs 30 mins), Kotlin (2 hrs 23 mins), Python (1 hr 41 mins), R (1 hr 20 mins) |
-| Neovim (6 hrs 39 mins), DataSpell (3 hrs 39 mins), VS Code (3 hrs 30 mins), Android Studio (3 hrs 21 mins) |
-| Linux (10 hrs), Windows (4 hrs 13 mins), WSL (2 hrs 56 mins) |
+| Rust (4 hrs), RMarkdown (3 hrs 30 mins), Kotlin (2 hrs 23 mins), Python (1 hr 41 mins), R (1 hr 20 mins) |
+| Neovim (6 hrs 43 mins), VS Code (3 hrs 53 mins), DataSpell (3 hrs 39 mins), Android Studio (3 hrs 21 mins) |
+| Linux (10 hrs), Windows (4 hrs 37 mins), WSL (2 hrs 59 mins) |
 
