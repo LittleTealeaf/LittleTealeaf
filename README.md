@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (6 hrs 56 mins), TeX (4 hrs 54 mins), Java (1 hr 40 mins), HTML (48 mins), R (36 mins) |
-| Neovim (13 hrs 21 mins), VS Code (2 hrs 7 mins), Rustrover (56 mins) |
-| Linux (13 hrs 20 mins), WSL (2 hrs 7 mins), Windows (56 mins) |
+| Rust (6 hrs 58 mins), TeX (5 hrs 14 mins), Java (1 hr 40 mins), Kotlin (1 hr 16 mins), HTML (48 mins) |
+| Neovim (13 hrs 44 mins), VS Code (2 hrs 7 mins), Android Studio (1 hr 40 mins), Rustrover (56 mins) |
+| Linux (15 hrs 24 mins), WSL (2 hrs 7 mins), Windows (56 mins) |
 
