@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| TeX (11 hrs 19 mins), Rust (5 hrs 44 mins), R (2 hrs), Kotlin (1 hr 20 mins), Java (59 mins) |
-| Neovim (19 hrs 39 mins), Android Studio (2 hrs 16 mins), VS Code (59 mins), DataSpell (42 mins) |
-| Linux (21 hrs 55 mins), WSL (59 mins), Windows (42 mins) |
+| TeX (11 hrs 57 mins), Rust (6 hrs 7 mins), R (2 hrs 1 min), Kotlin (1 hr 20 mins), Markdown (29 mins) |
+| Neovim (19 hrs 24 mins), Android Studio (2 hrs 16 mins), DataSpell (58 mins), VS Code (12 mins) |
+| Linux (21 hrs 40 mins), Windows (58 mins), WSL (12 mins) |
 
