@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| TeX (14 hrs 47 mins), R (6 hrs 9 mins), Rust (3 hrs 55 mins), BibTeX (2 mins), Lua (1 min) |
-| Neovim (18 hrs 4 mins), DataSpell (6 hrs 9 mins), VS Code (46 mins) |
-| Linux (18 hrs 4 mins), Windows (6 hrs 56 mins) |
+| TeX (11 hrs 50 mins), R (5 hrs 54 mins), Rust (4 hrs 36 mins), RMarkdown (2 hrs 19 mins), Quarto (34 mins) |
+| Neovim (15 hrs 54 mins), DataSpell (8 hrs 47 mins), VS Code (46 mins) |
+| Linux (15 hrs 54 mins), Windows (9 hrs 34 mins) |
 
