@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (7 hrs), TOML (23 mins), Python (21 mins), INI (17 mins), C (9 mins) |
-| Neovim (8 hrs 15 mins), VS Code (27 mins) |
-| Linux (8 hrs 15 mins), Windows (27 mins) |
+| Rust (6 hrs 30 mins), TOML (26 mins), Python (21 mins), INI (17 mins), C (9 mins) |
+| Neovim (7 hrs 47 mins), VS Code (27 mins) |
+| Linux (7 hrs 47 mins), Windows (27 mins) |
 
