@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (4 hrs 4 mins), Nushell (5 mins), Python (4 mins), TOML (2 mins), JavaScript (1 min) |
-| Neovim (4 hrs 23 mins) |
-| Linux (4 hrs 23 mins) |
+| Rust (5 hrs 59 mins), Lua (17 mins), Text (5 mins), Java (5 mins), Python (4 mins) |
+| Neovim (6 hrs 39 mins) |
+| Linux (6 hrs 39 mins) |
 
