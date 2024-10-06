@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (10 mins), Lua (0 secs) |
-| Neovim (10 mins) |
-| Linux (10 mins) |
+|  |
+|  |
+|  |
 
