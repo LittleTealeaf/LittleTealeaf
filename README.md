@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-|  |
-|  |
-|  |
+| Other (19 mins) |
+| VS Code (19 mins) |
+| Windows (19 mins) |
 
