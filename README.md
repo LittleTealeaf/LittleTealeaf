@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| JSON (13 mins), TOML (0 secs) |
-| VS Code (14 mins) |
-| Windows (14 mins) |
+| JSON (50 mins), TOML (0 secs) |
+| VS Code (50 mins) |
+| Windows (50 mins) |
 
