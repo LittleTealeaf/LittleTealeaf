@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Python (54 mins), JSON (12 mins), CSV (3 mins), XML (1 min), Other (0 secs) |
-| VS Code (1 hr 10 mins) |
-| Windows (1 hr 10 mins) |
+| Python (15 mins), JSON (12 mins), CSV (2 mins) |
+| VS Code (30 mins) |
+| Windows (30 mins) |
 
