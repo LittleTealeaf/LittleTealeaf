@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Python (2 hrs 16 mins), Rust (47 mins), JSON (14 mins), Lua (10 mins), TOML (0 secs) |
-| VS Code (2 hrs 30 mins), Neovim (57 mins) |
-| Windows (2 hrs 30 mins), Linux (46 mins), WSL (11 mins) |
+| Python (2 hrs 59 mins), JSON (14 mins), CSV (6 mins), Rust (5 mins), XML (2 mins) |
+| VS Code (3 hrs 23 mins), Neovim (5 mins) |
+| Windows (3 hrs 23 mins), Linux (5 mins) |
 
