@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Python (43 mins), Rust (11 mins), CSV (6 mins), XML (2 mins) |
-| VS Code (1 hr 4 mins) |
-| Windows (1 hr 4 mins) |
+| Rust (11 mins) |
+| VS Code (11 mins) |
+| Windows (11 mins) |
 
