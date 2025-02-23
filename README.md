@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Python (12 mins), TOML (7 mins) |
-| VS Code (19 mins) |
-| Windows (19 mins) |
+| Python (22 mins), TOML (7 mins), JSON (2 mins) |
+| VS Code (33 mins) |
+| Windows (33 mins) |
 
