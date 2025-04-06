@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-|  |
-|  |
-|  |
+| Rust (27 mins), RON (8 mins), Lua (4 mins), Other (1 min), JSON (1 min) |
+| VS Code (39 mins), Neovim (4 mins) |
+| Windows (39 mins), WSL (4 mins) |
 
