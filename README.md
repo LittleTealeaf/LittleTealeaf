@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-|  |
-|  |
-|  |
+| Rust (37 mins), RON (1 min) |
+| VS Code (39 mins) |
+| Windows (39 mins) |
 
