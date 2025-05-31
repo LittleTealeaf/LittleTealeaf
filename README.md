@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Python (2 mins) |
-| VS Code (2 mins) |
-| Windows (2 mins) |
+| Lua (5 mins), Python (2 mins), Rust (0 secs) |
+| Neovim (6 mins), VS Code (2 mins) |
+| Linux (6 mins), Windows (2 mins) |
 
