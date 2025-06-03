@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| JavaScript (4 hrs 28 mins), JSON (25 mins), Lua (5 mins), TSConfig (5 mins), Markdown (4 mins) |
-| VS Code (5 hrs 7 mins), Neovim (6 mins) |
-| Windows (5 hrs 7 mins), Linux (6 mins) |
+| JavaScript (4 hrs 35 mins), JSON (26 mins), Lua (5 mins), TSConfig (5 mins), Markdown (4 mins) |
+| VS Code (5 hrs 12 mins), Neovim (6 mins) |
+| Windows (5 hrs 12 mins), Linux (6 mins) |
 
