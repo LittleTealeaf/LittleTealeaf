@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| JavaScript (4 hrs 35 mins), JSON (26 mins), TSConfig (5 mins), Markdown (4 mins), Other (1 min) |
-| VS Code (5 hrs 12 mins) |
-| Windows (5 hrs 12 mins) |
+| JavaScript (29 mins), JSON (10 mins), Other (0 secs) |
+| VS Code (41 mins) |
+| Windows (41 mins) |
 
