@@ -33,7 +33,7 @@ jobs:
         API_TOKEN: ${{secrets.API_TOKEN}}
         WAKA_TOKEN: ${{secrets.WAKA_TOKEN}}
     - name: Commit and Push changes
-      uses: stefanzweifel/git-auto-commit-action@v5
+      uses: stefanzweifel/git-auto-commit-action@v6
       with:
         commit_message: Update README
         commit_author: Author <actions@github.com>
