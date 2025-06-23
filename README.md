@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| JavaScript (10 mins), JSON (6 mins) |
-| VS Code (16 mins) |
-| Windows (16 mins) |
+| JavaScript (7 mins) |
+| VS Code (7 mins) |
+| Windows (7 mins) |
 
