@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-|  |
-|  |
-|  |
+| YAML (47 mins), Bash (11 mins), Docker (8 mins), Other (6 mins), Makefile (4 mins) |
+| VS Code (1 hr 19 mins) |
+| WSL (1 hr 19 mins) |
 
