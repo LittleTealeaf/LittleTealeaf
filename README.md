@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Markdown (27 mins), JSON (22 mins), Other (2 mins) |
-| VS Code (52 mins) |
-| Windows (52 mins) |
+|  |
+|  |
+|  |
 
