@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| JavaScript (23 mins) |
-| VS Code (23 mins) |
-| Windows (23 mins) |
+| hypr (1 min) |
+| Neovim (1 min) |
+| Linux (1 min) |
 
