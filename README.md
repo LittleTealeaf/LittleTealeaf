@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| hypr (1 min) |
-| Neovim (1 min) |
-| Linux (1 min) |
+|  |
+|  |
+|  |
 
