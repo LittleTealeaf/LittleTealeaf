@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Lua (1 hr 17 mins), Rust (22 mins), Text (4 mins), TypeScript (2 mins), C++ (0 secs) |
-| Neovim (1 hr 47 mins) |
-| Linux (1 hr 9 mins), WSL (38 mins) |
+| Lua (14 mins), TypeScript (2 mins), C++ (0 secs), Text (0 secs), hypr (0 secs) |
+| Neovim (17 mins) |
+| Linux (17 mins) |
 
