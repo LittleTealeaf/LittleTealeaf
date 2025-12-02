@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (4 hrs 28 mins), Python (1 hr 38 mins), JSON (7 mins), Git Config (0 secs), Text (0 secs) |
-| Neovim (4 hrs 28 mins), VS Code (1 hr 46 mins) |
-| Linux (4 hrs 28 mins), Windows (1 hr 46 mins) |
+| Rust (3 hrs 21 mins), Python (1 hr 57 mins), JSON (8 mins), Git Config (0 secs), Text (0 secs) |
+| Neovim (3 hrs 21 mins), VS Code (2 hrs 5 mins) |
+| Linux (3 hrs 21 mins), Windows (2 hrs 5 mins) |
 
