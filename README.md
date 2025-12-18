@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| JavaScript (11 mins), VBScript (11 mins), PowerShell (0 secs) |
-| VS Code (22 mins) |
-| Windows (22 mins) |
+| Python (17 mins), Rust (11 mins), TOML (4 mins), Lua (3 mins), CSS (1 min) |
+| Neovim (38 mins) |
+| Linux (38 mins) |
 
