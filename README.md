@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Python (58 mins), JSON (28 mins), Markdown (10 mins), TeX (5 mins), gitignore (0 secs) |
-| VS Code (1 hr 36 mins), Neovim (7 mins) |
-| Windows (1 hr 36 mins), Linux (7 mins) |
+|  |
+|  |
+|  |
 
