@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (14 mins), Python (5 mins), Markdown (3 mins), Other (0 secs) |
-| VS Code (23 mins) |
-| Windows (23 mins) |
+| Python (1 hr 2 mins), Rust (14 mins), Markdown (7 mins), Other (0 secs), JSON (0 secs) |
+| VS Code (1 hr 23 mins) |
+| Windows (1 hr 23 mins) |
 
