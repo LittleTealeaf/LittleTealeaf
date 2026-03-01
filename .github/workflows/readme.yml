@@ -18,7 +18,7 @@ jobs:
         python-version: '3.9'
         cache: 'pip'
     - name: Script Cache
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: cache
         key: ${{hashFiles('**/*.py')}}-${{github.run_id}}-${{github.run_attempt}}
