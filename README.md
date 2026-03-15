@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (27 hrs 19 mins), YAML (50 mins), TOML (23 mins), RON (22 mins), hypr (10 mins) |
-| Neovim (25 hrs 4 mins), VS Code (4 hrs 5 mins) |
-| Linux (25 hrs 4 mins), WSL (2 hrs 10 mins), Windows (1 hr 54 mins) |
+| Rust (26 hrs 4 mins), TOML (22 mins), hypr (10 mins), Lua (2 mins), RON (1 min) |
+| Neovim (23 hrs 48 mins), VS Code (2 hrs 52 mins) |
+| Linux (23 hrs 48 mins), WSL (2 hrs 52 mins) |
 
