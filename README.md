@@ -8,7 +8,7 @@ many programmers take for granted.
 
 | Past Week Stats |
 | :---: |
-| Rust (5 hrs 38 mins), YAML (46 mins), Python (8 mins), Markdown (1 min), TOML (0 secs) |
-| Neovim (6 hrs 24 mins), VS Code (9 mins) |
-| Linux (6 hrs 24 mins), Windows (9 mins) |
+| Rust (3 hrs 42 mins), YAML (46 mins), Python (8 mins), Markdown (1 min), TOML (0 secs) |
+| Neovim (4 hrs 28 mins), VS Code (9 mins) |
+| Linux (4 hrs 28 mins), Windows (9 mins) |
 
